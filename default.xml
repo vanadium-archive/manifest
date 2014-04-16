@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="veyron"
+           fetch=".."
+           review="https://veyron-review.googlesource.com/" />
+  <default revision="master"
+           remote="veyron"
+           sync-j="4" />
+  <project path="veyron" name="veyron"/>
+  <project path="environment" name="environment"/>
+</manifest>
