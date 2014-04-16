@@ -6,6 +6,7 @@
   <default revision="master"
            remote="veyron"
            sync-j="4" />
-  <project path="veyron" name="veyron"/>
   <project path="environment" name="environment"/>
+  <project path="test" name="test"/>
+  <project path="veyron" name="veyron"/>
 </manifest>
