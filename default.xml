@@ -5,7 +5,7 @@
   <remote  name="gerrit"
 					 fetch=".." />
   <default revision="master"
-           remote="veyron"
+           remote="origin"
            sync-j="4" />
   <project path="environment" name="environment"/>
   <project path="experimental" name="experimental"/>
