@@ -10,7 +10,7 @@
   <project path="environment" name="environment"/>
   <project path="experimental" name="experimental"/>
   <project path="test" name="test"/>
-  <project path="third_party" name="third-party"/>
+  <project path="third_party" name="third_party"/>
   <project path="tools" name="tools"/>
   <project path="veyron" name="veyron"/>
 </manifest>
