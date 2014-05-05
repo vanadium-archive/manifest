@@ -9,7 +9,8 @@
            sync-j="4" />
   <project path="environment" name="environment"/>
   <project path="experimental" name="experimental"/>
-  <project path="third-party" name="third-party"/>
+  <project path="test" name="test"/>
+  <project path="third-party" name="third_party"/>
   <project path="tools" name="tools"/>
   <project path="veyron" name="veyron"/>
 </manifest>
