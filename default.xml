@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
+           review="https://veyron-review.googlesource.com/"
            fetch=".." />
-  <remote  name="gerrit"
-					 fetch=".." />
   <default revision="master"
            remote="origin"
            sync-j="4" />
