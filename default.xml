@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin"
-           fetch=".." />
-  <default revision="master"
-           remote="origin"
-           sync-j="4" />
   <project path="environment" name="environment"/>
   <project path="experimental" name="experimental"/>
   <project path="third_party" name="third_party"/>
