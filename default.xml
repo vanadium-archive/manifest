@@ -12,4 +12,5 @@
   <project path="veyron" name="veyron"/>
   <project path="veyron-www" name="veyron-www"/>
   <project path="veyron.js" name="veyron.js"/>
+  <project path="veyron-browser" name="veyron-browser"/>
 </manifest>
