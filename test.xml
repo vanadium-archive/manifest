@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="veyron"
-           fetch=".."
-           review="https://veyron-review.googlesource.com/" />
+  <remote  name="origin"
+           fetch=".." />
   <default revision="master"
-           remote="veyron"
+           remote="origin"
            sync-j="4" />
   <project path="environment" name="environment"/>
   <project path="experimental" name="experimental"/>
-  <project path="test" name="test"/>
+  <project path="third_party" name="third_party"/>
+  <project path="tools" name="tools"/>
   <project path="veyron" name="veyron"/>
+  <project path="veyron-www" name="www"/>
+  <project path="veyron.js" name="veyron.js"/>
+  <project path="veyron-browser" name="veyron-browser"/>
 </manifest>
