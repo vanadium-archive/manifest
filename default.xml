@@ -2,6 +2,7 @@
 <manifest>
   <project name="environment" path="environment"/>
   <project name="experimental" path="experimental"/>
+  <project name="monitoring" path="monitoring"/>
   <project name="roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
   <project name="third_party" path="third_party"/>
   <project name="tools" path="tools"/>
