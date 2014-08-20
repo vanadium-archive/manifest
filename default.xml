@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="environment" name="environment"/>
-  <project path="experimental" name="experimental"/>
-  <project path="third_party" name="third_party"/>
-  <project path="tools" name="tools"/>
-  <project path="veyron" name="veyron"/>
-  <project path="veyron-www" name="veyron-www"/>
-  <project path="veyron.js" name="veyron.js"/>
-  <project path="veyron-browser" name="veyron-browser"/>
+  <project name="environment" path="environment"/>
+  <project name="experimental" path="experimental"/>
+  <project name="roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
+  <project name="third_party" path="third_party"/>
+  <project name="tools" path="tools"/>
+  <project name="veyron" path="veyron"/>
+  <project name="veyron-www" path="veyron-www"/>
+  <project name="veyron.js" path="veyron.js"/>
+  <project name="veyron-browser" path="veyron-browser"/>
 </manifest>
