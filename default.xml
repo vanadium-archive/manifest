@@ -10,4 +10,5 @@
   <project name="veyron-www" path="veyron-www"/>
   <project name="veyron.js" path="veyron.js"/>
   <project name="veyron-browser" path="veyron-browser"/>
+  <project name="roadmap.profiles" path="roadmap/go/src/veyron.io/profiles"/>
 </manifest>
