@@ -8,6 +8,7 @@
   <project name="tools" path="tools"/>
   <project name="veyron" path="veyron"/>
   <project name="veyron-www" path="veyron-www"/>
+  <project name="veyron.go.jni" path="veyron.new/go/src/veyron.io/jni"/>
   <project name="veyron.java" path="veyron.new/java"/>
   <project name="veyron.js" path="veyron.js"/>
   <project name="veyron-browser" path="veyron-browser"/>
