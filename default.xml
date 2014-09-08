@@ -6,6 +6,7 @@
   <project name="monitoring" path="monitoring"/>
   <project name="roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
   <project name="roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
+  <project name="roadmap.js.store" path="roadmap/javascript/store"/>
   <project name="third_party" path="third_party"/>
   <project name="tools" path="tools"/>
   <project name="veyron" path="veyron"/>
