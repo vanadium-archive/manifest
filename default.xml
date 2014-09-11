@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="https://veyron.googlesource.com/environment" path="environment"/>
-  <project name="https://veyron.googlesource.com/experimental" path="experimental"/>
-  <project name="https://veyron.googlesource.com/jenkins" path="jenkins"/>
-  <project name="https://veyron.googlesource.com/monitoring" path="monitoring"/>
-  <project name="https://veyron.googlesource.com/roadmap.go.examples" path="roadmap/go/src/veyron.io/examples"/>
-  <project name="https://veyron.googlesource.com/roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
-  <project name="https://veyron.googlesource.com/roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
-  <project name="https://veyron.googlesource.com/roadmap.js.store" path="roadmap/javascript/store"/>
-  <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
-  <project name="https://veyron.googlesource.com/tools" path="tools"/>
-  <project name="https://veyron.googlesource.com/veyron" path="veyron"/>
-  <project name="https://veyron.googlesource.com/veyron-www" path="veyron-www"/>
-  <project name="https://veyron.googlesource.com/veyron.go.jni" path="veyron.new/go/src/veyron.io/jni"/>
-  <project name="https://veyron.googlesource.com/veyron.java" path="veyron.new/java"/>
-  <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
-  <project name="https://veyron.googlesource.com/veyron-browser" path="veyron-browser"/>
-  <project name="https://veyron.googlesource.com/roadmap.profiles" path="roadmap/go/src/veyron.io/profiles"/>
+  <project name="environment" path="environment"/>
+  <project name="experimental" path="experimental"/>
+  <project name="jenkins" path="jenkins"/>
+  <project name="monitoring" path="monitoring"/>
+  <project name="roadmap.go.examples" path="roadmap/go/src/veyron.io/examples"/>
+  <project name="roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
+  <project name="roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
+  <project name="roadmap.js.store" path="roadmap/javascript/store"/>
+  <project name="third_party" path="third_party"/>
+  <project name="tools" path="tools"/>
+  <project name="veyron" path="veyron"/>
+  <project name="veyron-www" path="veyron-www"/>
+  <project name="veyron.go.jni" path="veyron.new/go/src/veyron.io/jni"/>
+  <project name="veyron.java" path="veyron.new/java"/>
+  <project name="veyron.js" path="veyron.js"/>
+  <project name="veyron-browser" path="veyron-browser"/>
+  <project name="roadmap.profiles" path="roadmap/go/src/veyron.io/profiles"/>
 </manifest>
