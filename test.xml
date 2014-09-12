@@ -16,4 +16,5 @@
   <project name="https://veyron.googlesource.com/veyron.java" path="veyron.new/java"/>
   <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
   <project name="https://veyron.googlesource.com/veyron-browser" path="veyron-browser"/>
+  <project name="git@github.com:veyron/veyron-www.git" path="www"/>
 </manifest>
