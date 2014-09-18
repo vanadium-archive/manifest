@@ -11,11 +11,11 @@
   <project name="https://veyron.googlesource.com/scripts" path="scripts"/>
   <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
   <project name="https://veyron.googlesource.com/tools" path="tools"/>
-  <project name="https://veyron.googlesource.com/veyron" path="veyron"/>
+  <project name="https://veyron.googlesource.com/veyron" path="veyron.old"/>
   <project name="https://veyron.googlesource.com/veyron-www" path="veyron-www"/>
-  <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron.new/go/src/veyron.io/veyron"/>
-  <project name="https://veyron.googlesource.com/veyron.go.jni" path="veyron.new/go/src/veyron.io/jni"/>
-  <project name="https://veyron.googlesource.com/veyron.java" path="veyron.new/java"/>
+  <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron/go/src/veyron.io/veyron"/>
+  <project name="https://veyron.googlesource.com/veyron.go.jni" path="veyron/go/src/veyron.io/jni"/>
+  <project name="https://veyron.googlesource.com/veyron.java" path="veyron/java"/>
   <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
   <project name="https://veyron.googlesource.com/veyron-browser" path="veyron-browser"/>
   <project name="https://veyron.googlesource.com/roadmap.profiles" path="roadmap/go/src/veyron.io/profiles"/>
