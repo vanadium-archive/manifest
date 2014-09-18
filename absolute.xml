@@ -13,6 +13,7 @@
   <project name="https://veyron.googlesource.com/tools" path="tools"/>
   <project name="https://veyron.googlesource.com/veyron" path="veyron"/>
   <project name="https://veyron.googlesource.com/veyron-www" path="veyron-www"/>
+  <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron.new/go/src/veyron.io/veyron"/>
   <project name="https://veyron.googlesource.com/veyron.go.jni" path="veyron.new/go/src/veyron.io/jni"/>
   <project name="https://veyron.googlesource.com/veyron.java" path="veyron.new/java"/>
   <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
