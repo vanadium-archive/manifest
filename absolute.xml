@@ -12,7 +12,6 @@
   <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
   <project name="https://veyron.googlesource.com/tools" path="tools"/>
   <project name="https://veyron.googlesource.com/veyron" path="veyron.old"/>
-  <project name="https://veyron.googlesource.com/veyron-www" path="veyron-www"/>
   <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron/go/src/veyron.io/veyron"/>
   <project name="https://veyron.googlesource.com/veyron.go.jni" path="veyron/go/src/veyron.io/jni"/>
   <project name="https://veyron.googlesource.com/veyron.java" path="veyron/java"/>
