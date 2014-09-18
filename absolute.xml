@@ -8,6 +8,7 @@
   <project name="https://veyron.googlesource.com/roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
   <project name="https://veyron.googlesource.com/roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
   <project name="https://veyron.googlesource.com/roadmap.js.store" path="roadmap/javascript/store"/>
+  <project name="https://veyron.googlesource.com/scripts" path="scripts"/>
   <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
   <project name="https://veyron.googlesource.com/tools" path="tools"/>
   <project name="https://veyron.googlesource.com/veyron" path="veyron"/>
