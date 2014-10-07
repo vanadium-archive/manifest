@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="https://veyron.googlesource.com/environment" path="environment"/>
-  <project name="https://veyron.googlesource.com/experimental" path="experimental"/>
-  <project name="https://veyron.googlesource.com/jenkins" path="jenkins"/>
-  <project name="https://veyron.googlesource.com/monitoring" path="monitoring"/>
-  <project name="https://veyron.googlesource.com/roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
-  <project name="https://veyron.googlesource.com/roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
-  <project name="https://veyron.googlesource.com/roadmap.js.store" path="roadmap/javascript/store"/>
-  <project name="https://veyron.googlesource.com/roadmap.profiles" path="roadmap/go/src/veyron.io/profiles"/>
   <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
-  <project name="https://veyron.googlesource.com/tools" path="tools"/>
-  <project name="https://veyron.googlesource.com/veyron" path="veyron"/>
-  <project name="https://veyron.googlesource.com/veyron-www" path="veyron-www"/>
-  <project name="https://veyron.googlesource.com/veyron.go.jni" path="veyron.new/go/src/veyron.io/jni"/>
-  <project name="https://veyron.googlesource.com/veyron.java" path="veyron.new/java"/>
-  <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
-  <project name="https://veyron.googlesource.com/veyron-browser" path="veyron-browser"/>
   <project name="https://code.google.com/p/go" path="go" protocol="hg"/>
 </manifest>
