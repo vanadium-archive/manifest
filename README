@@ -1,0 +1,11 @@
+The files in this repository are referred to as "manifests" and are
+used by the veyron tool for multi-repository management. Each manifest
+describe a set of projects and each project consist of a remote
+repository, a local path, and other optional attributes.
+
+NOTE: Backwards incompatible changes to the manifest format are
+deployed by creating a new manifest file and updating the veyron tool
+that uses the new format to use the new manifest file by
+default. Format of old manifest files should not be changed as old
+versions of the veyron tool, that uses the old manifest files by
+default, would not be able to parse them.
