@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+NOTE: This file is a manifest that describes a set of projects and 
+tools that together constitute a veyron universe. This file can be 
+accessed by an arbitrarily old version of the 'veyron' tool and thus the 
+change the manifest format, one should create a new manifest file and 
+point versions of the 'veyron' tool that understand that format to that 
+file. The convention to name the manifest files is v1, v2, and so on to 
+distinguish different format versions, using an optional suffix to 
+distinguish different veyron universes, such as v1-android or v2-nacl.
+
+Consequently, to add a repository to an existing veyron universe, one 
+should add it for all versions that are supported, following the format 
+of the respective versions. 
+
+Further, the set of projects that form a veyron universe should be closed 
+under transitive closure with respect to dependencies. In other words, 
+if a project A depends on a project B, then project A should only be 
+included in manifests that include project B as well.
+
+-->
+
 <manifest>
   <project name="https://veyron.googlesource.com/environment" path="environment"/>
   <project name="https://veyron.googlesource.com/experimental" path="experimental"/>
