@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="https://veyron.googlesource.com/deprecated" path="deprecated"/>
   <project name="https://veyron.googlesource.com/environment" path="environment"/>
   <project name="https://veyron.googlesource.com/experimental" path="experimental"/>
   <project name="https://veyron.googlesource.com/monitoring" path="monitoring"/>
