@@ -46,7 +46,7 @@ included in manifests that include project B as well.
   <tools>
     <tool name="git-veyron" package="tools/git-veyron"/>
     <tool name="go-depcop" package="tools/go-depcop"/>
-    <tool name="presubmitter" package="tools/presubmitter"/>
+    <tool name="presubmit" package="tools/presubmit"/>
     <tool name="veyron" package="tools/veyron"/>
     <tool name="vloggy" package="tools/vloggy"/>
   </tools>
