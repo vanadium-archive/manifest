@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="https://veyron.googlesource.com/tools" path="tools"/>
-  <project name="https://veyron.googlesource.com/scripts" path="scripts"/>
-  <project name="https://veyron.googlesource.com/environment" path="environment"/>
-  <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
-  <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron/go/src/veyron.io/veyron"/>
-  <project name="https://veyron.googlesource.com/veyron.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
-  <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
-  <project name="https://code.google.com/a/google.com/p/veyron-go-compiler" path="go.nacl" protocol="hg"/>
+  <projects>
+    <project name="https://veyron.googlesource.com/tools" path="tools"/>
+    <project name="https://veyron.googlesource.com/scripts" path="scripts"/>
+    <project name="https://veyron.googlesource.com/environment" path="environment"/>
+    <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
+    <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron/go/src/veyron.io/veyron"/>
+    <project name="https://veyron.googlesource.com/veyron.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
+    <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
+    <project name="https://code.google.com/a/google.com/p/veyron-go-compiler" path="go.nacl" protocol="hg"/>
+  </projects
 </manifest>
