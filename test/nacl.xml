@@ -9,5 +9,5 @@
     <project name="https://veyron.googlesource.com/veyron.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
     <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
     <project name="https://code.google.com/a/google.com/p/veyron-go-compiler" path="go.nacl" protocol="hg"/>
-  </projects
+  </projects>
 </manifest>
