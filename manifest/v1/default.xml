@@ -47,6 +47,7 @@ included in manifests that include project B as well.
     <tool name="git-veyron" package="tools/git-veyron"/>
     <tool name="go-depcop" package="tools/go-depcop"/>
     <tool name="presubmit" package="tools/presubmit"/>
+    <tool name="vdl" package="veyron.io/veyron/veyron2/vdl/vdl" project="https://veyron.googlesource.com/veyron.go.core"/>
     <tool name="veyron" package="tools/veyron"/>
     <tool name="vloggy" package="tools/vloggy"/>
   </tools>
