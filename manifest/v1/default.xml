@@ -41,7 +41,8 @@ included in manifests that include project B as well.
     <project name="https://veyron.googlesource.com/veyron.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
     <project name="https://veyron.googlesource.com/veyron.java" path="veyron/java"/>
     <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
-    <project name="https://veyron.googlesource.com/veyron-browser" path="veyron-browser"/>    
+    <project name="https://veyron.googlesource.com/veyron-browser" path="veyron-browser"/>
+    <project name="https://veyron.googlesource.com/vom.js" path="veyron/javascript/vom"/>
   </projects>
   <tools>
     <tool name="git-veyron" package="tools/git-veyron"/>
