@@ -7,9 +7,9 @@ tools that together constitute a veyron universe. This file can be
 accessed by an arbitrarily old version of the 'veyron' tool and thus the
 change the manifest format, one should create a new manifest file and
 point versions of the 'veyron' tool that understand that format to that
-file. The convention to name the manifest files is v1, v2, and so on to
-distinguish different format versions, using an optional suffix to
-distinguish different veyron universes, such as v1-android or v2-nacl.
+file. The convention is to encode the format version as the directory 
+name (v1, v2, ...), and file names within that directory to distinguish 
+different veyron universes, such as default, android, or nacl.
 
 Consequently, to add a repository to an existing veyron universe, one
 should add it for all versions that are supported, following the format
@@ -48,6 +48,7 @@ included in manifests that include project B as well.
     <project name="https://veyron.googlesource.com/vom.js" path="veyron/javascript/vom"/>
   </projects>
   <tools>
+    <tool name="find-impl" package="tools/find-impl"/>
     <tool name="git-veyron" package="tools/git-veyron"/>
     <tool name="go-depcop" package="tools/go-depcop"/>
     <tool name="presubmit" package="tools/presubmit"/>
