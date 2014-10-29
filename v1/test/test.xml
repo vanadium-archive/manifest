@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="https://veyron.googlesource.com/environment" path="environment"/>
-  <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
-  <project name="https://code.google.com/p/go" path="go" protocol="hg"/>
-</manifest>
