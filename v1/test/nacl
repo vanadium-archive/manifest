@@ -10,4 +10,13 @@
     <project name="https://veyron.googlesource.com/veyron.js" path="veyron.js"/>
     <project name="https://code.google.com/a/google.com/p/veyron-go-compiler" path="go.nacl" protocol="hg"/>
   </projects>
+  <tools>
+    <tool name="find-impl" package="tools/find-impl"/>
+    <tool name="git-veyron" package="tools/git-veyron"/>
+    <tool name="go-depcop" package="tools/go-depcop"/>
+    <tool name="presubmit" package="tools/presubmit"/>
+    <tool name="vdl" package="veyron.io/veyron/veyron2/vdl/vdl" project="https://veyron.googlesource.com/veyron.go.core"/>
+    <tool name="veyron" package="tools/veyron"/>
+    <tool name="vloggy" package="tools/vloggy"/>
+  </tools>
 </manifest>
