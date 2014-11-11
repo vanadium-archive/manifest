@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <projects>
+    <project name="https://veyron.googlesource.com/tools" path="tools"/>
+  </projects>
+  <tools>
+    <tool name="presubmit" package="tools/presubmit"/>
+    <tool name="veyron" package="tools/veyron"/>
+  </tools>
+</manifest>
