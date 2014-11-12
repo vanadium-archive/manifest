@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <import name="default"/>
+  </imports>
+  <projects>
+    <project name="https://github.com/veyron/veyron-www" path="tutorial/www"/>
+    <project name="https://github.com/monopole/md_tutorial_check" path="tutorial/go/src"/>
+  </projects>
+</manifest>
