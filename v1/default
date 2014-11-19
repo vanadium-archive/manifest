@@ -40,6 +40,7 @@ included in manifests that include project B as well.
     <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron/go/src/veyron.io/veyron"/>
     <project name="https://veyron.googlesource.com/veyron.go.apps" path="veyron/go/src/veyron.io/apps"/>
     <project name="https://veyron.googlesource.com/veyron.go.jni" path="veyron/go/src/veyron.io/jni"/>
+    <project name="https://veyron.googlesource.com/veyron.go.lib" path="veyron/go/src/veyron.io/lib"/>
     <project name="https://veyron.googlesource.com/veyron.go.playground" path="veyron/go/src/veyron.io/playground"/>
     <project name="https://veyron.googlesource.com/veyron.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
     <project name="https://veyron.googlesource.com/veyron.java" path="veyron/java"/>
