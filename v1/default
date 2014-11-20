@@ -27,7 +27,6 @@ included in manifests that include project B as well.
     <project name="https://veyron.googlesource.com/deprecated" path="deprecated"/>
     <project name="https://veyron.googlesource.com/environment" path="environment"/>
     <project name="https://veyron.googlesource.com/experimental" path="experimental"/>
-    <project name="https://veyron.googlesource.com/monitoring" path="monitoring"/>
     <project name="https://veyron.googlesource.com/pgbundle" path="veyron/javascript/pgbundle"/>
     <project name="https://veyron.googlesource.com/roadmap.go.examples" path="roadmap/go/src/veyron.io/examples"/>
     <project name="https://veyron.googlesource.com/roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
