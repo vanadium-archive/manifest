@@ -2,6 +2,7 @@
 
 <manifest>
   <projects>
+    <project name="https://veyron.googlesource.com/veyron.go.lib" path="veyron/go/src/veyron.io/lib"/>
     <project name="https://veyron.googlesource.com/veyron.go.tools" path="veyron/go/src/veyron.io/tools"/>
   </projects>
   <tools>
