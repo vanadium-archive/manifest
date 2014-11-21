@@ -2,33 +2,14 @@
 MANIFESTS
 =========
 
-The files in the manifest directory are referred to as "manifests" and
+The files in this repository are referred to as "manifests" and
 are used by the veyron tool for multi-repository management. Each
 manifest describes a set of projects and each project consist of a
 remote repository, a local path, and other optional attributes.
 
 Backwards incompatible changes to the manifest format are deployed by
-creating a new 'version' subdirectory (e.g. manifest/v2) amd a new
-default manifest (e.g. manifest/v2/default.xml), which is used by new
-versions of the veyron tool by default. Format of existing manifest
-files should not be changed as old versions of the veyron tool, that
-uses the old manifest files, would not be able to parse them.
-
-==================
-BUILD ENVIRONMENTS
-==================
-
-The files in the 'buildenv' directory are referred to as "build
-environments" and are used to specify snapshots of a set of veyron
-repositories. In particular, each build environment describes a
-mapping from veyron projects to revisions.
-
-Unlike manifests, once created, build environment files should not be
-modified as the purpose of build files is to provide snapshots that
-are constant in time.
-
-Like manifests, backwards incompatible changes to the build
-environment format are deployed by creating a new 'version'
-subdirectory. Format of existing build environment files should not be
-changed as old versions of the veyron tool, that uses the old build
-environment files, would not be able to parse them.
+creating a new 'version' subdirectory (e.g. v2) and a new default
+manifest (e.g. v2/default), which is used by new versions of the
+veyron tool by default. Format of existing manifest files should not
+be changed as old versions of the veyron tool would not be able to
+parse them.
