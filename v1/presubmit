@@ -2,10 +2,10 @@
 
 <manifest>
   <projects>
-    <project name="https://veyron.googlesource.com/tools" path="tools"/>
+    <project name="https://veyron.googlesource.com/veyron.go.tools" path="veyron/go/src/veyron.io/tools"/>
   </projects>
   <tools>
-    <tool name="presubmit" package="tools/presubmit"/>
-    <tool name="veyron" package="tools/veyron"/>
+    <tool name="presubmit" package="veyron.io/tools/presubmit" project="https://veyron.googlesource.com/veyron.go.tools"/>/>
+    <tool name="veyron" package="veyron.io/tools/veyron" project="https://veyron.googlesource.com/veyron.go.tools"/>/>
   </tools>
 </manifest>
