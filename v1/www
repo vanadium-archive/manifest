@@ -4,7 +4,6 @@
     <import name="default"/>
   </imports>
   <projects>
-    <project name="https://github.com/veyron/veyron-www" path="tutorial/www"/>
-    <project name="https://github.com/monopole/mdrip" path="tutorial/testing/src/mdrip"/>
+    <project name="https://github.com/veyron/veyron-www" path="www"/>
   </projects>
 </manifest>
