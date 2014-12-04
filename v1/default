@@ -29,10 +29,8 @@ included in manifests that include project B as well.
     <project name="https://veyron.googlesource.com/experimental" path="experimental"/>
     <project name="https://veyron.googlesource.com/pgbundle" path="veyron/javascript/pgbundle"/>
     <project name="https://veyron.googlesource.com/roadmap.go.examples" path="roadmap/go/src/veyron.io/examples"/>
-    <project name="https://veyron.googlesource.com/roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
     <project name="https://veyron.googlesource.com/roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
     <project name="https://veyron.googlesource.com/roadmap.js.store" path="roadmap/javascript/store"/>
-    <project name="https://veyron.googlesource.com/roadmap.profiles" path="roadmap/go/src/veyron.io/profiles"/>
     <project name="https://veyron.googlesource.com/scripts" path="scripts"/>
     <project name="https://veyron.googlesource.com/third_party" path="third_party"/>
     <project name="https://veyron.googlesource.com/veyron.go.core" path="veyron/go/src/veyron.io/veyron"/>
