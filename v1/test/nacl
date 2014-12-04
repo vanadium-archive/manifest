@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <imports>
-    <import name="default"/>
-  </imports>
-  <projects>
-    <project name="https://code.google.com/a/google.com/p/veyron-go-compiler" path="go.nacl" protocol="hg"/>
-  </projects>
-</manifest>
