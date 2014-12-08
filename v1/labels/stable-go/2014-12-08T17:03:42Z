@@ -1,0 +1,26 @@
+<manifest>
+  <imports></imports>
+  <projects>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.go.apps" path="/veyron/go/src/veyron.io/apps" protocol="git" revision="506f2f80d1dc372fc029554b53ec133b85dcb654"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.go.jni" path="/veyron/go/src/veyron.io/jni" protocol="git" revision="4d8ffb257faec08b3b6697e0f762ed14a0ad78c2"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/roadmap.go.examples" path="/roadmap/go/src/veyron.io/examples" protocol="git" revision="5d5146d21d29f829aaa9bf4d73b3e7ed2599a329"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.go.lib" path="/veyron/go/src/veyron.io/lib" protocol="git" revision="1fadc0fb1bd50d9ee02f1f9931179da162f59535"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.go.tools" path="/veyron/go/src/veyron.io/tools" protocol="git" revision="87c0809623b03b52838997213b2d4299f22017fa"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.java" path="/veyron/java" protocol="git" revision="a49722538c846339dcbcefb85c2d1a8d66d13d80"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.js" path="/veyron.js" protocol="git" revision="acca9a52d749fed5426c3013bf4e32f728653f50"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/deprecated" path="/deprecated" protocol="git" revision="035c019ca84239f6ed82c3aabc1ba2a730a44e30"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/roadmap.go.store" path="/roadmap/go/src/veyron.io/store" protocol="git" revision="6599a2706a6abd690f07b50503a052bb5d68d7c1"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/roadmap.js.store" path="/roadmap/javascript/store" protocol="git" revision="29ae29cf3285d63b07e4dcf84eda26ee03e0096c"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/scripts" path="/scripts" protocol="git" revision="08f225cdb5780b10b41264fce0cf9602b26f2fed"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.go.playground" path="/veyron/go/src/veyron.io/playground" protocol="git" revision="5df2df7b17a490e379e2593840dd6e07284a6d85"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.go.core" path="/veyron/go/src/veyron.io/veyron" protocol="git" revision="43bc5a1b8f6cc8836c313d3c9e2152c144dc8b35"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron.go.wspr" path="/veyron/go/src/veyron.io/wspr" protocol="git" revision="005b692675fde5ad763b020d80f7a09e33b77b3d"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/environment" path="/environment" protocol="git" revision="ebe3a161e97f56941676d4564cf1c290d15c00e6"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/experimental" path="/experimental" protocol="git" revision="dd59435f9333739de47d3d11120e37b0f4072f7f"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/third_party" path="/third_party" protocol="git" revision="3a4349cf8031c658c3977b995c8dbf25f1ac9e8f"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/pgbundle" path="/veyron/javascript/pgbundle" protocol="git" revision="6c8cc2d5e20d826a46e4ec514915b22c4f1aaca8"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/vom.js" path="/veyron/javascript/vom" protocol="git" revision="6129ebf0ccc5bec89ee379a69532ca69e515437a"></project>
+    <project exclude="false" name="https://veyron.googlesource.com/veyron-browser" path="/veyron-browser" protocol="git" revision="0f01eec45056a359e6024d28d3d616129bfeb5ae"></project>
+  </projects>
+  <tools></tools>
+</manifest>
