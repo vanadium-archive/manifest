@@ -6,4 +6,7 @@
     <import name="tutorial"/>
     <import name="www"/>
   </imports>
+  <tools>
+    <tool name="postsubmit" package="veyron.io/tools/postsubmit" project="https://veyron.googlesource.com/veyron.go.tools"/>/>
+  </tools>
 </manifest>
