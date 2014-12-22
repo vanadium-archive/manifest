@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <import name="default"/>
+    <import name="monitoring"/>
+    <import name="tutorial"/>
+    <import name="www"/>
+  </imports>
+</manifest>
