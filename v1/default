@@ -39,7 +39,6 @@ included in manifests that include project B as well.
     <project name="https://vanadium.googlesource.com/release.js.core" path="veyron.js"/>
     <project name="https://vanadium.googlesource.com/release.js.pgbundle" path="veyron/javascript/pgbundle"/>
     <project name="https://vanadium.googlesource.com/release.js.vom" path="veyron/javascript/vom"/>
-    <project name="https://vanadium.googlesource.com/roadmap.go.examples" path="roadmap/go/src/v.io/examples"/>
     <project name="https://vanadium.googlesource.com/roadmap.go.store" path="roadmap/go/src/v.io/store"/>
     <project name="https://vanadium.googlesource.com/roadmap.js.store" path="roadmap/javascript/store"/>
     <project name="https://vanadium.googlesource.com/scripts" path="scripts"/>
