@@ -24,34 +24,34 @@ included in manifests that include project B as well.
 
 <manifest>
   <projects>
-    <project name="https://vanadium.googlesource.com/migration.deprecated" path="deprecated"/>
-    <project name="https://vanadium.googlesource.com/migration.environment" path="environment"/>
-    <project name="https://vanadium.googlesource.com/migration.experimental" path="experimental"/>
-    <project name="https://vanadium.googlesource.com/migration.namespace_browser" path="veyron-browser"/>
-    <project name="https://vanadium.googlesource.com/migration.release.go.core" path="veyron/go/src/veyron.io/veyron"/>
-    <project name="https://vanadium.googlesource.com/migration.release.go.apps" path="veyron/go/src/veyron.io/apps"/>
-    <project name="https://vanadium.googlesource.com/migration.release.go.jni" path="veyron/go/src/veyron.io/jni"/>
-    <project name="https://vanadium.googlesource.com/migration.release.go.lib" path="veyron/go/src/veyron.io/lib"/>
-    <project name="https://vanadium.googlesource.com/migration.release.go.playground" path="veyron/go/src/veyron.io/playground"/>
-    <project name="https://vanadium.googlesource.com/migration.release.go.tools" path="veyron/go/src/veyron.io/tools"/>
-    <project name="https://vanadium.googlesource.com/migration.release.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
-    <project name="https://vanadium.googlesource.com/migration.release.java" path="veyron/java"/>
-    <project name="https://vanadium.googlesource.com/migration.release.js.core" path="veyron.js"/>
-    <project name="https://vanadium.googlesource.com/migration.release.js.pgbundle" path="veyron/javascript/pgbundle"/>
-    <project name="https://vanadium.googlesource.com/migration.release.js.vom" path="veyron/javascript/vom"/>
-    <project name="https://vanadium.googlesource.com/migration.roadmap.go.examples" path="roadmap/go/src/veyron.io/examples"/>
-    <project name="https://vanadium.googlesource.com/migration.roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
-    <project name="https://vanadium.googlesource.com/migration.roadmap.js.store" path="roadmap/javascript/store"/>
-    <project name="https://vanadium.googlesource.com/migration.scripts" path="scripts"/>
-    <project name="https://vanadium.googlesource.com/migration.third_party" path="third_party"/>
+    <project name="https://vanadium.googlesource.com/deprecated" path="deprecated"/>
+    <project name="https://vanadium.googlesource.com/environment" path="environment"/>
+    <project name="https://vanadium.googlesource.com/experimental" path="experimental"/>
+    <project name="https://vanadium.googlesource.com/namespace_browser" path="veyron-browser"/>
+    <project name="https://vanadium.googlesource.com/release.go.core" path="veyron/go/src/veyron.io/veyron"/>
+    <project name="https://vanadium.googlesource.com/release.go.apps" path="veyron/go/src/veyron.io/apps"/>
+    <project name="https://vanadium.googlesource.com/release.go.jni" path="veyron/go/src/veyron.io/jni"/>
+    <project name="https://vanadium.googlesource.com/release.go.lib" path="veyron/go/src/veyron.io/lib"/>
+    <project name="https://vanadium.googlesource.com/release.go.playground" path="veyron/go/src/veyron.io/playground"/>
+    <project name="https://vanadium.googlesource.com/release.go.tools" path="veyron/go/src/veyron.io/tools"/>
+    <project name="https://vanadium.googlesource.com/release.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
+    <project name="https://vanadium.googlesource.com/release.java" path="veyron/java"/>
+    <project name="https://vanadium.googlesource.com/release.js.core" path="veyron.js"/>
+    <project name="https://vanadium.googlesource.com/release.js.pgbundle" path="veyron/javascript/pgbundle"/>
+    <project name="https://vanadium.googlesource.com/release.js.vom" path="veyron/javascript/vom"/>
+    <project name="https://vanadium.googlesource.com/roadmap.go.examples" path="roadmap/go/src/veyron.io/examples"/>
+    <project name="https://vanadium.googlesource.com/roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
+    <project name="https://vanadium.googlesource.com/roadmap.js.store" path="roadmap/javascript/store"/>
+    <project name="https://vanadium.googlesource.com/scripts" path="scripts"/>
+    <project name="https://vanadium.googlesource.com/third_party" path="third_party"/>
   </projects>
   <tools>
-    <tool name="find-impl" package="veyron.io/tools/find-impl" project="https://vanadium.googlesource.com/migration.release.go.tools"/>/>
-    <tool name="git-veyron" package="veyron.io/tools/git-veyron" project="https://vanadium.googlesource.com/migration.release.go.tools"/>/>
-    <tool name="go-depcop" package="veyron.io/tools/go-depcop" project="https://vanadium.googlesource.com/migration.release.go.tools"/>/>
-    <tool name="presubmit" package="veyron.io/tools/presubmit" project="https://vanadium.googlesource.com/migration.release.go.tools"/>/>
-    <tool name="v23" package="veyron.io/tools/v23" project="https://vanadium.googlesource.com/migration.release.go.tools"/>/>
-    <tool name="vdl" package="veyron.io/veyron/veyron2/vdl/vdl" project="https://vanadium.googlesource.com/migration.release.go.core"/>
-    <tool name="vloggy" package="veyron.io/tools/vloggy" project="https://vanadium.googlesource.com/migration.release.go.tools"/>/>
+    <tool name="find-impl" package="veyron.io/tools/find-impl" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="git-veyron" package="veyron.io/tools/git-veyron" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="go-depcop" package="veyron.io/tools/go-depcop" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="presubmit" package="veyron.io/tools/presubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="v23" package="veyron.io/tools/v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="vdl" package="veyron.io/veyron/veyron2/vdl/vdl" project="https://vanadium.googlesource.com/release.go.core"/>
+    <tool name="vloggy" package="veyron.io/tools/vloggy" project="https://vanadium.googlesource.com/release.go.tools"/>/>
   </tools>
 </manifest>
