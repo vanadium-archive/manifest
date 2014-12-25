@@ -47,7 +47,7 @@ included in manifests that include project B as well.
   </projects>
   <tools>
     <tool name="find-impl" package="veyron.io/tools/find-impl" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="git-veyron" package="veyron.io/tools/git-veyron" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="git-v23" package="veyron.io/tools/git-v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
     <tool name="go-depcop" package="veyron.io/tools/go-depcop" project="https://vanadium.googlesource.com/release.go.tools"/>/>
     <tool name="presubmit" package="veyron.io/tools/presubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
     <tool name="v23" package="veyron.io/tools/v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
