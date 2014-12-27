@@ -7,7 +7,7 @@
     <project name="https://veyron.googlesource.com/veyron.go.tools" path="veyron/go/src/veyron.io/tools"/>
   </projects>
   <tools>
-    <tool name="presubmit" package="veyron.io/tools/presubmit" project="https://veyron.googlesource.com/veyron.go.tools"/>/>
-    <tool name="veyron" package="veyron.io/tools/veyron" project="https://veyron.googlesource.com/veyron.go.tools"/>/>
+    <tool name="presubmit" package="v.io/tools/presubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="v23" package="v.io/tools/v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
   </tools>
 </manifest>

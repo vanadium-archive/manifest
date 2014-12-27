@@ -7,6 +7,6 @@
     <import name="www"/>
   </imports>
   <tools>
-    <tool name="postsubmit" package="veyron.io/tools/postsubmit" project="https://veyron.googlesource.com/veyron.go.tools"/>/>
+    <tool name="postsubmit" package="v.io/tools/postsubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
   </tools>
 </manifest>
