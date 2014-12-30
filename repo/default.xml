@@ -2,29 +2,26 @@
 <manifest>
   <remote name="veyron"
 	  fetch="."
-	  review="https://veyron-review.googlesource.com/" />
+	  review="https://vanadium-review.googlesource.com/" />
   <default revision="master"
 	   remote="veyron" />
   <project name="deprecated" path="deprecated"/>
   <project name="environment" path="environment"/>
   <project name="experimental" path="experimental"/>
-  <project name="pgbundle" path="veyron/javascript/pgbundle"/>
-  <project name="roadmap.go.examples" path="roadmap/go/src/veyron.io/examples"/>
-  <project name="roadmap.go.proximity" path="roadmap/go/src/veyron.io/proximity"/>
-  <project name="roadmap.go.store" path="roadmap/go/src/veyron.io/store"/>
+  <project name="namespace_browser" path="release/projects/namespace_browser"/>
+  <project name="release.go.core" path="release/go/src/v.io/core"/>
+  <project name="release.go.apps" path="release/go/src/v.io/apps"/>
+  <project name="release.go.jni" path="release/go/src/v.io/jni"/>
+  <project name="release.go.lib" path="release/go/src/v.io/lib"/>
+  <project name="release.go.playground" path="release/go/src/v.io/playground"/>
+  <project name="release.go.tools" path="release/go/src/v.io/tools"/>
+  <project name="release.go.wspr" path="release/go/src/v.io/wspr"/>
+  <project name="release.java" path="release/java"/>
+  <project name="release.js.core" path="release/javascript/core"/>
+  <project name="release.js.pgbundle" path="release/javascript/pgbundle"/>
+  <project name="release.js.vom" path="release/javascript/vom"/>
+  <project name="roadmap.go.store" path="roadmap/go/src/v.io/store"/>
   <project name="roadmap.js.store" path="roadmap/javascript/store"/>
-  <project name="roadmap.profiles" path="roadmap/go/src/veyron.io/profiles"/>
   <project name="scripts" path="scripts"/>
   <project name="third_party" path="third_party"/>
-  <project name="veyron.go.apps" path="veyron/go/src/veyron.io/apps"/>
-  <project name="veyron.go.core" path="veyron/go/src/veyron.io/veyron"/>
-  <project name="veyron.go.jni" path="veyron/go/src/veyron.io/jni"/>
-  <project name="veyron.go.lib" path="veyron/go/src/veyron.io/lib"/>
-  <project name="veyron.go.playground" path="veyron/go/src/veyron.io/playground"/>
-  <project name="veyron.go.tools" path="veyron/go/src/veyron.io/tools"/>
-  <project name="veyron.go.wspr" path="veyron/go/src/veyron.io/wspr"/>
-  <project name="veyron.java" path="veyron/java"/>
-  <project name="veyron.js" path="veyron.js"/>
-  <project name="veyron-browser" path="veyron-browser"/>
-  <project name="vom.js" path="veyron/javascript/vom"/>
 </manifest>
