@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="veyron"
+  <remote name="vanadium"
 	  fetch="."
 	  review="https://vanadium-review.googlesource.com/" />
   <default revision="master"
-	   remote="veyron" />
+	   remote="vanadium" />
   <project name="deprecated" path="deprecated"/>
   <project name="environment" path="environment"/>
   <project name="experimental" path="experimental"/>
