@@ -2,33 +2,66 @@
 
 <manifest>
   <projects>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/deprecated" path="deprecated"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/environment" path="environment"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/experimental" path="experimental"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/projects/namespace_browser" path="release/projects/namespace_browser"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/core" path="release/go/src/v.io/core"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/apps" path="release/go/src/v.io/apps"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/jni" path="release/go/src/v.io/jni"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/lib" path="release/go/src/v.io/lib"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/playground" path="release/go/src/v.io/playground"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools" path="release/go/src/v.io/tools"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/wspr" path="release/go/src/v.io/wspr"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/java" path="release/java"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/javascript/core" path="release/javascript/core"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/javascript/pgbundle" path="release/javascript/pgbundle"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/release/javascript/vom" path="release/javascript/vom"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/roadmap/go/src/v.io/store" path="roadmap/go/src/v.io/store"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/roadmap/javascript/store" path="roadmap/javascript/store"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/scripts" path="scripts"/>
-    <project name="git@veyron-jenkins:/var/veyron/vanadium/third_party" path="third_party"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/deprecated"
+	     path="deprecated"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/environment"
+	     path="environment"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/experimental"
+	     path="experimental"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/projects/namespace_browser"
+	     path="release/projects/namespace_browser"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/core"
+	     path="release/go/src/v.io/core"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/apps"
+	     path="release/go/src/v.io/apps"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/jni"
+	     path="release/go/src/v.io/jni"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
+	     path="release/go/src/v.io/lib"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/playground"
+	     path="release/go/src/v.io/playground"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
+	     path="release/go/src/v.io/tools"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/wspr"
+	     path="release/go/src/v.io/wspr"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/java"
+	     path="release/java"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/javascript/core"
+	     path="release/javascript/core"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/javascript/pgbundle"
+	     path="release/javascript/pgbundle"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/release/javascript/vom"
+	     path="release/javascript/vom"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/store"
+	     path="roadmap/go/src/v.io/store"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/roadmap/javascript/store"
+	     path="roadmap/javascript/store"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/scripts"
+	     path="scripts"/>
+    <project name="git@git-mirror:/home/veyron/vanadium/third_party"
+	     path="third_party"/>
   </projects>
   <tools>
-    <tool name="find-impl" package="v.io/tools/find-impl" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
-    <tool name="git-v23" package="v.io/tools/git-v23" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
-    <tool name="go-depcop" package="v.io/tools/go-depcop" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
-    <tool name="presubmit" package="v.io/tools/presubmit" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
-    <tool name="v23" package="v.io/tools/v23" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
-    <tool name="vdl" package="v.io/core/veyron2/vdl/vdl" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/core"/>
-    <tool name="vloggy" package="v.io/tools/vloggy" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
+    <tool name="find-impl"
+	  package="v.io/tools/find-impl"
+	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
+    <tool name="git-v23"
+	  package="v.io/tools/git-v23"
+	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
+    <tool name="go-depcop"
+	  package="v.io/tools/go-depcop"
+	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
+    <tool name="presubmit"
+	  package="v.io/tools/presubmit"
+	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
+    <tool name="v23"
+	  package="v.io/tools/v23"
+	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
+    <tool name="vdl"
+	  package="v.io/core/veyron2/vdl/vdl"
+	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/core"/>
+    <tool name="vloggy"
+	  package="v.io/tools/vloggy"
+	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
   </tools>
 </manifest>
