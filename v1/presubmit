@@ -7,6 +7,6 @@
   </projects>
   <tools>
     <tool name="presubmit" package="v.io/tools/presubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="vanadium" package="v.io/tools/vanadium" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="v23" package="v.io/tools/v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
   </tools>
 </manifest>
