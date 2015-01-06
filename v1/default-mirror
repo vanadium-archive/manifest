@@ -23,12 +23,12 @@
     <project name="git@veyron-jenkins:/var/veyron/vanadium/third_party" path="third_party"/>
   </projects>
   <tools>
-    <tool name="find-impl" package="v.io/tools/find-impl" project="git@veyron-jenkins:/var/veyron/vanadium/release.go.tools"/>/>
-    <tool name="git-v23" package="v.io/tools/git-v23" project="git@veyron-jenkins:/var/veyron/vanadium/release.go.tools"/>/>
-    <tool name="go-depcop" package="v.io/tools/go-depcop" project="git@veyron-jenkins:/var/veyron/vanadium/release.go.tools"/>/>
-    <tool name="presubmit" package="v.io/tools/presubmit" project="git@veyron-jenkins:/var/veyron/vanadium/release.go.tools"/>/>
-    <tool name="v23" package="v.io/tools/v23" project="git@veyron-jenkins:/var/veyron/vanadium/release.go.tools"/>/>
-    <tool name="vdl" package="v.io/core/veyron2/vdl/vdl" project="git@veyron-jenkins:/var/veyron/vanadium/release.go.core"/>
-    <tool name="vloggy" package="v.io/tools/vloggy" project="git@veyron-jenkins:/var/veyron/vanadium/release.go.tools"/>/>
+    <tool name="find-impl" package="v.io/tools/find-impl" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
+    <tool name="git-v23" package="v.io/tools/git-v23" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
+    <tool name="go-depcop" package="v.io/tools/go-depcop" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
+    <tool name="presubmit" package="v.io/tools/presubmit" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
+    <tool name="v23" package="v.io/tools/v23" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
+    <tool name="vdl" package="v.io/core/veyron2/vdl/vdl" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/core"/>
+    <tool name="vloggy" package="v.io/tools/vloggy" project="git@veyron-jenkins:/var/veyron/vanadium/release/go/src/v.io/tools"/>/>
   </tools>
 </manifest>
