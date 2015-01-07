@@ -3,8 +3,8 @@
 <manifest>
   <projects>
     <project name="https://vanadium.googlesource.com/monitoring" path="monitoring"/>
-    <project name="https://vanadium.googlesource.com/vanadium.go.lib" path="release/go/src/v.io/lib"/>
-    <project name="https://vanadium.googlesource.com/vanadium.go.tools" path="release/go/src/v.io/tools"/>
+    <project name="https://vanadium.googlesource.com/release.go.lib" path="release/go/src/v.io/lib"/>
+    <project name="https://vanadium.googlesource.com/release.go.tools" path="release/go/src/v.io/tools"/>
   </projects>
   <tools>
     <tool name="presubmit" package="v.io/tools/presubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
