@@ -2,7 +2,7 @@
 
 <manifest>
   <projects>
-    <project name="https://vanadium.googlesource.com/monitoring" path="monitoring"/>
+    <project name="https://vanadium.googlesource.com/infrastructure" path="infrastructure"/>
     <project name="https://vanadium.googlesource.com/release.go.lib" path="release/go/src/v.io/lib"/>
     <project name="https://vanadium.googlesource.com/release.go.tools" path="release/go/src/v.io/tools"/>
   </projects>

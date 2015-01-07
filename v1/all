@@ -2,7 +2,7 @@
 <manifest>
   <imports>
     <import name="default"/>
-    <import name="monitoring"/>
+    <import name="infrastructure"/>
     <import name="tutorial"/>
     <import name="www"/>
   </imports>
