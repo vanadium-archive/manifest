@@ -7,6 +7,8 @@
     <import name="www"/>
   </imports>
   <tools>
-    <tool name="postsubmit" package="v.io/tools/postsubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="postsubmit"
+          package="v.io/tools/postsubmit"
+          project="https://vanadium.googlesource.com/release.go.tools"/>
   </tools>
 </manifest>

@@ -2,19 +2,22 @@
 
 <manifest>
   <projects>
-    <project name="git@git-mirror:/home/veyron/vanadium/infrastructure" 
-	     path="infrastructure"/>
-    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib" 
-	     path="release/go/src/v.io/lib"/>
-    <project name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools" 
-	     path="release/go/src/v.io/tools"/>
+    <project alias="infrastructure"
+             name="git@git-mirror:/home/veyron/vanadium/infrastructure"
+             path="infrastructure"/>
+    <project alias="release.go.lib"
+             name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
+             path="release/go/src/v.io/lib"/>
+    <project alias="release.go.tools"
+             name="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
+             path="release/go/src/v.io/tools"/>
   </projects>
   <tools>
-    <tool name="presubmit" 
-	  package="v.io/tools/presubmit" 
-	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
-    <tool name="v23" 
-	  package="v.io/tools/v23" 
-	  project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
+    <tool name="presubmit"
+          package="v.io/tools/presubmit"
+          project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
+    <tool name="v23"
+          package="v.io/tools/v23"
+          project="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"/>
   </tools>
 </manifest>

@@ -2,12 +2,19 @@
 
 <manifest>
   <projects>
-    <project name="https://vanadium.googlesource.com/infrastructure" path="infrastructure"/>
-    <project name="https://vanadium.googlesource.com/release.go.lib" path="release/go/src/v.io/lib"/>
-    <project name="https://vanadium.googlesource.com/release.go.tools" path="release/go/src/v.io/tools"/>
+    <project name="https://vanadium.googlesource.com/infrastructure"
+             path="infrastructure"/>
+    <project name="https://vanadium.googlesource.com/release.go.lib"
+             path="release/go/src/v.io/lib"/>
+    <project name="https://vanadium.googlesource.com/release.go.tools"
+             path="release/go/src/v.io/tools"/>
   </projects>
   <tools>
-    <tool name="presubmit" package="v.io/tools/presubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="v23" package="v.io/tools/v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="presubmit"
+          package="v.io/tools/presubmit"
+          project="https://vanadium.googlesource.com/release.go.tools"/>
+    <tool name="v23"
+          package="v.io/tools/v23"
+          project="https://vanadium.googlesource.com/release.go.tools"/>
   </tools>
 </manifest>
