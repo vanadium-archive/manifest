@@ -24,33 +24,85 @@ included in manifests that include project B as well.
 
 <manifest>
   <projects>
-    <project name="https://vanadium.googlesource.com/deprecated" path="deprecated"/>
-    <project name="https://vanadium.googlesource.com/environment" path="environment"/>
-    <project name="https://vanadium.googlesource.com/experimental" path="experimental"/>
-    <project name="https://vanadium.googlesource.com/namespace_browser" path="release/projects/namespace_browser"/>
-    <project name="https://vanadium.googlesource.com/release.go.core" path="release/go/src/v.io/core"/>
-    <project name="https://vanadium.googlesource.com/release.go.apps" path="release/go/src/v.io/apps"/>
-    <project name="https://vanadium.googlesource.com/release.go.jni" path="release/go/src/v.io/jni"/>
-    <project name="https://vanadium.googlesource.com/release.go.lib" path="release/go/src/v.io/lib"/>
-    <project name="https://vanadium.googlesource.com/release.go.playground" path="release/go/src/v.io/playground"/>
-    <project name="https://vanadium.googlesource.com/release.go.tools" path="release/go/src/v.io/tools"/>
-    <project name="https://vanadium.googlesource.com/release.go.wspr" path="release/go/src/v.io/wspr"/>
-    <project name="https://vanadium.googlesource.com/release.java" path="release/java"/>
-    <project name="https://vanadium.googlesource.com/release.js.core" path="release/javascript/core"/>
-    <project name="https://vanadium.googlesource.com/release.js.pgbundle" path="release/javascript/pgbundle"/>
-    <project name="https://vanadium.googlesource.com/release.js.vom" path="release/javascript/vom"/>
-    <project name="https://vanadium.googlesource.com/roadmap.go.store" path="roadmap/go/src/v.io/store"/>
-    <project name="https://vanadium.googlesource.com/roadmap.js.store" path="roadmap/javascript/store"/>
-    <project name="https://vanadium.googlesource.com/scripts" path="scripts"/>
-    <project name="https://vanadium.googlesource.com/third_party" path="third_party"/>
+    <project alias="deprecated"
+             name="https://vanadium.googlesource.com/deprecated" 
+             path="deprecated"/>
+    <project alias="environment"
+             name="https://vanadium.googlesource.com/environment" 
+             path="environment"/>
+    <project alias="experimental"
+             name="https://vanadium.googlesource.com/experimental" 
+             path="experimental"/>
+    <project alias="namespace_browser"
+             name="https://vanadium.googlesource.com/namespace_browser" 
+             path="release/projects/namespace_browser"/>
+    <project alias="release.go.core"
+             name="https://vanadium.googlesource.com/release.go.core" 
+             path="release/go/src/v.io/core"/>
+    <project alias="release.go.apps"
+             name="https://vanadium.googlesource.com/release.go.apps" 
+             path="release/go/src/v.io/apps"/>
+    <project alias="release.go.jni"
+             name="https://vanadium.googlesource.com/release.go.jni" 
+             path="release/go/src/v.io/jni"/>
+    <project alias="release.go.lib"
+             name="https://vanadium.googlesource.com/release.go.lib" 
+             path="release/go/src/v.io/lib"/>
+    <project alias="release.go.playground"
+             name="https://vanadium.googlesource.com/release.go.playground" 
+             path="release/go/src/v.io/playground"/>
+    <project alias="release.go.tools"
+             name="https://vanadium.googlesource.com/release.go.tools" 
+             path="release/go/src/v.io/tools"/>
+    <project alias="release.go.wspr"
+             name="https://vanadium.googlesource.com/release.go.wspr" 
+             path="release/go/src/v.io/wspr"/>
+    <project alias="release.java"
+             name="https://vanadium.googlesource.com/release.java" 
+             path="release/java"/>
+    <project alias="release.js.core"
+             name="https://vanadium.googlesource.com/release.js.core" 
+             path="release/javascript/core"/>
+    <project alias="release.js.pgbundle"
+             name="https://vanadium.googlesource.com/release.js.pgbundle" 
+             path="release/javascript/pgbundle"/>
+    <project alias="release.js.vom"
+             name="https://vanadium.googlesource.com/release.js.vom" 
+             path="release/javascript/vom"/>
+    <project alias="roadmap.go.store"
+             name="https://vanadium.googlesource.com/roadmap.go.store" 
+             path="roadmap/go/src/v.io/store"/>
+    <project alias="roadmap.js.store"
+             name="https://vanadium.googlesource.com/roadmap.js.store" 
+             path="roadmap/javascript/store"/>
+    <project alias="scripts"
+             name="https://vanadium.googlesource.com/scripts" 
+             path="scripts"/>
+    <project alias="third_party"
+             name="https://vanadium.googlesource.com/third_party" 
+             path="third_party"/>
   </projects>
   <tools>
-    <tool name="find-impl" package="v.io/tools/find-impl" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="git-v23" package="v.io/tools/git-v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="go-depcop" package="v.io/tools/go-depcop" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="presubmit" package="v.io/tools/presubmit" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="v23" package="v.io/tools/v23" project="https://vanadium.googlesource.com/release.go.tools"/>/>
-    <tool name="vdl" package="v.io/core/veyron2/vdl/vdl" project="https://vanadium.googlesource.com/release.go.core"/>
-    <tool name="vloggy" package="v.io/tools/vloggy" project="https://vanadium.googlesource.com/release.go.tools"/>/>
+    <tool name="find-impl" 
+          package="v.io/tools/find-impl" 
+          project="https://vanadium.googlesource.com/release.go.tools"/>
+    <tool name="git-v23" 
+          package="v.io/tools/git-v23" 
+          project="https://vanadium.googlesource.com/release.go.tools"/>
+    <tool name="go-depcop" 
+          package="v.io/tools/go-depcop" 
+          project="https://vanadium.googlesource.com/release.go.tools"/>
+    <tool name="presubmit" 
+          package="v.io/tools/presubmit" 
+          project="https://vanadium.googlesource.com/release.go.tools"/>
+    <tool name="v23" 
+          package="v.io/tools/v23" 
+          project="https://vanadium.googlesource.com/release.go.tools"/>
+    <tool name="vdl" 
+          package="v.io/core/veyron2/vdl/vdl" 
+          project="https://vanadium.googlesource.com/release.go.core"/>
+    <tool name="vloggy" 
+          package="v.io/tools/vloggy" 
+          project="https://vanadium.googlesource.com/release.go.tools"/>
   </tools>
 </manifest>
