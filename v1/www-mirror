@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <import name="default-mirror"/>
+  </imports>
+  <projects>
+    <project name="https://github.com/veyron/veyron-www" path="www"/>
+  </projects>
+</manifest>
