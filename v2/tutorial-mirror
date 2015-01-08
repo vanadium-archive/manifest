@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <import name="default-mirror"/>
+  </imports>
+  <projects>
+    <project name="veyron-www"
+             remote="https://github.com/veyron/veyron-www"
+             path="tutorial/www"/>
+    <project name="mdrip"
+             remote="https://github.com/monopole/mdrip"
+             path="tutorial/testing/src/mdrip"/>
+  </projects>
+</manifest>

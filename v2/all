@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <import name="default"/>
+    <import name="infrastructure"/>
+    <import name="tutorial"/>
+    <import name="www"/>
+  </imports>
+  <tools>
+    <tool name="postsubmit"
+          package="v.io/tools/postsubmit"
+          project="release.go.tools"/>
+  </tools>
+</manifest>

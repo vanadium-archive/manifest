@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <projects>
+    <project name="infrastructure"
+             remote="git@git-mirror:/home/veyron/vanadium/infrastructure"
+             path="infrastructure"/>
+    <project name="release.go.lib"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
+             path="release/go/src/v.io/lib"/>
+    <project name="release.go.tools"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
+             path="release/go/src/v.io/tools"/>
+  </projects>
+  <tools>
+    <tool name="presubmit"
+          package="v.io/tools/presubmit"
+          project="release.go.tools"/>
+    <tool name="v23"
+          package="v.io/tools/v23"
+          project="release.go.tools"/>
+  </tools>
+</manifest>
