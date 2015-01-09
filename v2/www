@@ -4,7 +4,7 @@
     <import name="default"/>
   </imports>
   <projects>
-    <project name="veyron-www"
+    <project name="https://github.com/veyron/veyron-www"
              remote="https://github.com/veyron/veyron-www"
              path="www"/>
   </projects>
