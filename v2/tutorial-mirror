@@ -4,10 +4,10 @@
     <import name="default-mirror"/>
   </imports>
   <projects>
-    <project name="https://github.com/veyron/veyron-www"
+    <project name="veyron-www"
              remote="https://github.com/veyron/veyron-www"
              path="tutorial/www"/>
-    <project name="https://github.com/monopole/mdrip"
+    <project name="mdrip"
              remote="https://github.com/monopole/mdrip"
              path="tutorial/testing/src/mdrip"/>
   </projects>
