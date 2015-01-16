@@ -81,9 +81,6 @@ included in manifests that include project B as well.
     <project alias="third_party"
              name="https://vanadium.googlesource.com/third_party"
              path="third_party"/>
-    <project alias="www"
-             name="https://vanadium.googlesource.com/www"
-             path="www"/>
   </projects>
   <tools>
     <tool name="find-impl"
