@@ -3,8 +3,6 @@
   <imports>
     <import name="default-mirror"/>
     <import name="infrastructure-mirror"/>
-    <import name="tutorial-mirror"/>
-    <import name="www-mirror"/>
   </imports>
   <tools>
     <tool name="postsubmit"
