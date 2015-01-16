@@ -8,7 +8,7 @@
     <project name="release.go.lib"
              remote="https://vanadium.googlesource.com/release.go.lib"
              path="release/go/src/v.io/lib"/>
-    <project name="release.go.lib"
+    <project name="release.go.tools"
              remote="https://vanadium.googlesource.com/release.go.tools"
              path="release/go/src/v.io/tools"/>
   </projects>
