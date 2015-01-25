@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <projects>
+    <project name="release.go.lib"
+             remote="https://vanadium.googlesource.com/release.go.lib"
+             path="release/go/src/v.io/lib"/>
+    <project name="release.go.tools"
+             remote="https://vanadium.googlesource.com/release.go.tools"
+             path="release/go/src/v.io/tools"/>
+  </projects>
+  <tools>
+    <tool name="presubmit"
+          package="v.io/tools/presubmit"
+          project="release.go.tools"/>
+    <tool name="v23"
+          package="v.io/tools/v23"
+          project="release.go.tools"/>
+  </tools>
+</manifest>
