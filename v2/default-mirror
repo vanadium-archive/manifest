@@ -47,6 +47,9 @@
     <project name="release.js.vom"
              remote="git@git-mirror:/home/veyron/vanadium/release/javascript/vom"
              path="release/javascript/vom"/>
+    <project name="release.projects.chat"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/chat"
+             path="release/projects/chat"/>
     <project name="roadmap.go.store"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/store"
              path="roadmap/go/src/v.io/store"/>

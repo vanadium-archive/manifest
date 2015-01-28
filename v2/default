@@ -69,6 +69,9 @@ included in manifests that include project B as well.
     <project name="release.js.vom"
              remote="https://vanadium.googlesource.com/release.js.vom"
              path="release/javascript/vom"/>
+    <project name="release.projects.chat"
+             remote="https://vanadium.googlesource.com/release.projects.chat"
+             path="release/projects/chat"/>
     <project name="roadmap.go.store"
              remote="https://vanadium.googlesource.com/roadmap.go.store"
              path="roadmap/go/src/v.io/store"/>
