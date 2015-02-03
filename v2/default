@@ -72,6 +72,9 @@ included in manifests that include project B as well.
     <project name="release.projects.chat"
              remote="https://vanadium.googlesource.com/release.projects.chat"
              path="release/projects/chat"/>
+    <project name="release.projects.playground"
+             remote="https://vanadium.googlesource.com/release.projects.playground"
+             path="release/projects/playground"/>
     <project name="roadmap.go.nacl"
              remote="https://vanadium.googlesource.com/roadmap.go.nacl"
              path="roadmap/go/src/v.io/nacl"/>
