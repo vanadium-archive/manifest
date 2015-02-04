@@ -13,14 +13,13 @@
   <project name="release.go.apps" path="release/go/src/v.io/apps"/>
   <project name="release.go.jni" path="release/go/src/v.io/jni"/>
   <project name="release.go.lib" path="release/go/src/v.io/lib"/>
-  <project name="release.go.playground" path="release/go/src/v.io/playground"/>
   <project name="release.go.tools" path="release/go/src/v.io/tools"/>
   <project name="release.go.wspr" path="release/go/src/v.io/wspr"/>
   <project name="release.java" path="release/java"/>
   <project name="release.js.core" path="release/javascript/core"/>
-  <project name="release.js.pgbundle" path="release/javascript/pgbundle"/>
   <project name="release.js.vom" path="release/javascript/vom"/>
   <project name="release.projects.chat" path="release/projects/chat"/>
+  <project name="release.projects.playground" path="release/projects/playground"/>
   <project name="roadmap.go.nacl" path="roadmap/go/src/v.io/nacl"/>
   <project name="roadmap.go.store" path="roadmap/go/src/v.io/store"/>
   <project name="roadmap.js.store" path="roadmap/javascript/store"/>
