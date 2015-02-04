@@ -26,9 +26,6 @@
     <project name="release.go.lib"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
              path="release/go/src/v.io/lib"/>
-    <project name="release.go.playground"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/playground"
-             path="release/go/src/v.io/playground"/>
     <project name="release.go.tools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
              path="release/go/src/v.io/tools"/>
@@ -41,9 +38,6 @@
     <project name="release.js.core"
              remote="git@git-mirror:/home/veyron/vanadium/release/javascript/core"
              path="release/javascript/core"/>
-    <project name="release.js.pgbundle"
-             remote="git@git-mirror:/home/veyron/vanadium/release/javascript/pgbundle"
-             path="release/javascript/pgbundle"/>
     <project name="release.js.vom"
              remote="git@git-mirror:/home/veyron/vanadium/release/javascript/vom"
              path="release/javascript/vom"/>

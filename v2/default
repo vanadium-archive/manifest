@@ -48,9 +48,6 @@ included in manifests that include project B as well.
     <project name="release.go.lib"
              remote="https://vanadium.googlesource.com/release.go.lib"
              path="release/go/src/v.io/lib"/>
-    <project name="release.go.playground"
-             remote="https://vanadium.googlesource.com/release.go.playground"
-             path="release/go/src/v.io/playground"/>
     <project name="release.go.tools"
              remote="https://vanadium.googlesource.com/release.go.tools"
              path="release/go/src/v.io/tools"/>
@@ -63,9 +60,6 @@ included in manifests that include project B as well.
     <project name="release.js.core"
              remote="https://vanadium.googlesource.com/release.js.core"
              path="release/javascript/core"/>
-    <project name="release.js.pgbundle"
-             remote="https://vanadium.googlesource.com/release.js.pgbundle"
-             path="release/javascript/pgbundle"/>
     <project name="release.js.vom"
              remote="https://vanadium.googlesource.com/release.js.vom"
              path="release/javascript/vom"/>
