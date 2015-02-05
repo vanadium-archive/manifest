@@ -60,9 +60,6 @@ included in manifests that include project B as well.
     <project name="release.js.core"
              remote="https://vanadium.googlesource.com/release.js.core"
              path="release/javascript/core"/>
-    <project name="release.js.vom"
-             remote="https://vanadium.googlesource.com/release.js.vom"
-             path="release/javascript/vom"/>
     <project name="release.projects.chat"
              remote="https://vanadium.googlesource.com/release.projects.chat"
              path="release/projects/chat"/>
