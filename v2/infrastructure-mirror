@@ -11,6 +11,9 @@
     <project name="release.go.tools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
              path="release/go/src/v.io/tools"/>
+    <project name="third_party"
+             remote="git@git-mirror:/home/veyron/vanadium/third_party"
+             path="third_party"/>
   </projects>
   <tools>
     <tool name="presubmit"
