@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <projects>
+    <project name="environment"
+             remote="git@git-mirror:/home/veyron/vanadium/environment"
+             path="environment"/>
+    <project name="namespace_browser"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/namespace_browser"
+             path="release/projects/namespace_browser"/>
+    <project name="release.go.core"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/core"
+             path="release/go/src/v.io/core"/>
+    <project name="release.go.apps"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/apps"
+             path="release/go/src/v.io/apps"/>
+    <project name="release.go.jni"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/jni"
+             path="release/go/src/v.io/jni"/>
+    <project name="release.go.lib"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
+             path="release/go/src/v.io/lib"/>
+    <project name="release.go.tools"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
+             path="release/go/src/v.io/tools"/>
+    <project name="release.go.wspr"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/wspr"
+             path="release/go/src/v.io/wspr"/>
+    <project name="release.java"
+             remote="git@git-mirror:/home/veyron/vanadium/release/java"
+             path="release/java"/>
+    <project name="release.js.core"
+             remote="git@git-mirror:/home/veyron/vanadium/release/javascript/core"
+             path="release/javascript/core"/>
+    <project name="release.js.vom"
+             remote="git@git-mirror:/home/veyron/vanadium/release/javascript/vom"
+             path="release/javascript/vom"/>
+    <project name="release.projects.chat"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/chat"
+             path="release/projects/chat"/>
+    <project name="release.projects.playground"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/playground"
+             path="release/projects/playground"/>
+    <project name="scripts"
+             remote="git@git-mirror:/home/veyron/vanadium/scripts"
+             path="scripts"/>
+    <project name="third_party"
+             remote="git@git-mirror:/home/veyron/vanadium/third_party"
+             path="third_party"/>
+    <project name="www"
+             remote="git@git-mirror:/home/veyron/vanadium/www"
+             path="www"/>
+  </projects>
+  <tools>
+    <tool name="find-impl"
+          package="v.io/tools/find-impl"
+          project="release.go.tools"/>
+    <tool name="git-v23"
+          package="v.io/tools/git-v23"
+          project="release.go.tools"/>
+    <tool name="go-depcop"
+          package="v.io/tools/go-depcop"
+          project="release.go.tools"/>
+    <tool name="presubmit"
+          package="v.io/tools/presubmit"
+          project="release.go.tools"/>
+    <tool name="v23"
+          package="v.io/tools/v23"
+          project="release.go.tools"/>
+    <tool name="vdl"
+          package="v.io/core/veyron2/vdl/vdl"
+          project="release.go.tools"/>
+    <tool name="vloggy"
+          package="v.io/tools/vloggy"
+          project="release.go.tools"/>
+  </tools>
+</manifest>
