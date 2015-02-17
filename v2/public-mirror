@@ -64,6 +64,9 @@
     <tool name="presubmit"
           package="v.io/tools/presubmit"
           project="release.go.tools"/>
+    <tool name="postsubmit"
+          package="v.io/tools/postsubmit"
+          project="release.go.tools"/>
     <tool name="v23"
           package="v.io/tools/v23"
           project="release.go.tools"/>
