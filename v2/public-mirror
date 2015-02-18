@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
   <projects>
     <project name="environment"
@@ -38,6 +37,9 @@
     <project name="release.projects.chat"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/chat"
              path="release/projects/chat"/>
+    <project name="release.projects.pipe2browser"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/pipe2browser"
+             path="release/projects/pipe2browser"/>
     <project name="release.projects.playground"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/playground"
              path="release/projects/playground"/>

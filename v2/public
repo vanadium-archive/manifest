@@ -1,27 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--
-
-NOTE: This file is a manifest that describes a set of projects and
-tools that together constitute a vanadium universe. This file can be
-accessed by an arbitrarily old version of the "v23" tool and thus the
-change the manifest format, one should create a new manifest file and
-point versions of the "v23" tool that understand that format to that
-file. The convention is to encode the format version as the directory
-name (v1, v2, ...), and file names within that directory to distinguish
-different vanadium universes, such as default, android, or nacl.
-
-Consequently, to add a repository to an existing vanadium universe, one
-should add it for all versions that are supported, following the format
-of the respective versions.
-
-Further, the set of projects that form a vanadium universe should be closed
-under transitive closure with respect to dependencies. In other words,
-if a project A depends on a project B, then project A should only be
-included in manifests that include project B as well.
-
--->
-
 <manifest>
   <projects>
     <project name="environment"
@@ -60,6 +37,9 @@ included in manifests that include project B as well.
     <project name="release.projects.chat"
              remote="https://vanadium.googlesource.com/release.projects.chat"
              path="release/projects/chat"/>
+    <project name="release.projects.pipe2browser"
+             remote="https://vanadium.googlesource.com/release.projects.pipe2browser"
+             path="release/projects/pipe2browser"/>
     <project name="release.projects.playground"
              remote="https://vanadium.googlesource.com/release.projects.playground"
              path="release/projects/playground"/>
