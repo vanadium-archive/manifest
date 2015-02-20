@@ -10,14 +10,8 @@
     <project name="roadmap.go.nacl"
              remote="https://vanadium.googlesource.com/roadmap.go.nacl"
              path="roadmap/go/src/v.io/nacl"/>
-    <project name="roadmap.go.store"
-             remote="https://vanadium.googlesource.com/roadmap.go.store"
-             path="roadmap/go/src/v.io/store"/>
     <project name="roadmap.go.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.go.syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
-    <project name="roadmap.js.store"
-             remote="https://vanadium.googlesource.com/roadmap.js.store"
-             path="roadmap/javascript/store"/>
   </projects>
 </manifest>
