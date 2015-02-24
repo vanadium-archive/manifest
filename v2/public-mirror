@@ -76,7 +76,7 @@
           package="v.io/tools/v23"
           project="release.go.tools"/>
     <tool name="vdl"
-          package="v.io/core/veyron2/vdl/vdl"
+          package="v.io/v23/vdl/vdl"
           project="release.go.tools"/>
     <tool name="vloggy"
           package="v.io/tools/vloggy"
