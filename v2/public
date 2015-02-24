@@ -22,6 +22,9 @@
     <project name="release.go.tools"
              remote="https://vanadium.googlesource.com/release.go.tools"
              path="release/go/src/v.io/tools"/>
+    <project name="release.go.v23"
+             remote="https://vanadium.googlesource.com/release.go.v23"
+             path="release/go/src/v.io/v23"/>
     <project name="release.go.wspr"
              remote="https://vanadium.googlesource.com/release.go.wspr"
              path="release/go/src/v.io/wspr"/>
