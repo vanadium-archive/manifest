@@ -34,9 +34,6 @@
     <project name="release.js.core"
              remote="git@git-mirror:/home/veyron/vanadium/release/javascript/core"
              path="release/javascript/core"/>
-    <project name="release.js.vom"
-             remote="git@git-mirror:/home/veyron/vanadium/release/javascript/vom"
-             path="release/javascript/vom"/>
     <project name="release.projects.chat"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/chat"
              path="release/projects/chat"/>
