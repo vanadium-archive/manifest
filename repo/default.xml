@@ -1,29 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="vanadium"
-	  fetch="."
-	  review="https://vanadium-review.googlesource.com/" />
+          fetch="."
+          review="https://vanadium-review.googlesource.com/" />
   <default revision="master"
-	   remote="vanadium" />
-  <project name="deprecated" path="deprecated"/>
-  <project name="environment" path="environment"/>
-  <project name="experimental" path="experimental"/>
-  <project name="namespace_browser" path="release/projects/namespace_browser"/>
-  <project name="release.go.core" path="release/go/src/v.io/core"/>
-  <project name="release.go.apps" path="release/go/src/v.io/apps"/>
-  <project name="release.go.jni" path="release/go/src/v.io/jni"/>
-  <project name="release.go.lib" path="release/go/src/v.io/lib"/>
-  <project name="release.go.tools" path="release/go/src/v.io/tools"/>
-  <project name="release.go.wspr" path="release/go/src/v.io/wspr"/>
-  <project name="release.java" path="release/java"/>
-  <project name="release.js.core" path="release/javascript/core"/>
-  <project name="release.js.vom" path="release/javascript/vom"/>
-  <project name="release.projects.chat" path="release/projects/chat"/>
-  <project name="release.projects.playground" path="release/projects/playground"/>
-  <project name="roadmap.go.nacl" path="roadmap/go/src/v.io/nacl"/>
-  <project name="roadmap.go.store" path="roadmap/go/src/v.io/store"/>
-  <project name="roadmap.js.store" path="roadmap/javascript/store"/>
-  <project name="scripts" path="scripts"/>
-  <project name="third_party" path="third_party"/>
-  <project name="www" path="www"/>
+           remote="vanadium" />
+  <project name="deprecated"
+           path="deprecated"/>
+  <project name="environment"
+           path="environment"/>
+  <project name="experimental"
+           path="experimental"/>
+  <project name="namespace_browser"
+           path="release/projects/namespace_browser"/>
+  <project name="release.go.core"
+           path="release/go/src/v.io/core"/>
+  <project name="release.go.apps"
+           path="release/go/src/v.io/apps"/>
+  <project name="release.go.jni"
+           path="release/go/src/v.io/jni"/>
+  <project name="release.go.lib"
+           path="release/go/src/v.io/lib"/>
+  <project name="release.go.tools"
+           path="release/go/src/v.io/tools"/>
+  <project name="release.go.v23"
+           path="release/go/src/v.io/v23"/>
+  <project name="release.go.wspr"
+           path="release/go/src/v.io/wspr"/>
+  <project name="release.java"
+           path="release/java"/>
+  <project name="release.js.core"
+           path="release/javascript/core"/>
+  <project name="release.projects.chat"
+           path="release/projects/chat"/>
+  <project name="release.projects.pipe2browser"
+           path="release/projects/pipe2browser"/>
+  <project name="release.projects.playground"
+           path="release/projects/playground"/>
+  <project name="roadmap.go.nacl"
+           path="roadmap/go/src/v.io/nacl"/>
+  <project name="roadmap.go.syncbase"
+           path="roadmap/go/src/v.io/store"/>
+  <project name="scripts"
+           path="scripts"/>
+  <project name="third_party"
+           path="third_party"/>
+  <project name="www"
+           path="www"/>
 </manifest>
