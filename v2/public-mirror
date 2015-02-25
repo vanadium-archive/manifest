@@ -54,9 +54,6 @@
              path="www"/>
   </projects>
   <tools>
-    <tool name="find-impl"
-          package="v.io/tools/find-impl"
-          project="release.go.tools"/>
     <tool name="git-v23"
           package="v.io/tools/git-v23"
           project="release.go.tools"/>
