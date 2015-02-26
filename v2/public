@@ -25,9 +25,6 @@
     <project name="release.go.v23"
              remote="https://vanadium.googlesource.com/release.go.v23"
              path="release/go/src/v.io/v23"/>
-    <project name="release.go.x.devtools"
-             remote="https://vanadium.googlesource.com/release.go.x.devtools"
-             path="release/go/src/v.io/x/devtools"/>
     <project name="release.java"
              remote="https://vanadium.googlesource.com/release.java"
              path="release/java"/>
