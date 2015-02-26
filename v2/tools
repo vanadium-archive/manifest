@@ -7,16 +7,19 @@
     <project name="release.go.tools"
              remote="https://vanadium.googlesource.com/release.go.tools"
              path="release/go/src/v.io/tools"/>
+    <project name="release.go.x.devtools"
+             remote="https://vanadium.googlesource.com/release.go.x.devtools"
+             path="release/go/src/v.io/x/devtools"/>
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
              path="third_party"/>
   </projects>
   <tools>
     <tool name="presubmit"
-          package="v.io/tools/presubmit"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/presubmit"
+          project="release.go.x.devtools"/>
     <tool name="v23"
-          package="v.io/tools/v23"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/v23"
+          project="release.go.x.devtools"/>
   </tools>
 </manifest>

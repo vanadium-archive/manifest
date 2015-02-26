@@ -25,6 +25,9 @@
     <project name="release.go.v23"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/v23"
              path="release/go/src/v.io/v23"/>
+    <project name="release.go.x.devtools"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/devtools"
+             path="release/go/src/v.io/x/devtools"/>
     <project name="release.java"
              remote="git@git-mirror:/home/veyron/vanadium/release/java"
              path="release/java"/>
@@ -52,25 +55,25 @@
   </projects>
   <tools>
     <tool name="git-v23"
-          package="v.io/tools/git-v23"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/git-v23"
+          project="release.go.x.devtools"/>
     <tool name="go-depcop"
-          package="v.io/tools/go-depcop"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/go-depcop"
+          project="release.go.x.devtools"/>
     <tool name="presubmit"
-          package="v.io/tools/presubmit"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/presubmit"
+          project="release.go.x.devtools"/>
     <tool name="postsubmit"
-          package="v.io/tools/postsubmit"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/postsubmit"
+          project="release.go.x.devtools"/>
     <tool name="v23"
-          package="v.io/tools/v23"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/v23"
+          project="release.go.x.devtools"/>
     <tool name="vdl"
           package="v.io/core/veyron/tools/vdl"
           project="release.go.core"/>
     <tool name="vloggy"
-          package="v.io/tools/vloggy"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/vloggy"
+          project="release.go.x.devtools"/>
   </tools>
 </manifest>
