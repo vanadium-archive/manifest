@@ -25,9 +25,6 @@
     <project name="release.go.v23"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/v23"
              path="release/go/src/v.io/v23"/>
-    <project name="release.go.wspr"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/wspr"
-             path="release/go/src/v.io/wspr"/>
     <project name="release.java"
              remote="git@git-mirror:/home/veyron/vanadium/release/java"
              path="release/java"/>
