@@ -7,6 +7,9 @@
     <project name="experimental"
              remote="https://vanadium.googlesource.com/experimental"
              path="experimental"/>
+    <project name="roadmap.golang"
+             remote="https://vanadium.googlesource.com/roadmap.golang"
+             path="roadmap/golang"/>
     <project name="roadmap.go.nacl"
              remote="https://vanadium.googlesource.com/roadmap.go.nacl"
              path="roadmap/go/src/v.io/nacl"/>

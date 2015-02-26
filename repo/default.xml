@@ -37,6 +37,8 @@
            path="release/projects/pipe2browser"/>
   <project name="release.projects.playground"
            path="release/projects/playground"/>
+  <project name="roadmap.golang"
+           path="roadmap/golang"/>
   <project name="roadmap.go.nacl"
            path="roadmap/go/src/v.io/nacl"/>
   <project name="roadmap.go.syncbase"
