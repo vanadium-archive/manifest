@@ -19,6 +19,9 @@
     <project name="release.go.lib"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
              path="release/go/src/v.io/lib"/>
+    <project name="release.go.x.lib"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib"
+             path="release/go/src/v.io/x/lib"/>
     <project name="release.go.tools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
              path="release/go/src/v.io/tools"/>
