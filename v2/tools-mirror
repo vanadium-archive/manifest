@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <projects>
-    <project name="release.go.lib"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
-             path="release/go/src/v.io/lib"/>
     <project name="release.go.tools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
              path="release/go/src/v.io/tools"/>
     <project name="release.go.x.devtools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/devtools"
              path="release/go/src/v.io/x/devtools"/>
+    <project name="release.go.x.lib"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib"
+             path="release/go/src/v.io/lib"/>
     <project name="third_party"
              remote="git@git-mirror:/home/veyron/vanadium/third_party"
              path="third_party"/>
