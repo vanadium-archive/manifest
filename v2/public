@@ -10,9 +10,6 @@
     <project name="release.go.core"
              remote="https://vanadium.googlesource.com/release.go.core"
              path="release/go/src/v.io/core"/>
-    <project name="release.go.apps"
-             remote="https://vanadium.googlesource.com/release.go.apps"
-             path="release/go/src/v.io/apps"/>
     <project name="release.go.jni"
              remote="https://vanadium.googlesource.com/release.go.jni"
              path="release/go/src/v.io/jni"/>

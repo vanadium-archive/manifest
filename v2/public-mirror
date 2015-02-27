@@ -10,9 +10,6 @@
     <project name="release.go.core"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/core"
              path="release/go/src/v.io/core"/>
-    <project name="release.go.apps"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/apps"
-             path="release/go/src/v.io/apps"/>
     <project name="release.go.jni"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/jni"
              path="release/go/src/v.io/jni"/>
