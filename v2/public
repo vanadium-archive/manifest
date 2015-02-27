@@ -16,9 +16,6 @@
     <project name="release.go.jni"
              remote="https://vanadium.googlesource.com/release.go.jni"
              path="release/go/src/v.io/jni"/>
-    <project name="release.go.lib"
-             remote="https://vanadium.googlesource.com/release.go.lib"
-             path="release/go/src/v.io/lib"/>
     <project name="release.go.tools"
              remote="https://vanadium.googlesource.com/release.go.tools"
              path="release/go/src/v.io/tools"/>

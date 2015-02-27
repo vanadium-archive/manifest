@@ -16,12 +16,6 @@
     <project name="release.go.jni"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/jni"
              path="release/go/src/v.io/jni"/>
-    <project name="release.go.lib"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/lib"
-             path="release/go/src/v.io/lib"/>
-    <project name="release.go.x.lib"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib"
-             path="release/go/src/v.io/x/lib"/>
     <project name="release.go.tools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
              path="release/go/src/v.io/tools"/>
@@ -31,6 +25,9 @@
     <project name="release.go.x.devtools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/devtools"
              path="release/go/src/v.io/x/devtools"/>
+    <project name="release.go.x.lib"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib"
+             path="release/go/src/v.io/x/lib"/>
     <project name="release.java"
              remote="git@git-mirror:/home/veyron/vanadium/release/java"
              path="release/java"/>
