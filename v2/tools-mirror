@@ -9,7 +9,7 @@
              path="release/go/src/v.io/x/devtools"/>
     <project name="release.go.x.lib"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib"
-             path="release/go/src/v.io/lib"/>
+             path="release/go/src/v.io/x/lib"/>
     <project name="third_party"
              remote="git@git-mirror:/home/veyron/vanadium/third_party"
              path="third_party"/>
