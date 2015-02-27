@@ -28,6 +28,9 @@
     <project name="release.go.x.lib"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib"
              path="release/go/src/v.io/x/lib"/>
+    <project name="release.go.x.ref"
+             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/ref"
+             path="release/go/src/v.io/x/ref"/>
     <project name="release.java"
              remote="git@git-mirror:/home/veyron/vanadium/release/java"
              path="release/java"/>
