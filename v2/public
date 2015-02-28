@@ -7,9 +7,6 @@
     <project name="namespace_browser"
              remote="https://vanadium.googlesource.com/namespace_browser"
              path="release/projects/namespace_browser"/>
-    <project name="release.go.core"
-             remote="https://vanadium.googlesource.com/release.go.core"
-             path="release/go/src/v.io/core"/>
     <project name="release.go.jni"
              remote="https://vanadium.googlesource.com/release.go.jni"
              path="release/go/src/v.io/jni"/>
@@ -70,8 +67,8 @@
           package="v.io/x/devtools/v23"
           project="release.go.x.devtools"/>
     <tool name="vdl"
-          package="v.io/core/veyron/tools/vdl"
-          project="release.go.core"/>
+          package="v.io/x/ref/tools/vdl"
+          project="release.go.x.ref"/>
     <tool name="vloggy"
           package="v.io/x/devtools/vloggy"
           project="release.go.x.devtools"/>
