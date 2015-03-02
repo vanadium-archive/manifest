@@ -67,7 +67,7 @@
           package="v.io/x/devtools/v23"
           project="release.go.x.devtools"/>
     <tool name="vdl"
-          package="v.io/x/ref/tools/vdl"
+          package="v.io/x/ref/cmd/vdl"
           project="release.go.x.ref"/>
     <tool name="vloggy"
           package="v.io/x/devtools/vloggy"
