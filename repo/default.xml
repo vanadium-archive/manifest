@@ -2,9 +2,9 @@
 <manifest>
   <remote name="vanadium"
           fetch="."
-          review="https://vanadium-review.googlesource.com/" />
+          review="https://vanadium-review.googlesource.com/"/>
   <default revision="master"
-           remote="vanadium" />
+           remote="vanadium"/>
   <project name="deprecated"
            path="deprecated"/>
   <project name="environment"
@@ -13,20 +13,22 @@
            path="experimental"/>
   <project name="namespace_browser"
            path="release/projects/namespace_browser"/>
-  <project name="release.go.core"
-           path="release/go/src/v.io/core"/>
   <project name="release.go.apps"
            path="release/go/src/v.io/apps"/>
+  <project name="release.go.core"
+           path="release/go/src/v.io/core"/>
   <project name="release.go.jni"
            path="release/go/src/v.io/jni"/>
-  <project name="release.go.lib"
-           path="release/go/src/v.io/lib"/>
   <project name="release.go.tools"
            path="release/go/src/v.io/tools"/>
   <project name="release.go.v23"
            path="release/go/src/v.io/v23"/>
-  <project name="release.go.wspr"
-           path="release/go/src/v.io/wspr"/>
+  <project name="release.go.x.devtools"
+           path="release/go/src/v.io/x/devtools"/>
+  <project name="release.go.x.lib"
+           path="release/go/src/v.io/x/lib"/>
+  <project name="release.go.x.ref"
+           path="release/go/src/v.io/x/ref"/>
   <project name="release.java"
            path="release/java"/>
   <project name="release.js.core"
@@ -37,12 +39,14 @@
            path="release/projects/pipe2browser"/>
   <project name="release.projects.playground"
            path="release/projects/playground"/>
-  <project name="roadmap.golang"
-           path="roadmap/golang"/>
   <project name="roadmap.go.nacl"
            path="roadmap/go/src/v.io/nacl"/>
+  <project name="roadmap.go.proximity"
+           path="roadmap/go/src/v.io/proximity"/>
   <project name="roadmap.go.syncbase"
-           path="roadmap/go/src/v.io/store"/>
+           path="roadmap/go/src/v.io/syncbase"/>
+  <project name="roadmap.golang"
+           path="roadmap/golang"/>
   <project name="scripts"
            path="scripts"/>
   <project name="third_party"
@@ -50,3 +54,9 @@
   <project name="www"
            path="www"/>
 </manifest>
+
+18: roadmap.go.syncbase
+19: scripts
+20: third_party
+21: www
+
