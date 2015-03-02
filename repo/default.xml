@@ -15,8 +15,6 @@
            path="release/projects/namespace_browser"/>
   <project name="release.go.apps"
            path="release/go/src/v.io/apps"/>
-  <project name="release.go.core"
-           path="release/go/src/v.io/core"/>
   <project name="release.go.jni"
            path="release/go/src/v.io/jni"/>
   <project name="release.go.tools"
@@ -54,9 +52,3 @@
   <project name="www"
            path="www"/>
 </manifest>
-
-18: roadmap.go.syncbase
-19: scripts
-20: third_party
-21: www
-
