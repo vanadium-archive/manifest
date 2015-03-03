@@ -7,9 +7,6 @@
     <project name="namespace_browser"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/namespace_browser"
              path="release/projects/namespace_browser"/>
-    <project name="release.go.jni"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/jni"
-             path="release/go/src/v.io/jni"/>
     <project name="release.go.tools"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/tools"
              path="release/go/src/v.io/tools"/>
