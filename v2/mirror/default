@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
-    <import name="private-mirror"/>
-    <import name="public-mirror"/>
+    <import name="mirror/private"/>
+    <import name="mirror/public"/>
   </imports>
 </manifest>
