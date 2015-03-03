@@ -7,8 +7,5 @@
     <project name="experimental"
              remote="https://vanadium.googlesource.com/experimental"
              path="experimental"/>
-    <project name="roadmap.go.syncbase"
-             remote="https://vanadium.googlesource.com/roadmap.go.syncbase"
-             path="roadmap/go/src/v.io/syncbase"/>
   </projects>
 </manifest>

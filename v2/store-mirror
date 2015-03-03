@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<imports>
+    <import name="default-mirror"/>
+	</imports>
+  <projects>
+    <project name="roadmap.go.syncabse"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/syncbase"
+             path="roadmap/go/src/v.io/syncbase"/>
+  </projects>
+</manifest>
