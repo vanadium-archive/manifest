@@ -57,12 +57,6 @@
     <tool name="go-depcop"
           package="v.io/x/devtools/go-depcop"
           project="release.go.x.devtools"/>
-    <tool name="presubmit"
-          package="v.io/x/devtools/presubmit"
-          project="release.go.x.devtools"/>
-    <tool name="postsubmit"
-          package="v.io/x/devtools/postsubmit"
-          project="release.go.x.devtools"/>
     <tool name="v23"
           package="v.io/x/devtools/v23"
           project="release.go.x.devtools"/>
