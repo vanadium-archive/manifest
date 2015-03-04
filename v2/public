@@ -51,9 +51,6 @@
              path="www"/>
   </projects>
   <tools>
-    <tool name="git-v23"
-          package="v.io/x/devtools/git-v23"
-          project="release.go.x.devtools"/>
     <tool name="go-depcop"
           package="v.io/x/devtools/go-depcop"
           project="release.go.x.devtools"/>
