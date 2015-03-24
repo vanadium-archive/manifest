@@ -4,9 +4,6 @@
     <project name="infrastructure"
              remote="https://vanadium.googlesource.com/infrastructure"
              path="infrastructure"/>
-    <project name="release.go.tools"
-             remote="https://vanadium.googlesource.com/release.go.tools"
-             path="release/go/src/v.io/tools"/>
     <project name="release.go.x.devtools"
              remote="https://vanadium.googlesource.com/release.go.x.devtools"
              path="release/go/src/v.io/x/devtools"/>

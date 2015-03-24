@@ -7,7 +7,7 @@
   </imports>
   <tools>
     <tool name="postsubmit"
-          package="v.io/tools/postsubmit"
-          project="release.go.tools"/>
+          package="v.io/x/devtools/postsubmit"
+          project="release.go.x.devtools"/>
   </tools>
 </manifest>

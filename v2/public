@@ -7,9 +7,6 @@
     <project name="namespace_browser"
              remote="https://vanadium.googlesource.com/namespace_browser"
              path="release/projects/namespace_browser"/>
-    <project name="release.go.tools"
-             remote="https://vanadium.googlesource.com/release.go.tools"
-             path="release/go/src/v.io/tools"/>
     <project name="release.go.v23"
              remote="https://vanadium.googlesource.com/release.go.v23"
              path="release/go/src/v.io/v23"/>
