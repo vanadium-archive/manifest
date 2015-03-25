@@ -1,0 +1,21 @@
+<manifest>
+  <imports></imports>
+  <projects>
+    <project exclude="false" name="release.go.x.jni" path="/release/go/src/v.io/x/jni" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/jni" revision="5776361083efe70692b5ab332d486f021893f835"></project>
+    <project exclude="false" name="release.projects.pipe2browser" path="/release/projects/pipe2browser" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/pipe2browser" revision="4fc3e389cf5c68a8ed134aac0ceef652486ab2b1"></project>
+    <project exclude="false" name="release.projects.playground" path="/release/projects/playground" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/playground" revision="f0f3ed50620f45fbd3f21f2d0735be7a1189429c"></project>
+    <project exclude="false" name="release.go.x.lib" path="/release/go/src/v.io/x/lib" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib" revision="2573e6e75361ebeda05bc3989edc89c57d5ea6b3"></project>
+    <project exclude="false" name="release.js.core" path="/release/javascript/core" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/javascript/core" revision="3fabdba78d1740b31f073adddce3f4410cacc1f6"></project>
+    <project exclude="false" name="namespace_browser" path="/release/projects/namespace_browser" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/namespace_browser" revision="653f9895fa53635fe4fdf543bd625e715f186d03"></project>
+    <project exclude="false" name="www" path="/www" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/www" revision="65f13eb07cb8130fff4b354a100dd929a0819114"></project>
+    <project exclude="false" name="scripts" path="/scripts" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/scripts" revision="bb3e0410644d67b20ed581f8e5343bc710851240"></project>
+    <project exclude="false" name="third_party" path="/third_party" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/third_party" revision="2ec5c995f1f1dba05f9baf7b027327c1870d47ee"></project>
+    <project exclude="false" name="environment" path="/environment" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/environment" revision="f41d6f7edd081190a2d5ed461db18c06f492ae47"></project>
+    <project exclude="false" name="release.go.x.devtools" path="/release/go/src/v.io/x/devtools" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/devtools" revision="521ad0cda3b8dff231dc5c973a64fb90086dea88"></project>
+    <project exclude="false" name="release.go.x.ref" path="/release/go/src/v.io/x/ref" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/ref" revision="d7616c901bce8f85b27285c694a9501c821088c1"></project>
+    <project exclude="false" name="release.java" path="/release/java" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/java" revision="6bab7a66a9f382d068fa5061b6ef8445eb2d417d"></project>
+    <project exclude="false" name="release.projects.chat" path="/release/projects/chat" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/chat" revision="95b559c0949c20fefa29362d6e7e9a82f4c66607"></project>
+    <project exclude="false" name="release.go.v23" path="/release/go/src/v.io/v23" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/v23" revision="0e3d30c1c3b46ce192940c9bc2acb858091446d0"></project>
+  </projects>
+  <tools></tools>
+</manifest>
