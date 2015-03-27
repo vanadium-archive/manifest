@@ -4,9 +4,6 @@
     <project name="environment"
              remote="https://vanadium.googlesource.com/environment"
              path="environment"/>
-    <project name="namespace_browser"
-             remote="https://vanadium.googlesource.com/namespace_browser"
-             path="release/projects/namespace_browser"/>
     <project name="release.go.v23"
              remote="https://vanadium.googlesource.com/release.go.v23"
              path="release/go/src/v.io/v23"/>
@@ -28,6 +25,9 @@
     <project name="release.js.core"
              remote="https://vanadium.googlesource.com/release.js.core"
              path="release/javascript/core"/>
+    <project name="release.projects.browser"
+             remote="https://vanadium.googlesource.com/release.projects.browser"
+             path="release/projects/browser"/>
     <project name="release.projects.chat"
              remote="https://vanadium.googlesource.com/release.projects.chat"
              path="release/projects/chat"/>

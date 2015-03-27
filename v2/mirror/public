@@ -4,9 +4,6 @@
     <project name="environment"
              remote="git@git-mirror:/home/veyron/vanadium/environment"
              path="environment"/>
-    <project name="namespace_browser"
-             remote="git@git-mirror:/home/veyron/vanadium/release/projects/namespace_browser"
-             path="release/projects/namespace_browser"/>
     <project name="release.go.v23"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/v23"
              path="release/go/src/v.io/v23"/>
@@ -28,6 +25,9 @@
     <project name="release.js.core"
              remote="git@git-mirror:/home/veyron/vanadium/release/javascript/core"
              path="release/javascript/core"/>
+    <project name="release.projects.browser"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/browser"
+             path="release/projects/browser"/>
     <project name="release.projects.chat"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/chat"
              path="release/projects/chat"/>
