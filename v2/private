@@ -7,5 +7,11 @@
     <project name="experimental"
              remote="https://vanadium.googlesource.com/experimental"
              path="experimental"/>
+    <project name="release.go.x.jni"
+             remote="https://vanadium.googlesource.com/release.go.x.jni"
+             path="roadmap/go/src/v.io/x/jni"/>
+    <project name="release.java"
+             remote="https://vanadium.googlesource.com/release.java"
+             path="roadmap/java"/>
   </projects>
 </manifest>

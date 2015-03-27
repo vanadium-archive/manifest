@@ -7,5 +7,11 @@
     <project name="experimental"
              remote="git@git-mirror:/home/veyron/vanadium/experimental"
              path="experimental"/>
+    <project name="release.go.x.jni"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/x/jni"
+             path="roadmap/go/src/v.io/x/jni"/>
+    <project name="release.java"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/java"
+             path="roadmap/java"/>
   </projects>
 </manifest>
