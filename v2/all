@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
+    <import name="infrastructure"/>
+    <import name="java"/>
+    <import name="lang"/>
     <import name="private"/>
     <import name="public"/>
-    <import name="infrastructure"/>
+    <import name="store"/>
+    <import name="tools"/>
   </imports>
-  <tools>
-    <tool name="postsubmit"
-          package="v.io/x/devtools/postsubmit"
-          project="release.go.x.devtools"/>
-  </tools>
 </manifest>

@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <imports>
+    <import name="mirror/default"/>
+  </imports>
   <projects>
     <project name="infrastructure"
              remote="git@git-mirror:/home/veyron/vanadium/infrastructure"
              path="infrastructure"/>
-    <project name="release.go.x.devtools"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/devtools"
-             path="release/go/src/v.io/x/devtools"/>
-    <project name="release.go.x.lib"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib"
-             path="release/go/src/v.io/x/lib"/>
-    <project name="third_party"
-             remote="git@git-mirror:/home/veyron/vanadium/third_party"
-             path="third_party"/>
   </projects>
-  <tools>
-    <tool name="presubmit"
-          package="v.io/x/devtools/presubmit"
-          project="release.go.x.devtools"/>
-    <tool name="v23"
-          package="v.io/x/devtools/v23"
-          project="release.go.x.devtools"/>
-  </tools>
 </manifest>

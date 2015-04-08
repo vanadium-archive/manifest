@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
+    <import name="mirror/infrastructure"/>
+    <import name="mirror/java"/>
+    <import name="mirror/lang"/>
     <import name="mirror/private"/>
     <import name="mirror/public"/>
-    <import name="mirror/infrastructure"/>
+    <import name="mirror/store"/>
+    <import name="mirror/tools"/>
   </imports>
-  <tools>
-    <tool name="postsubmit"
-          package="v.io/x/devtools/postsubmit"
-          project="release.go.x.devtools"/>
-  </tools>
 </manifest>
