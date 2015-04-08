@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projects>
+    <project name="release.go.x.jni"
+             remote="https://vanadium.googlesource.com/release.go.x.jni"
+             path="roadmap/go/src/v.io/x/jni"/>
+    <project name="release.java"
+             remote="https://vanadium.googlesource.com/release.java"
+             path="roadmap/java"/>
+  </projects>
+</manifest>
