@@ -31,9 +31,6 @@
     <project name="release.projects.playground"
              remote="https://vanadium.googlesource.com/release.projects.playground"
              path="release/projects/playground"/>
-    <project name="scripts"
-             remote="https://vanadium.googlesource.com/scripts"
-             path="scripts"/>
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
              path="third_party"/>
