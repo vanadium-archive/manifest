@@ -7,8 +7,5 @@
     <project name="experimental"
              remote="https://vanadium.googlesource.com/experimental"
              path="experimental"/>
-    <project name="scripts"
-             remote="https://vanadium.googlesource.com/scripts"
-             path="scripts"/>
   </projects>
 </manifest>

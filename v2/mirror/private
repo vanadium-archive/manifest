@@ -7,8 +7,5 @@
     <project name="experimental"
              remote="git@git-mirror:/home/veyron/vanadium/experimental"
              path="experimental"/>
-    <project name="scripts"
-             remote="git@git-mirror:/home/veyron/vanadium/scripts"
-             path="scripts"/>
   </projects>
 </manifest>
