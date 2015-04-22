@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <projects>
-    <project name="environment"
-             remote="https://vanadium.googlesource.com/environment"
-             path="environment"/>
     <project name="release.go.v23"
              remote="https://vanadium.googlesource.com/release.go.v23"
              path="release/go/src/v.io/v23"/>

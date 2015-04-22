@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <projects>
-    <project name="environment"
-             remote="git@git-mirror:/home/veyron/vanadium/environment"
-             path="environment"/>
     <project name="release.go.v23"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/v23"
              path="release/go/src/v.io/v23"/>
