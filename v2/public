@@ -45,8 +45,8 @@
     <tool name="vdl"
           package="v.io/x/ref/cmd/vdl"
           project="release.go.x.ref"/>
-    <tool name="vloggy"
-          package="v.io/x/devtools/vloggy"
+    <tool name="logcop"
+          package="v.io/x/devtools/logcop"
           project="release.go.x.devtools"/>
   </tools>
 </manifest>
