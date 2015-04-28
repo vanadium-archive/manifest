@@ -11,14 +11,6 @@
            path="environment"/>
   <project name="experimental"
            path="experimental"/>
-  <project name="namespace_browser"
-           path="release/projects/namespace_browser"/>
-  <project name="release.go.apps"
-           path="release/go/src/v.io/apps"/>
-  <project name="release.go.jni"
-           path="release/go/src/v.io/jni"/>
-  <project name="release.go.tools"
-           path="release/go/src/v.io/tools"/>
   <project name="release.go.v23"
            path="release/go/src/v.io/v23"/>
   <project name="release.go.x.devtools"
@@ -31,6 +23,8 @@
            path="release/java"/>
   <project name="release.js.core"
            path="release/javascript/core"/>
+  <project name="release.projects.browser"
+           path="release/projects/browser"/>
   <project name="release.projects.chat"
            path="release/projects/chat"/>
   <project name="release.projects.pipe2browser"
