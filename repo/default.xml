@@ -7,10 +7,10 @@
            remote="vanadium"/>
   <project name="deprecated"
            path="deprecated"/>
-  <project name="environment"
-           path="environment"/>
   <project name="experimental"
            path="experimental"/>
+  <project name="infrastructure"
+           path="infrastructure"/>
   <project name="release.go.v23"
            path="release/go/src/v.io/v23"/>
   <project name="release.go.x.devtools"
