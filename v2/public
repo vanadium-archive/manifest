@@ -28,6 +28,12 @@
     <project name="release.projects.playground"
              remote="https://vanadium.googlesource.com/release.projects.playground"
              path="release/projects/playground"/>
+    <project name="release.projects.media-sharing"
+             remote="https://vanadium.googlesource.com/release.projects.media-sharing"
+             path="release/projects/media-sharing"/>
+    <project name="release.projects.physical-lock"
+             remote="https://vanadium.googlesource.com/release.projects.physical-lock"
+             path="release/projects/physical-lock"/>
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
              path="third_party"/>
