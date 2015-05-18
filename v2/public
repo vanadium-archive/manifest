@@ -42,8 +42,17 @@
              path="www"/>
   </projects>
   <tools>
+    <tool name="godepcop"
+          package="v.io/x/devtools/godepcop"
+          project="release.go.x.devtools"/>
     <tool name="go-depcop"
           package="v.io/x/devtools/go-depcop"
+          project="release.go.x.devtools"/>
+    <tool name="gologcop"
+          package="v.io/x/devtools/gologcop"
+          project="release.go.x.devtools"/>
+    <tool name="logcop"
+          package="v.io/x/devtools/logcop"
           project="release.go.x.devtools"/>
     <tool name="v23"
           package="v.io/x/devtools/v23"
@@ -51,8 +60,5 @@
     <tool name="vdl"
           package="v.io/x/ref/cmd/vdl"
           project="release.go.x.ref"/>
-    <tool name="logcop"
-          package="v.io/x/devtools/logcop"
-          project="release.go.x.devtools"/>
   </tools>
 </manifest>
