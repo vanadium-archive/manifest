@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <imports>
-    <import name="store"/>
-  </imports>
   <projects>
     <project name="release.go.v23"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/v23"

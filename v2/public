@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <imports>
-    <import name="store"/>
-  </imports>
   <projects>
     <project name="release.go.v23"
              remote="https://vanadium.googlesource.com/release.go.v23"
