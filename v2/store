@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<imports>
+    <imports>
     <import name="default"/>
-	</imports>
+    </imports>
   <projects>
     <project name="roadmap.go.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.go.syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
+    <project name="roadmap.js.syncbase"
+             remote="https://vanadium.googlesource.com/roadmap.js.syncbase"
+             path="roadmap/javascript/syncbase"/>
   </projects>
 </manifest>
