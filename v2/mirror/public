@@ -34,6 +34,12 @@
     <project name="release.projects.physical-lock"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/physical-lock"
              path="release/projects/physical-lock"/>
+    <project name="roadmap.go.syncbase"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/syncbase"
+             path="roadmap/go/src/v.io/syncbase"/>
+    <project name="roadmap.js.syncbase"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/javascript/syncbase"
+             path="roadmap/go/src/v.io/syncbase"/>
     <project name="third_party"
              remote="git@git-mirror:/home/veyron/vanadium/third_party"
              path="third_party"/>
