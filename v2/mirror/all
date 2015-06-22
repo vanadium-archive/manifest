@@ -2,7 +2,6 @@
 <manifest>
   <imports>
     <import name="mirror/infrastructure"/>
-    <import name="mirror/java"/>
     <import name="mirror/lang"/>
     <import name="mirror/private"/>
     <import name="mirror/public"/>

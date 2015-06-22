@@ -2,7 +2,6 @@
 <manifest>
   <imports>
     <import name="infrastructure"/>
-    <import name="java"/>
     <import name="lang"/>
     <import name="private"/>
     <import name="public"/>
