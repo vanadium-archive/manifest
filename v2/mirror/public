@@ -40,6 +40,9 @@
     <project name="release.projects.physical-lock"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/physical-lock"
              path="release/projects/physical-lock"/>
+    <project name="release.projects.reader"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/reader"
+             path="release/projects/reader"/>
     <project name="roadmap.go.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
