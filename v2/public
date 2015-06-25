@@ -40,6 +40,9 @@
     <project name="release.projects.physical-lock"
              remote="https://vanadium.googlesource.com/release.projects.physical-lock"
              path="release/projects/physical-lock"/>
+    <project name="release.projects.reader"
+             remote="https://vanadium.googlesource.com/release.projects.reader"
+             path="release/projects/reader"/>
     <project name="roadmap.go.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.go.syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
