@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <projects>
+    <project name="roadmap.blue"
+             remote="https://vanadium.googlesource.com/roadmap.blue"
+             path="roadmap/blue"/>
     <project name="deprecated"
              remote="https://vanadium.googlesource.com/deprecated"
              path="deprecated"/>
