@@ -39,6 +39,8 @@
            path="roadmap/go/src/v.io/syncbase"/>
   <project name="roadmap.golang"
            path="roadmap/golang"/>
+  <project name="roadmap.js.syncbase"
+           path="roadmap/roadmap/javascript/syncbase"/>
   <project name="scripts"
            path="scripts"/>
   <project name="third_party"
