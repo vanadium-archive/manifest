@@ -1,0 +1,26 @@
+<manifest label="">
+  <imports></imports>
+  <projects>
+    <project exclude="false" name="www" path="/www" protocol="git" remote="https://vanadium.googlesource.com/www" revision="00a0e7c6334e4ee270971998b216ce39b484e4f2"></project>
+    <project exclude="false" name="release.projects.browser" path="/release/projects/browser" protocol="git" remote="https://vanadium.googlesource.com/release.projects.browser" revision="924c88d2694364cdc9a4d958d3fb8aba107690fa"></project>
+    <project exclude="false" name="release.projects.media-sharing" path="/release/projects/media-sharing" protocol="git" remote="https://vanadium.googlesource.com/release.projects.media-sharing" revision="fe8459774a8c4d5d48c6b669db478d2b44b5a98d"></project>
+    <project exclude="false" name="roadmap.js.syncbase" path="/roadmap/javascript/syncbase" protocol="git" remote="https://vanadium.googlesource.com/roadmap.js.syncbase" revision="3ee868c39ad8288149d9a792cb5996ca6f5fb4d4"></project>
+    <project exclude="false" name="release.projects.playground" path="/release/projects/playground" protocol="git" remote="https://vanadium.googlesource.com/release.projects.playground" revision="4601232791d71c8e912b0996d55e3075b6942aeb"></project>
+    <project exclude="false" name="release.go.x.devtools" path="/release/go/src/v.io/x/devtools" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.devtools" revision="4959f582f9d0da9a0908ed0bfb65c6b6fc113da0"></project>
+    <project exclude="false" name="release.go.x.lib" path="/release/go/src/v.io/x/lib" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.lib" revision="9d6d983d01f06ba0917b29778c1bdb8d94c810e6"></project>
+    <project exclude="false" name="release.projects.chat" path="/release/projects/chat" protocol="git" remote="https://vanadium.googlesource.com/release.projects.chat" revision="ceb238791985dacf2c028a1f050bcaa7feaa5e47"></project>
+    <project exclude="false" name="release.projects.physical-lock" path="/release/projects/physical-lock" protocol="git" remote="https://vanadium.googlesource.com/release.projects.physical-lock" revision="59fbc56fc74dae5180ceb61a2312e4df87d92f49"></project>
+    <project exclude="false" name="roadmap.go.syncbase" path="/roadmap/go/src/v.io/syncbase" protocol="git" remote="https://vanadium.googlesource.com/roadmap.go.syncbase" revision="d6a75579b53dc76619a33272c744f148920394e5"></project>
+    <project exclude="false" name="third_party" path="/third_party" protocol="git" remote="https://vanadium.googlesource.com/third_party" revision="f60d925cb5f85022eceaa7e36ed310f2189dbd32"></project>
+    <project exclude="false" name="release.go.x.jni" path="/release/go/src/v.io/x/jni" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.jni" revision="84af7f4958f484e4349316d9c2eef5d29bcabbe2"></project>
+    <project exclude="false" name="release.go.x.ref" path="/release/go/src/v.io/x/ref" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.ref" revision="56db085dd12f1409f539268f16c4390f2eb4cd21"></project>
+    <project exclude="false" name="release.java" path="/release/java" protocol="git" remote="https://vanadium.googlesource.com/release.java" revision="4fa25f3e8e28bb2d5c84ed5c9507e4ae76ad14d4"></project>
+    <project exclude="false" name="release.projects.reader" path="/release/projects/reader" protocol="git" remote="https://vanadium.googlesource.com/release.projects.reader" revision="6cd8ba75905fd12ba55369ef57742d73e6f59645"></project>
+    <project exclude="false" name="release.go.v23" path="/release/go/src/v.io/v23" protocol="git" remote="https://vanadium.googlesource.com/release.go.v23" revision="15960c9c741cae6e226ed60b0e6c0dfc6867a854"></project>
+    <project exclude="false" name="release.js.core" path="/release/javascript/core" protocol="git" remote="https://vanadium.googlesource.com/release.js.core" revision="e3c18ad667c39cdc1120703cd3511008cff95777"></project>
+    <project exclude="false" name="release.projects.pipe2browser" path="/release/projects/pipe2browser" protocol="git" remote="https://vanadium.googlesource.com/release.projects.pipe2browser" revision="7715496b827c0154c0787b1d85a489ab967af33d"></project>
+  </projects>
+  <tools>
+    <tool exclude="false" data="data" name="v23" package="v.io/x/devtools/v23" project="release.go.x.devtools"></tool>
+  </tools>
+</manifest>
