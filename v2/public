@@ -43,6 +43,9 @@
     <project name="release.projects.reader"
              remote="https://vanadium.googlesource.com/release.projects.reader"
              path="release/projects/reader"/>
+    <project name="release.projects.travel"
+	     remote="https://vanadium.googlesource.com/release.projects.travel"
+	     path="release/projects/travel"/>
     <project name="roadmap.go.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.go.syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
