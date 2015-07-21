@@ -43,6 +43,9 @@
     <project name="release.projects.reader"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/reader"
              path="release/projects/reader"/>
+    <project name="release.projects.travel"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/travel"
+             path="release/projects/travel"/>
     <project name="roadmap.go.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
