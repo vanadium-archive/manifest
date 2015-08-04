@@ -1,0 +1,27 @@
+<manifest label="">
+  <imports></imports>
+  <projects>
+    <project exclude="false" name="release.projects.chat" path="/release/projects/chat" protocol="git" remote="https://vanadium.googlesource.com/release.projects.chat" revision="ceb238791985dacf2c028a1f050bcaa7feaa5e47"></project>
+    <project exclude="false" name="release.go.v23" path="/release/go/src/v.io/v23" protocol="git" remote="https://vanadium.googlesource.com/release.go.v23" revision="0cd0473708ceec76d47a19dc3986577304c41802"></project>
+    <project exclude="false" name="release.go.x.devtools" path="/release/go/src/v.io/x/devtools" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.devtools" revision="8f46c724a1aa8d984e3fdf9c22d06d6759f31195"></project>
+    <project exclude="false" name="release.java" path="/release/java" protocol="git" remote="https://vanadium.googlesource.com/release.java" revision="542a6e262c6c95996b76f4b77c07f121bf69d6e3"></project>
+    <project exclude="false" name="release.js.core" path="/release/javascript/core" protocol="git" remote="https://vanadium.googlesource.com/release.js.core" revision="54cf188dabc61373286189739f54cfb925d2cdac"></project>
+    <project exclude="false" name="release.projects.travel" path="/release/projects/travel" protocol="git" remote="https://vanadium.googlesource.com/release.projects.travel" revision="63f1178dab2775fbd3e3b89c86f899d526bacdbf"></project>
+    <project exclude="false" name="roadmap.go.syncbase" path="/roadmap/go/src/v.io/syncbase" protocol="git" remote="https://vanadium.googlesource.com/roadmap.go.syncbase" revision="6bf4e9080d1903140d6dac239d1ddbad82a4c852"></project>
+    <project exclude="false" name="roadmap.js.syncbase" path="/roadmap/javascript/syncbase" protocol="git" remote="https://vanadium.googlesource.com/roadmap.js.syncbase" revision="54f0efa319da0ff7c90735bb41809e94bafc801a"></project>
+    <project exclude="false" name="release.go.x.ref" path="/release/go/src/v.io/x/ref" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.ref" revision="482695e514859402dbc12e9ca66818db7ca7fde6"></project>
+    <project exclude="false" name="release.projects.browser" path="/release/projects/browser" protocol="git" remote="https://vanadium.googlesource.com/release.projects.browser" revision="924c88d2694364cdc9a4d958d3fb8aba107690fa"></project>
+    <project exclude="false" name="release.projects.pipe2browser" path="/release/projects/pipe2browser" protocol="git" remote="https://vanadium.googlesource.com/release.projects.pipe2browser" revision="7715496b827c0154c0787b1d85a489ab967af33d"></project>
+    <project exclude="false" name="release.projects.reader" path="/release/projects/reader" protocol="git" remote="https://vanadium.googlesource.com/release.projects.reader" revision="14a802d74f197b2d2433f0e762e2f61058075da7"></project>
+    <project exclude="false" name="release.go.x.jni" path="/release/go/src/v.io/x/jni" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.jni" revision="d5104f7d5e86790aad77e91c40fa1e4fe7ea11b5"></project>
+    <project exclude="false" name="release.projects.playground" path="/release/projects/playground" protocol="git" remote="https://vanadium.googlesource.com/release.projects.playground" revision="4601232791d71c8e912b0996d55e3075b6942aeb"></project>
+    <project exclude="false" name="www" path="/www" protocol="git" remote="https://vanadium.googlesource.com/www" revision="c3472394d78121e8a1a1ba0db261d39a50ca2599"></project>
+    <project exclude="false" name="release.go.x.lib" path="/release/go/src/v.io/x/lib" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.lib" revision="fcfbe5fb98b8b58c7bc7dca051ac6ca9fe134b3c"></project>
+    <project exclude="false" name="release.projects.media-sharing" path="/release/projects/media-sharing" protocol="git" remote="https://vanadium.googlesource.com/release.projects.media-sharing" revision="fe8459774a8c4d5d48c6b669db478d2b44b5a98d"></project>
+    <project exclude="false" name="release.projects.physical-lock" path="/release/projects/physical-lock" protocol="git" remote="https://vanadium.googlesource.com/release.projects.physical-lock" revision="59fbc56fc74dae5180ceb61a2312e4df87d92f49"></project>
+    <project exclude="false" name="third_party" path="/third_party" protocol="git" remote="https://vanadium.googlesource.com/third_party" revision="19f994a37c25f9f5aa58e463d498d4bef4490468"></project>
+  </projects>
+  <tools>
+    <tool exclude="false" data="data" name="v23" package="v.io/x/devtools/v23" project="release.go.x.devtools"></tool>
+  </tools>
+</manifest>
