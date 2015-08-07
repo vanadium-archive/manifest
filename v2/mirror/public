@@ -49,6 +49,9 @@
     <project name="roadmap.go.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
+    <project name="roadmap.java.syncbase"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/java/syncbase"
+             path="roadmap/java/syncbase"/>
     <project name="roadmap.js.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/javascript/syncbase"
              path="roadmap/javascript/syncbase"/>

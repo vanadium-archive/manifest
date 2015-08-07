@@ -49,6 +49,9 @@
     <project name="roadmap.go.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.go.syncbase"
              path="roadmap/go/src/v.io/syncbase"/>
+    <project name="roadmap.java.syncbase"
+             remote="https://vanadium.googlesource.com/roadmap.java.syncbase"
+             path="roadmap/java/syncbase"/>
     <project name="roadmap.js.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.js.syncbase"
              path="roadmap/javascript/syncbase"/>
