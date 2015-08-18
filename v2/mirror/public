@@ -66,12 +66,6 @@
              path="www"/>
   </projects>
   <tools>
-    <tool name="godepcop"
-          package="v.io/x/devtools/godepcop"
-          project="release.go.x.devtools"/>
-    <tool name="gologcop"
-          package="v.io/x/devtools/gologcop"
-          project="release.go.x.devtools"/>
     <tool name="v23"
           package="v.io/x/devtools/v23"
           project="release.go.x.devtools"/>
