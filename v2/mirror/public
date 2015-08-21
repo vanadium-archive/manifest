@@ -87,8 +87,8 @@
     <tool name="v23-oncall"
           package="v.io/x/devtools/v23-oncall"
           project="release.go.x.devtools"/>
-    <tool name="v23-public"
-          package="v.io/x/devtools/v23-public"
+    <tool name="v23-profile"
+          package="v.io/x/devtools/v23-profile"
           project="release.go.x.devtools"/>
     <tool name="v23-run"
           package="v.io/x/devtools/v23-run"
