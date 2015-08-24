@@ -53,6 +53,8 @@
            path="roadmap/go/src/v.io/syncbase"/>
   <project name="roadmap.golang"
            path="roadmap/golang"/>
+  <project name="roadmap.java.syncbase"
+           path="roadmap/java/syncbase"/>
   <project name="roadmap.js.syncbase"
            path="roadmap/javascript/syncbase"/>
   <project name="scripts"
