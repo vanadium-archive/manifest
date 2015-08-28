@@ -57,6 +57,8 @@
            path="roadmap/java/syncbase"/>
   <project name="roadmap.js.syncbase"
            path="roadmap/javascript/syncbase"/>
+  <project name="roadmap.mojo.syncbase"
+           path="roadmap/mojo/syncbase"/>
   <project name="scripts"
            path="scripts"/>
   <project name="third_party"

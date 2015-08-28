@@ -58,6 +58,12 @@
     <project name="roadmap.js.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.js.syncbase"
              path="roadmap/javascript/syncbase"/>
+    <project name="roadmap.mojo.syncbase"
+             remote="https://vanadium.googlesource.com/roadmap.mojo.syncbase"
+             path="roadmap/mojo/syncbase"/>
+    <project name="roadmap.projects.croupier"
+             remote="https://vanadium.googlesource.com/roadmap.projects.croupier"
+             path="roadmap/projects/croupier"/>
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
              path="third_party"/>

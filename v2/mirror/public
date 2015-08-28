@@ -58,6 +58,12 @@
     <project name="roadmap.js.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/javascript/syncbase"
              path="roadmap/javascript/syncbase"/>
+    <project name="roadmap.mojo.syncbase"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/mojo/syncbase"
+             path="roadmap/mojo/syncbase"/>
+    <project name="roadmap.projects.croupier"
+             remote="git@git-mirror:/home/veyron/vanadium/roadmap/projects/croupier"
+             path="roadmap/projects/croupier"/>
     <project name="third_party"
              remote="git@git-mirror:/home/veyron/vanadium/third_party"
              path="third_party"/>
