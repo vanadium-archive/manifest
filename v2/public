@@ -22,6 +22,9 @@
     <project name="release.js.core"
              remote="https://vanadium.googlesource.com/release.js.core"
              path="release/javascript/core"/>
+    <project name="release.js.syncbase"
+             remote="https://vanadium.googlesource.com/release.js.syncbase"
+             path="release/javascript/syncbase"/>
     <project name="release.projects.browser"
              remote="https://vanadium.googlesource.com/release.projects.browser"
              path="release/projects/browser"/>
