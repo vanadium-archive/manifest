@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <projects>
+    <project name="release.go.jiri"
+             remote="https://vanadium.googlesource.com/release.go.jiri"
+             path="release/go/src/v.io/jiri"/>
     <project name="release.go.x.devtools"
              remote="https://vanadium.googlesource.com/release.go.x.devtools"
              path="release/go/src/v.io/x/devtools"/>
@@ -9,6 +12,10 @@
              path="release/go/src/v.io/x/lib"/>
   </projects>
   <tools>
+    <tool name="jiri"
+          package="v.io/jiri"
+          project="release.go.jiri"/>
+    <!-- TODO(nlacasse): Get rid of the "v23" tool below once "jiri" tool is working in new location. -->
     <tool name="v23"
           package="v.io/x/devtools/v23"
           project="release.go.x.devtools"/>
