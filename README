@@ -1,19 +1,19 @@
 # Manifests
 
-The files in this repository are referred to as "manifests" and
-are used by the v23 tool for multi-repository management. Each
-manifest describes a set of projects and each project consist of a
-remote repository, a local path, and other optional attributes.
+The files in this repository are referred to as "manifests" and are
+used by the v23 tool for multi-repository management. Each manifest
+describes a set of projects and each project consists of a remote
+repository, a local path, and other optional attributes.
 
 Backwards incompatible changes to the manifest format are deployed by
 creating a new 'version' subdirectory (e.g. v2) and a new default
-manifest (e.g. v2/default), which is used by new versions of the
-veyron tool by default. Format of existing manifest files should not
-be changed as old versions of the veyron tool would not be able to
-parse them.
+manifest (e.g. v2/default), which is used by new versions of the v23
+tool by default. The format of existing manifest files should not be
+changed, as old versions of the v23 tool would not be able to parse
+them.
 
-To add a project to an existing Vanadium universe, one should add
-it to relevant manifest for all versions that are still supported,
+To add a project to an existing Vanadium universe, one should add it
+to the relevant manifest for all versions that are still supported,
 following the format of the respective versions.
 
 Further, the set of projects that form a Vanadium universe should be
