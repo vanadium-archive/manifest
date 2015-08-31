@@ -66,7 +66,10 @@
              path="roadmap/javascript/syncbase"/>
     <project name="roadmap.mojo.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.mojo.syncbase"
-             path="roadmap/mojo/syncbase"/>
+	     path="roadmap/mojo/syncbase"/>
+    <project name="roadmap.mojo.syncbase"
+             remote="https://vanadium.googlesource.com/roadmap.mojo.shared"
+	     path="roadmap/mojo/shared"/>
     <project name="roadmap.projects.croupier"
              remote="https://vanadium.googlesource.com/roadmap.projects.croupier"
              path="roadmap/projects/croupier"/>
