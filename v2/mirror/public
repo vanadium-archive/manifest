@@ -27,7 +27,10 @@
              path="release/javascript/core"/>
     <project name="release.js.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/release/javascript/syncbase"
-             path="release/javascript/syncbase"/>
+	     path="release/javascript/syncbase"/>
+    <project name="release.mojo.discovery"
+	     remote="git@git-mirror:/home/veyron/vanadium/release/mojo/discovery"
+	     path="release/mojo/discovery"/>
     <project name="release.mojo.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/release/mojo/syncbase"
              path="release/mojo/syncbase"/>
