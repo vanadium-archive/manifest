@@ -28,6 +28,12 @@
     <project name="release.js.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/release/javascript/syncbase"
              path="release/javascript/syncbase"/>
+    <project name="release.mojo.syncbase"
+             remote="git@git-mirror:/home/veyron/vanadium/release/mojo/syncbase"
+             path="release/mojo/syncbase"/>
+    <project name="release.mojo.shared"
+             remote="git@git-mirror:/home/veyron/vanadium/release/mojo/shared"
+             path="release/mojo/shared"/>
     <project name="release.projects.browser"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/browser"
              path="release/projects/browser"/>
@@ -64,12 +70,6 @@
     <project name="roadmap.js.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/javascript/syncbase"
              path="roadmap/javascript/syncbase"/>
-    <project name="roadmap.mojo.syncbase"
-             remote="git@git-mirror:/home/veyron/vanadium/roadmap/mojo/syncbase"
-	     path="roadmap/mojo/syncbase"/>
-     <project name="roadmap.mojo.shared"
-	     remote="git@git-mirror:/home/veyron/vanadium/roadmap/mojo/shared"
-	     path="roadmap/mojo/shared"/>
     <project name="roadmap.projects.croupier"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/projects/croupier"
              path="roadmap/projects/croupier"/>

@@ -28,6 +28,12 @@
     <project name="release.js.syncbase"
              remote="https://vanadium.googlesource.com/release.js.syncbase"
              path="release/javascript/syncbase"/>
+    <project name="release.mojo.syncbase"
+             remote="https://vanadium.googlesource.com/release.mojo.syncbase"
+             path="release/mojo/syncbase"/>
+    <project name="release.mojo.shared"
+             remote="https://vanadium.googlesource.com/release.mojo.shared"
+             path="release/mojo/shared"/>
     <project name="release.projects.browser"
              remote="https://vanadium.googlesource.com/release.projects.browser"
              path="release/projects/browser"/>
@@ -64,12 +70,6 @@
     <project name="roadmap.js.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.js.syncbase"
              path="roadmap/javascript/syncbase"/>
-    <project name="roadmap.mojo.syncbase"
-             remote="https://vanadium.googlesource.com/roadmap.mojo.syncbase"
-	     path="roadmap/mojo/syncbase"/>
-    <project name="roadmap.mojo.shared"
-             remote="https://vanadium.googlesource.com/roadmap.mojo.shared"
-	     path="roadmap/mojo/shared"/>
     <project name="roadmap.projects.croupier"
              remote="https://vanadium.googlesource.com/roadmap.projects.croupier"
              path="roadmap/projects/croupier"/>
