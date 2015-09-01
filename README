@@ -20,3 +20,8 @@ Further, the set of projects that form a Vanadium universe should be
 closed under transitive closure with respect to dependencies. In other
 words, if a project A depends on a project B, then project A should
 only be included in manifests that include project B as well.
+
+# Code search
+
+The repo/default.xml file is used to configure code search used
+internally.
