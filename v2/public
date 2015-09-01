@@ -43,6 +43,9 @@
     <project name="release.projects.chat"
              remote="https://vanadium.googlesource.com/release.projects.chat"
              path="release/projects/chat"/>
+    <project name="release.projects.croupier"
+             remote="https://vanadium.googlesource.com/release.projects.croupier"
+             path="release/projects/croupier"/>
     <project name="release.projects.media-sharing"
              remote="https://vanadium.googlesource.com/release.projects.media-sharing"
              path="release/projects/media-sharing"/>
@@ -67,9 +70,6 @@
     <project name="roadmap.java.syncbase"
              remote="https://vanadium.googlesource.com/roadmap.java.syncbase"
              path="roadmap/java/syncbase"/>
-    <project name="roadmap.projects.croupier"
-             remote="https://vanadium.googlesource.com/roadmap.projects.croupier"
-             path="roadmap/projects/croupier"/>
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
              path="third_party"/>
