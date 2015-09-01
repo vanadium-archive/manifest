@@ -5,7 +5,6 @@
     <import name="lang"/>
     <import name="private"/>
     <import name="public"/>
-    <import name="store"/>
     <import name="tools"/>
   </imports>
 </manifest>

@@ -5,7 +5,6 @@
     <import name="mirror/lang"/>
     <import name="mirror/private"/>
     <import name="mirror/public"/>
-    <import name="mirror/store"/>
     <import name="mirror/tools"/>
   </imports>
 </manifest>

@@ -61,15 +61,9 @@
     <project name="release.projects.travel"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/travel"
              path="release/projects/travel"/>
-    <project name="roadmap.go.syncbase"
-             remote="git@git-mirror:/home/veyron/vanadium/roadmap/go/src/v.io/syncbase"
-             path="roadmap/go/src/v.io/syncbase"/>
     <project name="roadmap.java.syncbase"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/java/syncbase"
              path="roadmap/java/syncbase"/>
-    <project name="roadmap.js.syncbase"
-             remote="git@git-mirror:/home/veyron/vanadium/roadmap/javascript/syncbase"
-             path="roadmap/javascript/syncbase"/>
     <project name="roadmap.projects.croupier"
              remote="git@git-mirror:/home/veyron/vanadium/roadmap/projects/croupier"
              path="roadmap/projects/croupier"/>
