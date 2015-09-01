@@ -65,8 +65,6 @@
            path="roadmap/golang"/>
   <project name="roadmap.java.syncbase"
            path="roadmap/java/syncbase"/>
-  <project name="scripts"
-           path="scripts"/>
   <project name="third_party"
            path="third_party"/>
   <project name="www"
