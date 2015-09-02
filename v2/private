@@ -10,8 +10,5 @@
     <project name="infrastructure"
              remote="https://vanadium.googlesource.com/infrastructure"
              path="infrastructure"/>
-    <project name="roadmap.blue"
-             remote="https://vanadium.googlesource.com/roadmap.blue"
-             path="roadmap/blue"/>
   </projects>
 </manifest>

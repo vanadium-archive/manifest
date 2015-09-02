@@ -13,8 +13,5 @@
     <project name="infrastructure"
              remote="git@git-mirror:/home/veyron/vanadium/infrastructure"
              path="infrastructure"/>
-    <project name="roadmap.blue"
-             remote="git@git-mirror:/home/veyron/vanadium/roadmap/blue"
-             path="roadmap/blue"/>
   </projects>
 </manifest>
