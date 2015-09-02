@@ -67,9 +67,6 @@
     <project name="release.projects.travel"
              remote="https://vanadium.googlesource.com/release.projects.travel"
              path="release/projects/travel"/>
-    <project name="roadmap.java.syncbase"
-             remote="https://vanadium.googlesource.com/roadmap.java.syncbase"
-             path="roadmap/java/syncbase"/>
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
              path="third_party"/>

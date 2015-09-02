@@ -67,9 +67,6 @@
     <project name="release.projects.travel"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/travel"
              path="release/projects/travel"/>
-    <project name="roadmap.java.syncbase"
-             remote="git@git-mirror:/home/veyron/vanadium/roadmap/java/syncbase"
-             path="roadmap/java/syncbase"/>
     <project name="third_party"
              remote="git@git-mirror:/home/veyron/vanadium/third_party"
              path="third_party"/>
