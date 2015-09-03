@@ -27,16 +27,16 @@
              path="release/javascript/core"/>
     <project name="release.js.syncbase"
              remote="https://vanadium.googlesource.com/release.js.syncbase"
-	     path="release/javascript/syncbase"/>
+         path="release/javascript/syncbase"/>
     <project name="release.mojo.discovery"
-	     remote="https://vanadium.googlesource.com/release.mojo.discovery"
-	     path="release/mojo/discovery"/>
+         remote="https://vanadium.googlesource.com/release.mojo.discovery"
+         path="release/mojo/discovery"/>
     <project name="release.mojo.syncbase"
              remote="https://vanadium.googlesource.com/release.mojo.syncbase"
              path="release/mojo/syncbase"/>
     <project name="release.mojo.shared"
              remote="https://vanadium.googlesource.com/release.mojo.shared"
-	     path="release/mojo/shared"/>
+         path="release/mojo/shared"/>
     <project name="release.projects.browser"
              remote="https://vanadium.googlesource.com/release.projects.browser"
              path="release/projects/browser"/>
@@ -77,7 +77,8 @@
   <tools>
     <tool name="jiri"
           package="v.io/jiri"
-          project="release.go.jiri"/>
+          project="release.go.jiri"
+          data="../x/devtools/data"/>
     <tool name="jiri-api"
           package="v.io/x/devtools/jiri-api"
           project="release.go.x.devtools"/>
