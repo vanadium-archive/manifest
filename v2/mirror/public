@@ -77,7 +77,8 @@
   <tools>
     <tool name="jiri"
           package="v.io/jiri"
-          project="release.go.jiri"/>
+          project="release.go.jiri"
+          data="../x/devtools/data"/>
     <tool name="jiri-api"
           package="v.io/x/devtools/jiri-api"
           project="release.go.x.devtools"/>

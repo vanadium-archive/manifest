@@ -14,7 +14,8 @@
   <tools>
     <tool name="jiri"
           package="v.io/jiri"
-          project="release.go.jiri"/>
+          project="release.go.jiri"
+          data="../x/devtools/data"/>
     <!-- TODO(nlacasse): Get rid of the "v23" tool below once "jiri" tool is working in new location. -->
     <tool name="v23"
           package="v.io/x/devtools/v23"
