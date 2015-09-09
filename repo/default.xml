@@ -55,16 +55,12 @@
            path="release/projects/todos"/>
   <project name="release.projects.travel"
            path="release/projects/travel"/>
-  <project name="roadmap.blue"
-           path="roadmap/blue"/>
   <project name="roadmap.go.nacl"
            path="roadmap/go/src/v.io/nacl"/>
   <project name="roadmap.go.proximity"
            path="roadmap/go/src/v.io/proximity"/>
   <project name="roadmap.golang"
            path="roadmap/golang"/>
-  <project name="roadmap.java.syncbase"
-           path="roadmap/java/syncbase"/>
   <project name="third_party"
            path="third_party"/>
   <project name="www"
