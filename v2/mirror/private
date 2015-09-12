@@ -4,9 +4,6 @@
     <project name="deprecated"
              remote="git@git-mirror:/home/veyron/vanadium/deprecated"
              path="deprecated"/>
-    <project name="deprecated"
-             remote="git@git-mirror:/home/veyron/vanadium/deprecated"
-             path="deprecated"/>
     <project name="experimental"
              remote="git@git-mirror:/home/veyron/vanadium/experimental"
              path="experimental"/>

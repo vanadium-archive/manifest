@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <projects>
+    <project name="docs"
+             remote="https://vanadium.googlesource.com/docs"
+             path="docs"/>
     <project name="release.go.jiri"
              remote="https://vanadium.googlesource.com/release.go.jiri"
              path="release/go/src/v.io/jiri"/>
