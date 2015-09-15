@@ -5,6 +5,12 @@ v.io/x/devtools/jiri-test/internal/test/github.go.
 TODO(sadovsky): Eliminate redundant configs.
 -->
 <manifest>
+  <hosts>
+    <host name="gerrit"
+          location="https://vanadium-review.googlesource.com/" />
+    <host name="git"
+          location="https://vanadium.googlesource.com/" />
+  </hosts>
   <projects>
     <project name="docs"
              remote="git@git-mirror:/home/veyron/vanadium/docs"
