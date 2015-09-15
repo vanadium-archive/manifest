@@ -1,9 +1,9 @@
-<!--
-    NOTE: For GitHub mirroring, you must also edit
-    v.io/x/devtools/jiri-test/internal/test/github.go.
-    TODO(sadovsky): Eliminate redundant configs.
--->
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+NOTE: For GitHub repo mirroring, you must also edit
+v.io/x/devtools/jiri-test/internal/test/github.go.
+TODO(sadovsky): Eliminate redundant configs.
+-->
 <manifest>
   <projects>
     <project name="docs"
