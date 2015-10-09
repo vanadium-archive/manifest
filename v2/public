@@ -79,9 +79,6 @@
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
              path="third_party"/>
-    <project name="www"
-             remote="https://vanadium.googlesource.com/www"
-             path="www"/>
   </projects>
   <tools>
     <tool name="jiri"

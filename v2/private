@@ -10,5 +10,8 @@
     <project name="infrastructure"
              remote="https://vanadium.googlesource.com/infrastructure"
              path="infrastructure"/>
+    <project name="www"
+             remote="https://vanadium.googlesource.com/www"
+             path="www"/>
   </projects>
 </manifest>

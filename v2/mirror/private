@@ -10,5 +10,8 @@
     <project name="infrastructure"
              remote="git@git-mirror:/home/veyron/vanadium/infrastructure"
              path="infrastructure"/>
+    <project name="www"
+             remote="git@git-mirror:/home/veyron/vanadium/www"
+             path="www"/>
   </projects>
 </manifest>
