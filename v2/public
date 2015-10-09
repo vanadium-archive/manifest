@@ -94,6 +94,9 @@
     <tool name="jiri-copyright"
           package="v.io/x/devtools/jiri-copyright"
           project="release.go.x.devtools"/>
+    <tool name="jiri-dockergo"
+          package="v.io/x/devtools/jiri-dockergo"
+          project="release.go.x.devtools"/>
     <tool name="jiri-env"
           package="v.io/x/devtools/jiri-env"
           project="release.go.x.devtools"/>
