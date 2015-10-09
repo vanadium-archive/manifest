@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <import name="mirror/public"/>
+  </imports>
+  <projects>
+    <project name="www"
+             remote="git@git-mirror:/home/veyron/vanadium/www"
+             path="www"/>
+  </projects>
+</manifest>
