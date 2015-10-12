@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<imports>
-    <import name="default"/>
-	</imports>
+  <imports>
+    <import name="public"/>
+  </imports>
   <projects>
     <project name="roadmap.golang"
              remote="https://vanadium.googlesource.com/roadmap.golang"

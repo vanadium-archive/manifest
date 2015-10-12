@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <imports>
+    <import name="protected"/>
+  </imports>
   <projects>
     <project name="deprecated"
              remote="https://vanadium.googlesource.com/deprecated"
@@ -10,8 +13,5 @@
     <project name="infrastructure"
              remote="https://vanadium.googlesource.com/infrastructure"
              path="infrastructure"/>
-    <project name="www"
-             remote="https://vanadium.googlesource.com/www"
-             path="www"/>
   </projects>
 </manifest>

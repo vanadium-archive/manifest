@@ -4,6 +4,7 @@
     <import name="infrastructure"/>
     <import name="lang"/>
     <import name="private"/>
+    <import name="protected"/>
     <import name="public"/>
     <import name="tools"/>
   </imports>

@@ -4,6 +4,7 @@
     <import name="mirror/infrastructure"/>
     <import name="mirror/lang"/>
     <import name="mirror/private"/>
+    <import name="mirror/protected"/>
     <import name="mirror/public"/>
     <import name="mirror/tools"/>
   </imports>
