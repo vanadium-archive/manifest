@@ -115,12 +115,9 @@
     <tool name="jiri-oncall"
           package="v.io/x/devtools/jiri-oncall"
           project="release.go.x.devtools"/>
-    <!-- TODO(nicolaou): Get rid of the profile and xprofile tools below once "v23-profile" is working, -->
+    <!-- TODO(nicolaou): Get rid of the profile tool below once "v23-profile" is working, -->
     <tool name="jiri-profile"
           package="v.io/x/devtools/jiri-profile"
-          project="release.go.x.devtools"/>
-    <tool name="jiri-xprofile"
-          package="v.io/x/devtools/jiri-xprofile"
           project="release.go.x.devtools"/>
     <tool name="jiri-v23-profile"
           package="v.io/x/devtools/jiri-v23-profile"

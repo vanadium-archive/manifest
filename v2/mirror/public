@@ -126,9 +126,6 @@ TODO(sadovsky): Eliminate redundant configs.
     <tool name="jiri-v23-profile"
           package="v.io/x/devtools/jiri-v23-profile"
           project="release.go.x.devtools"/>
-    <tool name="jiri-xprofile"
-          package="v.io/x/devtools/jiri-xprofile"
-          project="release.go.x.devtools"/>
     <tool name="jiri-run"
           package="v.io/x/devtools/jiri-run"
           project="release.go.x.devtools"/>
