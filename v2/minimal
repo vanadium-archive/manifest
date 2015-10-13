@@ -4,16 +4,7 @@
     <host name="gerrit"
           location="https://vanadium-review.googlesource.com/" />
     <host name="git"
-          location="https://vanadium.googlesource.com/">
-      <githooks>
-        <githook name="commit-msg"
-                 path="../x/devtools/data/git-hooks/commit-msg" />
-        <githook name="pre-commit"
-                 path="../x/devtools/data/git-hooks/pre-commit" />
-        <githook name="pre-push"
-                 path="../x/devtools/data/git-hooks/pre-push" />
-      </githooks>
-    </host>
+          location="https://vanadium.googlesource.com/" />
   </hosts>
   <projects>
     <project name="release.go.jiri"
