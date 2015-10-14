@@ -7,20 +7,15 @@
           location="https://vanadium.googlesource.com/">
       <githooks>
         <githook name="commit-msg"
-                 source="../../x/devtools/data/git-hooks/commit-msg" />
+                 source="../git-hooks/commit-msg" />
         <githook name="pre-commit"
-                 source="../../x/devtools/data/git-hooks/pre-commit" />
+                 source="../git-hooks/pre-commit" />
         <githook name="pre-push"
-                 source="../../x/devtools/data/git-hooks/pre-push" />
+                 source="../git-hooks/pre-push" />
       </githooks>
     </host>
   </hosts>
   <projects>
-    <!-- NOTE(nlacasse): release.go.x.devtools repo MUST be first, since it
-         contains git-hooks needed to set up all repos. -->
-    <project name="release.go.x.devtools"
-             remote="https://vanadium.googlesource.com/release.go.x.devtools"
-             path="release/go/src/v.io/x/devtools"/>
     <project name="docs"
              remote="https://vanadium.googlesource.com/docs"
              path="docs"/>
