@@ -6,9 +6,9 @@
     </host>
     <host name="git" location="https://vanadium.googlesource.com/">
       <githooks>
-        <githook name="commit-msg" source="/usr/local/google/home/veyron/.jenkins/jobs/release-candidate-1-snapshot/workspace/root/.manifest/git-hooks/commit-msg"></githook>
-        <githook name="pre-commit" source="/usr/local/google/home/veyron/.jenkins/jobs/release-candidate-1-snapshot/workspace/root/.manifest/git-hooks/pre-commit"></githook>
-        <githook name="pre-push" source="/usr/local/google/home/veyron/.jenkins/jobs/release-candidate-1-snapshot/workspace/root/.manifest/git-hooks/pre-push"></githook>
+        <githook name="commit-msg" path="/usr/local/google/home/veyron/.jenkins/jobs/release-candidate-1-snapshot/workspace/root/.manifest/git-hooks/commit-msg"></githook>
+        <githook name="pre-commit" path="/usr/local/google/home/veyron/.jenkins/jobs/release-candidate-1-snapshot/workspace/root/.manifest/git-hooks/pre-commit"></githook>
+        <githook name="pre-push" path="/usr/local/google/home/veyron/.jenkins/jobs/release-candidate-1-snapshot/workspace/root/.manifest/git-hooks/pre-push"></githook>
       </githooks>
     </host>
   </hosts>
