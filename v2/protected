@@ -1,3 +1,7 @@
+<!--
+	IMPORTANT: If you update this manifest, please update the corresponding manifest in v2/mirror.
+	See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-BjQ/edit#heading=h.c2f0louel2sf
+-->
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
