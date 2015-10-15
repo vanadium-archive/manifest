@@ -60,6 +60,9 @@ TODO(sadovsky): Eliminate redundant configs.
     <project name="release.mojo.shared"
              remote="git@git-mirror:/home/veyron/vanadium/release/mojo/shared"
              path="release/mojo/shared"/>
+    <project name="release.mojo.v23proxy"
+             remote="git@git-mirror:/home/veyron/vanadium/release/mojo/v23proxy"
+             path="release/mojo/v23proxy"/>
     <project name="release.projects.browser"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/browser"
              path="release/projects/browser"/>
