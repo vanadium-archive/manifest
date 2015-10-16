@@ -135,10 +135,6 @@ TODO(sadovsky): Eliminate redundant configs.
     <tool name="jiri-test"
           package="v.io/x/devtools/jiri-test"
           project="release.go.x.devtools"/>
-    <!-- TODO(nlacasse): Get rid of the "v23" tool below once "jiri" tool is working in new location. -->
-    <tool name="v23"
-          package="v.io/x/devtools/v23"
-          project="release.go.x.devtools"/>
     <tool name="vdl"
           package="v.io/x/ref/cmd/vdl"
           project="release.go.x.ref"/>
