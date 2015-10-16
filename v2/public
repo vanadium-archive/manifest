@@ -10,11 +10,16 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <host name="git"
           location="https://vanadium.googlesource.com/">
       <githooks>
+        <!-- TODO(nlacasse): Get rid of the "source" attributes once everybody
+             has had time to update. -->
         <githook name="commit-msg"
+                 source="../git-hooks/commit-msg"
                  path="../git-hooks/commit-msg" />
         <githook name="pre-commit"
+                 source="../git-hooks/pre-commit"
                  path="../git-hooks/pre-commit" />
         <githook name="pre-push"
+                 source="../git-hooks/pre-push"
                  path="../git-hooks/pre-push" />
       </githooks>
     </host>
