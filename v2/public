@@ -91,6 +91,9 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <project name="release.projects.reader"
              remote="https://vanadium.googlesource.com/release.projects.reader"
              path="release/projects/reader"/>
+    <project name="release.projects.syncslides"
+             remote="https://vanadium.googlesource.com/release.projects.syncslides"
+             path="release/projects/syncslides"/>
     <project name="release.projects.todos"
              remote="https://vanadium.googlesource.com/release.projects.todos"
              path="release/projects/todos"/>

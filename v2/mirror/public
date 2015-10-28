@@ -94,6 +94,9 @@ TODO(sadovsky): Eliminate redundant configs.
     <project name="release.projects.reader"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/reader"
              path="release/projects/reader"/>
+    <project name="release.projects.syncslides"
+             remote="git@git-mirror:/home/veyron/vanadium/release/projects/syncslides"
+             path="release/projects/syncslides"/>
     <project name="release.projects.todos"
              remote="git@git-mirror:/home/veyron/vanadium/release/projects/todos"
              path="release/projects/todos"/>
