@@ -51,6 +51,8 @@
            path="release/projects/playground"/>
   <project name="release.projects.reader"
            path="release/projects/reader"/>
+  <project name="release.projects.syncslides"
+           path="release/projects/syncslides"/>
   <project name="release.projects.todos"
            path="release/projects/todos"/>
   <project name="release.projects.travel"
