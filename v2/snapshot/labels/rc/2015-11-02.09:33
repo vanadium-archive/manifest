@@ -1,0 +1,60 @@
+<manifest label="">
+  <hooks></hooks>
+  <hosts>
+    <host name="gerrit" location="https://vanadium-review.googlesource.com/">
+      <githooks></githooks>
+    </host>
+    <host name="git" location="https://vanadium.googlesource.com/">
+      <githooks>
+        <githook name="commit-msg" path="../git-hooks/commit-msg"></githook>
+        <githook name="pre-commit" path="../git-hooks/pre-commit"></githook>
+        <githook name="pre-push" path="../git-hooks/pre-push"></githook>
+      </githooks>
+    </host>
+  </hosts>
+  <imports></imports>
+  <projects>
+    <project exclude="false" name="docs" path="docs" protocol="git" remote="https://vanadium.googlesource.com/docs" revision="bba5d7fdcd684120a5a0946ca17faed0637104fb"></project>
+    <project exclude="false" name="release.mojo.syncbase" path="release/mojo/syncbase" protocol="git" remote="https://vanadium.googlesource.com/release.mojo.syncbase" revision="70a90550d6e09f23202d6d9c3c0bc2752015250c"></project>
+    <project exclude="false" name="release.go.v23" path="release/go/src/v.io/v23" protocol="git" remote="https://vanadium.googlesource.com/release.go.v23" revision="145ab43f4fb15118484e6333daeed919803a8d46"></project>
+    <project exclude="false" name="release.projects.browser" path="release/projects/browser" protocol="git" remote="https://vanadium.googlesource.com/release.projects.browser" revision="2ac4631696b643d17ff46b34a797f63ce0cbf6f9"></project>
+    <project exclude="false" name="release.projects.reader" path="release/projects/reader" protocol="git" remote="https://vanadium.googlesource.com/release.projects.reader" revision="c0e4da4851ab17ae5fd77cc47c2a6b23fffd921e"></project>
+    <project exclude="false" name="release.projects.travel" path="release/projects/travel" protocol="git" remote="https://vanadium.googlesource.com/release.projects.travel" revision="94f75d139fa7623c48e581a067e6b05a59758a21"></project>
+    <project exclude="false" name="www" path="www" protocol="git" remote="https://vanadium.googlesource.com/www" revision="105721de0a83df2cf0aa93b990184db7fc215a78"></project>
+    <project exclude="false" name="release.java" path="release/java" protocol="git" remote="https://vanadium.googlesource.com/release.java" revision="53cd1a876187ec17858f6fc2b8c83fc908c8ef18"></project>
+    <project exclude="false" name="release.mojo.v23proxy" path="release/mojo/v23proxy" protocol="git" remote="https://vanadium.googlesource.com/release.mojo.v23proxy" revision="947d9249715acff81d3b61281a21a602172a1217"></project>
+    <project exclude="false" name="release.projects.chat" path="release/projects/chat" protocol="git" remote="https://vanadium.googlesource.com/release.projects.chat" revision="90c23d546ede035edee72e423042dad5e45c0ad0"></project>
+    <project exclude="false" name="release.projects.physical-lock" path="release/projects/physical-lock" protocol="git" remote="https://vanadium.googlesource.com/release.projects.physical-lock" revision="9621a4e493741bd2f048dabec166b2d3028da2ac"></project>
+    <project exclude="false" name="third_party" path="third_party" protocol="git" remote="https://vanadium.googlesource.com/third_party" revision="53ddb7b799e8925e2ae8d1e8d9e1e6dd7a0c7209"></project>
+    <project exclude="false" name="release.js.core" path="release/javascript/core" protocol="git" remote="https://vanadium.googlesource.com/release.js.core" revision="7cc9a908dfda900d5b26f1cd0fc60a740991d7b3"></project>
+    <project exclude="false" name="release.projects.todos" path="release/projects/todos" protocol="git" remote="https://vanadium.googlesource.com/release.projects.todos" revision="bb1c22b6b6b772c3dd0f6518a17b006822c5767c"></project>
+    <project exclude="false" name="release.go.x.jni" path="release/go/src/v.io/x/jni" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.jni" revision="4d63cfa29261f07551b09d68e021d0df203c6d8a"></project>
+    <project exclude="false" name="release.go.x.ref" path="release/go/src/v.io/x/ref" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.ref" revision="e502c888a44a532e4f3e989d7d3759f1cf58a07a"></project>
+    <project exclude="false" name="release.mojo.discovery" path="release/mojo/discovery" protocol="git" remote="https://vanadium.googlesource.com/release.mojo.discovery" revision="cdfda6abafcae1e66064967687f42c12d0449a29"></project>
+    <project exclude="false" name="release.mojo.shared" path="release/mojo/shared" protocol="git" remote="https://vanadium.googlesource.com/release.mojo.shared" revision="2245a1b51ccbc7dcd0aa52cf126ced13ebdd0527"></project>
+    <project exclude="false" name="release.projects.syncslides" path="release/projects/syncslides" protocol="git" remote="https://vanadium.googlesource.com/release.projects.syncslides" revision="d4db8e5efab7c19963be2b426e74bb5f0f84e2b3"></project>
+    <project exclude="false" name="release.go.x.devtools" path="release/go/src/v.io/x/devtools" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.devtools" revision="1a4ef0e62164505f40dd46d324d85b006b8b14d3"></project>
+    <project exclude="false" name="release.go.x.lib" path="release/go/src/v.io/x/lib" protocol="git" remote="https://vanadium.googlesource.com/release.go.x.lib" revision="e06ca5565863d8d01adc9b676f24ddd91b7bd591"></project>
+    <project exclude="false" name="release.go.jiri" path="release/go/src/v.io/jiri" protocol="git" remote="https://vanadium.googlesource.com/release.go.jiri" revision="ae0c4c6ca42b4873731437370c21724a096e492d"></project>
+    <project exclude="false" name="release.js.syncbase" path="release/javascript/syncbase" protocol="git" remote="https://vanadium.googlesource.com/release.js.syncbase" revision="6880860de10e0ef896d0f9b881ae3a9e57475f8f"></project>
+    <project exclude="false" name="release.projects.media-sharing" path="release/projects/media-sharing" protocol="git" remote="https://vanadium.googlesource.com/release.projects.media-sharing" revision="967529f191ff6765061a7f90aa9ff2f09bde6074"></project>
+    <project exclude="false" name="release.projects.pipe2browser" path="release/projects/pipe2browser" protocol="git" remote="https://vanadium.googlesource.com/release.projects.pipe2browser" revision="dc3bb61cff9b5c2bb77fcaa59b41b3b11067b68a"></project>
+    <project exclude="false" name="release.projects.croupier" path="release/projects/croupier" protocol="git" remote="https://vanadium.googlesource.com/release.projects.croupier" revision="1e3ea7ff0674458c4555e86fa8e13197054e52d3"></project>
+    <project exclude="false" name="release.projects.playground" path="release/projects/playground" protocol="git" remote="https://vanadium.googlesource.com/release.projects.playground" revision="fdea2d0aa75b6a21621cf621d8e481b3cd72df7b"></project>
+  </projects>
+  <tools>
+    <tool exclude="false" data="data" name="jiri-copyright" package="v.io/x/devtools/jiri-copyright" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-env" package="v.io/x/devtools/jiri-env" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-go" package="v.io/x/devtools/jiri-go" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-profile" package="v.io/x/devtools/jiri-profile" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-run" package="v.io/x/devtools/jiri-run" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="vdl" package="v.io/x/ref/cmd/vdl" project="release.go.x.ref"></tool>
+    <tool exclude="false" data="../x/devtools/data" name="jiri" package="v.io/jiri" project="release.go.jiri"></tool>
+    <tool exclude="false" data="data" name="jiri-api" package="v.io/x/devtools/jiri-api" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-dockergo" package="v.io/x/devtools/jiri-dockergo" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-goext" package="v.io/x/devtools/jiri-goext" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-oncall" package="v.io/x/devtools/jiri-oncall" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-v23-profile" package="v.io/x/devtools/jiri-v23-profile" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-test" package="v.io/x/devtools/jiri-test" project="release.go.x.devtools"></tool>
+  </tools>
+</manifest>
