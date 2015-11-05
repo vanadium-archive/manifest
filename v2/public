@@ -46,6 +46,9 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <project name="release.go.x.ref"
              remote="https://vanadium.googlesource.com/release.go.x.ref"
              path="release/go/src/v.io/x/ref"/>
+    <project name="release.go.pnacl"
+             remote="https://vanadium.googlesource.com/release.go.pnacl"
+             path="release/go/src/v.io/pnacl"/>
     <project name="release.java"
              remote="https://vanadium.googlesource.com/release.java"
              path="release/java"/>
