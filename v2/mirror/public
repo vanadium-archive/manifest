@@ -49,9 +49,6 @@ TODO(sadovsky): Eliminate redundant configs.
     <project name="release.go.x.ref"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/ref"
              path="release/go/src/v.io/x/ref"/>
-    <project name="release.go.pnacl"
-             remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/pnacl"
-             path="release/go/src/v.io/pnacl"/>
     <project name="release.java"
              remote="git@git-mirror:/home/veyron/vanadium/release/java"
              path="release/java"/>
