@@ -8,9 +8,6 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <import name="protected"/>
   </imports>
   <projects>
-    <project name="deprecated"
-             remote="https://vanadium.googlesource.com/deprecated"
-             path="deprecated"/>
     <project name="experimental"
              remote="https://vanadium.googlesource.com/experimental"
              path="experimental"/>
