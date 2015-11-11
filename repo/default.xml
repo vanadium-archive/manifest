@@ -5,8 +5,8 @@
           review="https://vanadium-review.googlesource.com/"/>
   <default revision="master"
            remote="vanadium"/>
-  <project name="deprecated"
-           path="deprecated"/>
+  <project name="docs"
+           path="docs"/>
   <project name="experimental"
            path="experimental"/>
   <project name="infrastructure"
@@ -35,6 +35,8 @@
            path="release/mojo/shared"/>
   <project name="release.mojo.syncbase"
            path="release/mojo/syncbase"/>
+  <project name="release.mojo.v23proxy"
+           path="release/mojo/v23proxy"/>
   <project name="release.projects.browser"
            path="release/projects/browser"/>
   <project name="release.projects.chat"
