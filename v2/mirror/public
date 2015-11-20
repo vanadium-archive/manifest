@@ -121,9 +121,6 @@ TODO(sadovsky): Eliminate redundant configs.
     <tool name="jiri-dockergo"
           package="v.io/x/devtools/jiri-dockergo"
           project="release.go.x.devtools"/>
-    <tool name="jiri-env"
-          package="v.io/x/devtools/jiri-env"
-          project="release.go.x.devtools"/>
     <tool name="jiri-go"
           package="v.io/x/devtools/jiri-go"
           project="release.go.x.devtools"/>
@@ -132,9 +129,6 @@ TODO(sadovsky): Eliminate redundant configs.
           project="release.go.x.devtools"/>
     <tool name="jiri-oncall"
           package="v.io/x/devtools/jiri-oncall"
-          project="release.go.x.devtools"/>
-    <tool name="jiri-profile"
-          package="v.io/x/devtools/jiri-profile"
           project="release.go.x.devtools"/>
     <tool name="jiri-v23-profile"
           package="v.io/x/devtools/jiri-v23-profile"

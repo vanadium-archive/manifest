@@ -118,9 +118,6 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <tool name="jiri-dockergo"
           package="v.io/x/devtools/jiri-dockergo"
           project="release.go.x.devtools"/>
-    <tool name="jiri-env"
-          package="v.io/x/devtools/jiri-env"
-          project="release.go.x.devtools"/>
     <tool name="jiri-go"
           package="v.io/x/devtools/jiri-go"
           project="release.go.x.devtools"/>
@@ -130,9 +127,6 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <tool name="jiri-oncall"
           package="v.io/x/devtools/jiri-oncall"
           project="release.go.x.devtools"/>
-    <!-- TODO(nicolaou): Get rid of the profile tool below once "v23-profile" is working, -->
-    <tool name="jiri-profile"
-          package="v.io/x/devtools/jiri-profile"
           project="release.go.x.devtools"/>
     <tool name="jiri-v23-profile"
           package="v.io/x/devtools/jiri-v23-profile"
