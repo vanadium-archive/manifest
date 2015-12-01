@@ -7,5 +7,11 @@
     <project name="www"
              remote="git@git-mirror:/home/veyron/vanadium/www"
              path="www"/>
+    <project name="release.go.x.swift"
+             remote="git@git-mirror:/home/veyron/vanadium/release.go.x.swift"
+             path="release/go/src/v.io/x/swift"/>
+    <project name="release.swift"
+             remote="git@git-mirror:/home/veyron/vanadium/release.swift"
+             path="release/swift"/>
   </projects>
 </manifest>

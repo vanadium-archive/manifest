@@ -11,5 +11,11 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <project name="www"
              remote="https://vanadium.googlesource.com/www"
              path="www"/>
+    <project name="release.go.x.swift"
+             remote="https://vanadium.googlesource.com/release.go.x.swift"
+             path="release/go/src/v.io/x/swift"/>
+    <project name="release.swift"
+             remote="https://vanadium.googlesource.com/release.swift"
+             path="release/swift"/>
   </projects>
 </manifest>
