@@ -1,0 +1,58 @@
+<manifest label="">
+  <hooks></hooks>
+  <hosts>
+    <host name="gerrit" location="https://vanadium-review.googlesource.com/">
+      <githooks></githooks>
+    </host>
+    <host name="git" location="https://vanadium.googlesource.com/">
+      <githooks>
+        <githook name="commit-msg" path="../git-hooks/commit-msg"></githook>
+        <githook name="pre-commit" path="../git-hooks/pre-commit"></githook>
+        <githook name="pre-push" path="../git-hooks/pre-push"></githook>
+      </githooks>
+    </host>
+  </hosts>
+  <imports></imports>
+  <projects>
+    <project exclude="false" name="docs" path="docs" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/docs" remotebranch="master" revision="e876ee003de201f1318649593ffa18f44c2c7199"></project>
+    <project exclude="false" name="release.go.v23" path="release/go/src/v.io/v23" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/v23" remotebranch="master" revision="8946ac93f98f2c1ab4876bb911c12bae35b99220"></project>
+    <project exclude="false" name="release.java" path="release/java" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/java" remotebranch="master" revision="e86fcc8b3cae1379b6ab99344aa70f1fb93bbbc7"></project>
+    <project exclude="false" name="release.js.core" path="release/javascript/core" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/javascript/core" remotebranch="master" revision="ca2d4e24237f810a1246f5f2865c09cc435e5781"></project>
+    <project exclude="false" name="release.projects.media-sharing" path="release/projects/media-sharing" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/media-sharing" remotebranch="master" revision="45907c605638b50d78d142642d00fa0e104617c4"></project>
+    <project exclude="false" name="release.projects.playground" path="release/projects/playground" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/playground" remotebranch="master" revision="e706414c9e5bf11b828cd8688d56084345e95610"></project>
+    <project exclude="false" name="release.projects.todos" path="release/projects/todos" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/todos" remotebranch="master" revision="69a676f892ebf3a310f9ffa1c52fbb2c87452e71"></project>
+    <project exclude="false" name="third_party" path="third_party" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/third_party" remotebranch="master" revision="b0236d04abb9d2e71e55bdd10ab78d7b3e95a6cc"></project>
+    <project exclude="false" name="release.mojo.shared" path="release/mojo/shared" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/mojo/shared" remotebranch="master" revision="8a9bccf573d7908b451278c408a54bfbac331cd3"></project>
+    <project exclude="false" name="release.mojo.syncbase" path="release/mojo/syncbase" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/mojo/syncbase" remotebranch="master" revision="5eb43e3a14eb04550a6691518e718da4f42ee995"></project>
+    <project exclude="false" name="release.projects.physical-lock" path="release/projects/physical-lock" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/physical-lock" remotebranch="master" revision="9795cf1bd65cf742b22b9a9d99e22cd002ece472"></project>
+    <project exclude="false" name="release.go.x.jni" path="release/go/src/v.io/x/jni" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/jni" remotebranch="master" revision="c3c1c6d6c5b8d6354ff45327ee5b814d46f1b49d"></project>
+    <project exclude="false" name="release.projects.browser" path="release/projects/browser" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/browser" remotebranch="master" revision="0ce3a7fa982f06826858d3ae399a493cfa4a5f66"></project>
+    <project exclude="false" name="release.projects.croupier" path="release/projects/croupier" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/croupier" remotebranch="master" revision="8f899202b0dad2b58c60f1ba0b2587d5cffa7fff"></project>
+    <project exclude="false" name="release.go.x.devtools" path="release/go/src/v.io/x/devtools" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/devtools" remotebranch="master" revision="43546eff9695517d50e5d91c53e9564f74201111"></project>
+    <project exclude="false" name="release.go.x.ref" path="release/go/src/v.io/x/ref" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/ref" remotebranch="master" revision="54920c3b5b4f259c8612c507954154d59cc527d5"></project>
+    <project exclude="false" name="release.js.syncbase" path="release/javascript/syncbase" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/javascript/syncbase" remotebranch="master" revision="ec6bb7ed4f7a27b427a0b831f52cc1b3b00392d8"></project>
+    <project exclude="false" name="release.projects.syncslides" path="release/projects/syncslides" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/syncslides" remotebranch="master" revision="08f2617e9566d61396b71d174f8a4687f1e3d04f"></project>
+    <project exclude="false" name="release.projects.travel" path="release/projects/travel" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/travel" remotebranch="master" revision="e3395e7b04c54e7f7acdd14dc989a10d5b945339"></project>
+    <project exclude="false" name="release.go.x.lib" path="release/go/src/v.io/x/lib" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/x/lib" remotebranch="master" revision="f3debbd70c6ee3e5ca85bd4ebae8a4bcceede99f"></project>
+    <project exclude="false" name="release.mojo.v23proxy" path="release/mojo/v23proxy" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/mojo/v23proxy" remotebranch="master" revision="d3d2041185d32cf3e7eff39e98e201315fc75148"></project>
+    <project exclude="false" name="release.projects.pipe2browser" path="release/projects/pipe2browser" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/pipe2browser" remotebranch="master" revision="d90b1d65d1e23ac77e3fb8d55bf1967f7911c0d0"></project>
+    <project exclude="false" name="release.projects.reader" path="release/projects/reader" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/reader" remotebranch="master" revision="d168284fbf967dd81c365d1e3927c6824bd69160"></project>
+    <project exclude="false" name="release.projects.sensorlog" path="release/projects/sensorlog" protocol="git" remote="https://vanadium.googlesource.com/release.projects.sensorlog" remotebranch="master" revision="09ea772523c297b102b1c51399dcd57390c90e16"></project>
+    <project exclude="false" name="release.go.jiri" path="release/go/src/v.io/jiri" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/jiri" remotebranch="master" revision="76880bb9ac0c2fddef3a7c3a207a7a8767bf2bfa"></project>
+    <project exclude="false" name="release.mojo.discovery" path="release/mojo/discovery" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/mojo/discovery" remotebranch="master" revision="6c6d080a564116d7204e752883cb3b2218654700"></project>
+    <project exclude="false" name="release.projects.chat" path="release/projects/chat" protocol="git" remote="git@git-mirror:/home/veyron/vanadium/release/projects/chat" remotebranch="master" revision="1039880516112abc388e660ab8e6cb782deea42e"></project>
+  </projects>
+  <tools>
+    <tool exclude="false" data="data" name="jiri-api" package="v.io/x/devtools/jiri-api" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-copyright" package="v.io/x/devtools/jiri-copyright" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-go" package="v.io/x/devtools/jiri-go" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-goext" package="v.io/x/devtools/jiri-goext" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-oncall" package="v.io/x/devtools/jiri-oncall" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-v23-profile" package="v.io/x/devtools/jiri-v23-profile" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="jiri-run" package="v.io/x/devtools/jiri-run" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="../x/devtools/data" name="jiri" package="v.io/jiri" project="release.go.jiri"></tool>
+    <tool exclude="false" data="data" name="jiri-test" package="v.io/x/devtools/jiri-test" project="release.go.x.devtools"></tool>
+    <tool exclude="false" data="data" name="vdl" package="v.io/x/ref/cmd/vdl" project="release.go.x.ref"></tool>
+    <tool exclude="false" data="data" name="jiri-dockergo" package="v.io/x/devtools/jiri-dockergo" project="release.go.x.devtools"></tool>
+  </tools>
+</manifest>
