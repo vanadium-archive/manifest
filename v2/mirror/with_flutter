@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <import name="public"/>
+  </imports>
+  <projects>
+    <project name="flutter"
+             remote="https://github.com/flutter/flutter"
+             remoteBranch="alpha"
+             revision="9487197502b5fcbe14a6b2de91ed51b95f5297d5"
+             path="flutter"/>
+  </projects>
+</manifest>

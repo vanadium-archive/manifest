@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+IMPORTANT: If you update this manifest, please update the corresponding manifest in v2/mirror.
+See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-BjQ/edit#heading=h.c2f0louel2sf
+-->
+<manifest>
+  <imports>
+    <import name="public"/>
+  </imports>
+  <projects>
+    <project name="flutter"
+             remote="https://github.com/flutter/flutter"
+             remoteBranch="alpha"
+             revision="9487197502b5fcbe14a6b2de91ed51b95f5297d5"
+             path="flutter"/>
+  </projects>
+</manifest>
