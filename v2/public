@@ -130,7 +130,6 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <tool name="jiri-oncall"
           package="v.io/x/devtools/jiri-oncall"
           project="release.go.x.devtools"/>
-          project="release.go.x.devtools"/>
     <tool name="jiri-v23-profile"
           package="v.io/x/devtools/jiri-v23-profile"
           project="release.go.x.devtools"/>
