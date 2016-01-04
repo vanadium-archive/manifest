@@ -37,6 +37,8 @@
            path="release/mojo/syncbase"/>
   <project name="release.mojo.v23proxy"
            path="release/mojo/v23proxy"/>
+  <project name="release.projects.baku"
+           path="release/projects/baku"/>
   <project name="release.projects.browser"
            path="release/projects/browser"/>
   <project name="release.projects.chat"

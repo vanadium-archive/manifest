@@ -67,6 +67,9 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <project name="release.mojo.v23proxy"
              remote="https://vanadium.googlesource.com/release.mojo.v23proxy"
              path="release/mojo/v23proxy"/>
+    <project name="release.projects.baku"
+             remote="https://vanadium.googlesource.com/release.projects.baku"
+             path="release/projects/baku"/>
     <project name="release.projects.browser"
              remote="https://vanadium.googlesource.com/release.projects.browser"
              path="release/projects/browser"/>
