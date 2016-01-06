@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <fileimport file="infrastructure"/>
+    <fileimport file="lang"/>
+    <fileimport file="private"/>
+    <fileimport file="protected"/>
+    <fileimport file="public"/>
+    <fileimport file="tools"/>
+  </imports>
+</manifest>

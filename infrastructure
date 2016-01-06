@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <fileimport file="protected"/>
+  </imports>
+  <projects>
+    <project name="infrastructure"
+             remote="https://vanadium.googlesource.com/infrastructure"
+             path="infrastructure"/>
+  </projects>
+</manifest>

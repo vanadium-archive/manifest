@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <fileimport file="protected"/>
+  </imports>
+  <tools>
+    <tool name="presubmit"
+          package="v.io/x/devtools/presubmit"
+          project="release.go.x.devtools"/>
+    <tool name="postsubmit"
+          package="v.io/x/devtools/postsubmit"
+          project="release.go.x.devtools"/>
+  </tools>
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+IMPORTANT: If you update this manifest, please update the corresponding manifest in mirror.
+See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-BjQ/edit#heading=h.c2f0louel2sf
+-->
+<manifest>
+  <imports>
+    <fileimport file="public"/>
+  </imports>
+  <projects>
+    <project name="www"
+             remote="https://vanadium.googlesource.com/www"
+             path="www"/>
+    <project name="release.go.x.swift"
+             remote="https://vanadium.googlesource.com/release.go.x.swift"
+             path="release/go/src/v.io/x/swift"/>
+    <project name="release.swift"
+             remote="https://vanadium.googlesource.com/release.swift"
+             path="release/swift"/>
+  </projects>
+</manifest>
