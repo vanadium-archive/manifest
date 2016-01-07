@@ -7,7 +7,7 @@
     <project name="flutter"
              remote="https://github.com/flutter/flutter"
              remoteBranch="alpha"
-             revision="9487197502b5fcbe14a6b2de91ed51b95f5297d5"
+             revision="1cee346ac959bbc75893d56e7c34038d361fdc2e"
              path="flutter"/>
   </projects>
 </manifest>
