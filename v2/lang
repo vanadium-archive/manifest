@@ -6,9 +6,13 @@
   <projects>
     <project name="roadmap.golang"
              remote="https://vanadium.googlesource.com/roadmap.golang"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="roadmap/golang"/>
     <project name="roadmap.go.nacl"
              remote="https://vanadium.googlesource.com/roadmap.go.nacl"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="roadmap/go/src/v.io/nacl"/>
   </projects>
 </manifest>

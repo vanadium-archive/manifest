@@ -16,12 +16,18 @@
   <projects>
     <project name="release.go.jiri"
              remote="https://vanadium.googlesource.com/release.go.jiri"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="release/go/src/v.io/jiri"/>
     <project name="release.go.x.devtools"
              remote="https://vanadium.googlesource.com/release.go.x.devtools"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="release/go/src/v.io/x/devtools"/>
     <project name="release.go.x.lib"
              remote="https://vanadium.googlesource.com/release.go.x.lib"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="release/go/src/v.io/x/lib"/>
   </projects>
   <tools>

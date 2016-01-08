@@ -10,12 +10,18 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
   <projects>
     <project name="www"
              remote="https://vanadium.googlesource.com/www"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="www"/>
     <project name="release.go.x.swift"
              remote="https://vanadium.googlesource.com/release.go.x.swift"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="release/go/src/v.io/x/swift"/>
     <project name="release.swift"
              remote="https://vanadium.googlesource.com/release.swift"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks=".manifest/git-hooks"
              path="release/swift"/>
   </projects>
 </manifest>
