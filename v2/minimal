@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- TODO(nlacasse): Get rid of the hosts tag. -->
   <hosts>
     <host name="gerrit"
           location="https://vanadium-review.googlesource.com/" />
     <host name="git"
           location="https://vanadium.googlesource.com/">
       <githooks>
-        <!-- TODO(nlacasse): Get rid of the "source" attributes once everybody
-             has had time to update. -->
-        <githook name="commit-msg"
-                 source="../git-hooks/commit-msg"
-                 path="../git-hooks/commit-msg" />
-        <githook name="pre-commit"
-                 source="../git-hooks/pre-commit"
-                 path="../git-hooks/pre-commit" />
-        <githook name="pre-push"
-                 source="../git-hooks/pre-push"
-                 path="../git-hooks/pre-push" />
+        <githook name="commit-msg" path="../git-hooks/commit-msg" />
+        <githook name="pre-commit" path="../git-hooks/pre-commit" />
+        <githook name="pre-push" path="../git-hooks/pre-push" />
       </githooks>
     </host>
   </hosts>
