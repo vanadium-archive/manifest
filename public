@@ -4,110 +4,159 @@ IMPORTANT: If you update this manifest, please update the corresponding manifest
 See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-BjQ/edit#heading=h.c2f0louel2sf
 -->
 <manifest>
+  <!-- TODO(nlacasse): Get rid of the hosts tag. -->
   <hosts>
     <host name="gerrit"
           location="https://vanadium-review.googlesource.com/" />
     <host name="git"
           location="https://vanadium.googlesource.com/">
       <githooks>
-        <!-- TODO(nlacasse): Get rid of the "source" attributes once everybody
-             has had time to update. -->
-        <githook name="commit-msg"
-                 source="../git-hooks/commit-msg"
-                 path="../git-hooks/commit-msg" />
-        <githook name="pre-commit"
-                 source="../git-hooks/pre-commit"
-                 path="../git-hooks/pre-commit" />
-        <githook name="pre-push"
-                 source="../git-hooks/pre-push"
-                 path="../git-hooks/pre-push" />
+        <githook name="commit-msg" path="../git-hooks/commit-msg" />
+        <githook name="pre-commit" path="../git-hooks/pre-commit" />
+        <githook name="pre-push" path="../git-hooks/pre-push" />
       </githooks>
     </host>
   </hosts>
   <projects>
     <project name="docs"
              remote="https://vanadium.googlesource.com/docs"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="docs"/>
     <project name="release.go.jiri"
              remote="https://vanadium.googlesource.com/release.go.jiri"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/go/src/v.io/jiri"/>
     <project name="release.go.v23"
              remote="https://vanadium.googlesource.com/release.go.v23"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/go/src/v.io/v23"/>
     <project name="release.go.x.devtools"
              remote="https://vanadium.googlesource.com/release.go.x.devtools"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/go/src/v.io/x/devtools"/>
     <project name="release.go.x.jni"
              remote="https://vanadium.googlesource.com/release.go.x.jni"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/go/src/v.io/x/jni"/>
     <project name="release.go.x.lib"
              remote="https://vanadium.googlesource.com/release.go.x.lib"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/go/src/v.io/x/lib"/>
     <project name="release.go.x.ref"
              remote="https://vanadium.googlesource.com/release.go.x.ref"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/go/src/v.io/x/ref"/>
     <project name="release.java"
              remote="https://vanadium.googlesource.com/release.java"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/java"/>
     <project name="release.js.core"
              remote="https://vanadium.googlesource.com/release.js.core"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/javascript/core"/>
     <project name="release.js.syncbase"
              remote="https://vanadium.googlesource.com/release.js.syncbase"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/javascript/syncbase"/>
     <project name="release.mojo.discovery"
              remote="https://vanadium.googlesource.com/release.mojo.discovery"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/mojo/discovery"/>
     <project name="release.mojo.syncbase"
              remote="https://vanadium.googlesource.com/release.mojo.syncbase"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/mojo/syncbase"/>
     <project name="release.mojo.shared"
              remote="https://vanadium.googlesource.com/release.mojo.shared"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/mojo/shared"/>
     <project name="release.mojo.v23proxy"
              remote="https://vanadium.googlesource.com/release.mojo.v23proxy"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/mojo/v23proxy"/>
     <project name="release.projects.baku"
              remote="https://vanadium.googlesource.com/release.projects.baku"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/baku"/>
     <project name="release.projects.browser"
              remote="https://vanadium.googlesource.com/release.projects.browser"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/browser"/>
     <project name="release.projects.chat"
              remote="https://vanadium.googlesource.com/release.projects.chat"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/chat"/>
     <project name="release.projects.croupier"
              remote="https://vanadium.googlesource.com/release.projects.croupier"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/croupier"/>
     <project name="release.projects.media-sharing"
              remote="https://vanadium.googlesource.com/release.projects.media-sharing"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/media-sharing"/>
     <project name="release.projects.physical-lock"
              remote="https://vanadium.googlesource.com/release.projects.physical-lock"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/physical-lock"/>
     <project name="release.projects.pipe2browser"
              remote="https://vanadium.googlesource.com/release.projects.pipe2browser"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/pipe2browser"/>
     <project name="release.projects.playground"
              remote="https://vanadium.googlesource.com/release.projects.playground"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/playground"/>
     <project name="release.projects.reader"
              remote="https://vanadium.googlesource.com/release.projects.reader"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/reader"/>
     <project name="release.projects.sensorlog"
              remote="https://vanadium.googlesource.com/release.projects.sensorlog"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/sensorlog"/>
     <project name="release.projects.syncslides"
              remote="https://vanadium.googlesource.com/release.projects.syncslides"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/syncslides"/>
     <project name="release.projects.todos"
              remote="https://vanadium.googlesource.com/release.projects.todos"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/todos"/>
     <project name="release.projects.travel"
              remote="https://vanadium.googlesource.com/release.projects.travel"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="release/projects/travel"/>
     <project name="third_party"
              remote="https://vanadium.googlesource.com/third_party"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="third_party"/>
   </projects>
   <tools>

@@ -10,9 +10,13 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
   <projects>
     <project name="experimental"
              remote="https://vanadium.googlesource.com/experimental"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="experimental"/>
     <project name="infrastructure"
              remote="https://vanadium.googlesource.com/infrastructure"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
              path="infrastructure"/>
   </projects>
 </manifest>
