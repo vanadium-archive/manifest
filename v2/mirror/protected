@@ -13,5 +13,10 @@
     <project name="release.swift"
              remote="git@git-mirror:/home/veyron/vanadium/release/swift"
              path="release/swift"/>
+    <project name="flutter"
+             remote="https://github.com/flutter/flutter"
+             remoteBranch="alpha"
+             revision="1cee346ac959bbc75893d56e7c34038d361fdc2e"
+             path="flutter"/>
   </projects>
 </manifest>
