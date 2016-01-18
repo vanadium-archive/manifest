@@ -1,0 +1,45 @@
+<manifest>
+  <projects>
+    <project name="release.mojo.syncbase" path="release/mojo/syncbase" remote="https://vanadium.googlesource.com/release.mojo.syncbase" revision="8f0ef65f61679cb96a4973e1a1dd6e82de02989c" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.reader" path="release/projects/reader" remote="https://vanadium.googlesource.com/release.projects.reader" revision="1ca627cc0924615a8d2683c0521e50d79dff3181" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.go.v23" path="release/go/src/v.io/v23" remote="https://vanadium.googlesource.com/release.go.v23" revision="de3bb59cab9f112ee65cccf3ead8bca8158dda95" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.go.x.devtools" path="release/go/src/v.io/x/devtools" remote="https://vanadium.googlesource.com/release.go.x.devtools" revision="9aa3377321c8bd1a5df07807b326c4e185bb6dd6" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.go.x.jni" path="release/go/src/v.io/x/jni" remote="https://vanadium.googlesource.com/release.go.x.jni" revision="a5c2363a35b15c79cc196961a74feca56622a251" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.go.x.ref" path="release/go/src/v.io/x/ref" remote="https://vanadium.googlesource.com/release.go.x.ref" revision="0c29f6f7cf35cd095dcee8b667af89ad7c156bdb" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.mojo.v23proxy" path="release/mojo/v23proxy" remote="https://vanadium.googlesource.com/release.mojo.v23proxy" revision="fd7c87ce448bdbb15bd06e6ad06dd9f9effc1180" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.todos" path="release/projects/todos" remote="https://vanadium.googlesource.com/release.projects.todos" revision="69a676f892ebf3a310f9ffa1c52fbb2c87452e71" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.java" path="release/java" remote="https://vanadium.googlesource.com/release.java" revision="fd2510b7e05b7279913c95c684f8c8e342c92dbb" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.travel" path="release/projects/travel" remote="https://vanadium.googlesource.com/release.projects.travel" revision="e3395e7b04c54e7f7acdd14dc989a10d5b945339" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="docs" path="docs" remote="https://vanadium.googlesource.com/docs" revision="665f9dc2798f61ab8d38511cf9717699b1ac0780" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.baku" path="release/projects/baku" remote="https://vanadium.googlesource.com/release.projects.baku" revision="db88d55916051254427dbd1391ebe90a97a41314" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.physical-lock" path="release/projects/physical-lock" remote="https://vanadium.googlesource.com/release.projects.physical-lock" revision="9795cf1bd65cf742b22b9a9d99e22cd002ece472" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="third_party" path="third_party" remote="https://vanadium.googlesource.com/third_party" revision="32112fb5008be29b3c5cb6707a0b5dc4f14cbe6c" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.chat" path="release/projects/chat" remote="https://vanadium.googlesource.com/release.projects.chat" revision="5eb3f7cceb0cca44c4d9081e8ebc2e16b1571859" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.syncslides" path="release/projects/syncslides" remote="https://vanadium.googlesource.com/release.projects.syncslides" revision="fc482d0b92102ee820318a78fd936e4c2c17a55b" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.go.jiri" path="release/go/src/v.io/jiri" remote="https://vanadium.googlesource.com/release.go.jiri" revision="d3b49ef65e2f9613ebac6e459ecf96395b605eb6" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.js.syncbase" path="release/javascript/syncbase" remote="https://vanadium.googlesource.com/release.js.syncbase" revision="ec6bb7ed4f7a27b427a0b831f52cc1b3b00392d8" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.mojo.discovery" path="release/mojo/discovery" remote="https://vanadium.googlesource.com/release.mojo.discovery" revision="d612b57d4ff498bcd9dc9d34bdeb14bd53f6149b" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.mojo.shared" path="release/mojo/shared" remote="https://vanadium.googlesource.com/release.mojo.shared" revision="3be9ccce32fff8042624482654e88ec43295c8f5" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.playground" path="release/projects/playground" remote="https://vanadium.googlesource.com/release.projects.playground" revision="1383ca38c8f35afce9ec0abdaa34b40c7e52766d" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.sensorlog" path="release/projects/sensorlog" remote="https://vanadium.googlesource.com/release.projects.sensorlog" revision="f3219523b3486d6dd0e4ac5056d38bcfbc9d190c" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.go.x.lib" path="release/go/src/v.io/x/lib" remote="https://vanadium.googlesource.com/release.go.x.lib" revision="673c7717bf86a8a67eda09302c1b67cc5eddeb89" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.js.core" path="release/javascript/core" remote="https://vanadium.googlesource.com/release.js.core" revision="608ae620834bd9c4a167857768a0a2d9f6a02bee" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.browser" path="release/projects/browser" remote="https://vanadium.googlesource.com/release.projects.browser" revision="002d1718359c9d13c793ee34115edcc9f96347b1" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.croupier" path="release/projects/croupier" remote="https://vanadium.googlesource.com/release.projects.croupier" revision="7f9a3a9f55eb9febb280d27a30069c2834f7cdab" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.media-sharing" path="release/projects/media-sharing" remote="https://vanadium.googlesource.com/release.projects.media-sharing" revision="45907c605638b50d78d142642d00fa0e104617c4" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+    <project name="release.projects.pipe2browser" path="release/projects/pipe2browser" remote="https://vanadium.googlesource.com/release.projects.pipe2browser" revision="d90b1d65d1e23ac77e3fb8d55bf1967f7911c0d0" gerrithost="https://vanadium-review.googlesource.com" githooks=".manifest/git-hooks"/>
+  </projects>
+  <tools>
+    <tool name="vdl" package="v.io/x/ref/cmd/vdl" project="release.go.x.ref"/>
+    <tool data="../x/devtools/data" name="jiri" package="v.io/jiri" project="release.go.jiri"/>
+    <tool name="jiri-api" package="v.io/x/devtools/jiri-api" project="release.go.x.devtools"/>
+    <tool name="jiri-copyright" package="v.io/x/devtools/jiri-copyright" project="release.go.x.devtools"/>
+    <tool name="jiri-dockergo" package="v.io/x/devtools/jiri-dockergo" project="release.go.x.devtools"/>
+    <tool name="jiri-v23-profile" package="v.io/x/devtools/jiri-v23-profile" project="release.go.x.devtools"/>
+    <tool name="jiri-run" package="v.io/x/devtools/jiri-run" project="release.go.x.devtools"/>
+    <tool name="jiri-test" package="v.io/x/devtools/jiri-test" project="release.go.x.devtools"/>
+    <tool name="jiri-go" package="v.io/x/devtools/jiri-go" project="release.go.x.devtools"/>
+    <tool name="jiri-goext" package="v.io/x/devtools/jiri-goext" project="release.go.x.devtools"/>
+    <tool name="jiri-oncall" package="v.io/x/devtools/jiri-oncall" project="release.go.x.devtools"/>
+  </tools>
+</manifest>
