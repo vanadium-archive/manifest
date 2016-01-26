@@ -23,5 +23,10 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="release/swift"/>
+    <project name="flutter"
+             remote="https://github.com/flutter/flutter"
+             remoteBranch="alpha"
+             revision="1cee346ac959bbc75893d56e7c34038d361fdc2e"
+             path="flutter"/>
   </projects>
 </manifest>
