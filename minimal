@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- TODO(nlacasse): Get rid of the hosts tag. -->
-  <hosts>
-    <host name="gerrit"
-          location="https://vanadium-review.googlesource.com/" />
-    <host name="git"
-          location="https://vanadium.googlesource.com/">
-      <githooks>
-        <githook name="commit-msg" path="../git-hooks/commit-msg" />
-        <githook name="pre-commit" path="../git-hooks/pre-commit" />
-        <githook name="pre-push" path="../git-hooks/pre-push" />
-      </githooks>
-    </host>
-  </hosts>
   <projects>
     <project name="release.go.jiri"
              remote="https://vanadium.googlesource.com/release.go.jiri"
