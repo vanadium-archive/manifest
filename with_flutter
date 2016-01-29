@@ -5,7 +5,7 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
 -->
 <manifest>
   <imports>
-    <fileimport file="public"/>
+    <localimport file="public"/>
   </imports>
   <projects>
     <project name="flutter"

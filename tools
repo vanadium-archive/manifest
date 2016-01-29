@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
-    <fileimport file="protected"/>
+    <localimport file="protected"/>
   </imports>
   <tools>
     <tool name="presubmit"

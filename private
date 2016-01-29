@@ -5,7 +5,7 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
 -->
 <manifest>
   <imports>
-    <fileimport file="protected"/>
+    <localimport file="protected"/>
   </imports>
   <projects>
     <project name="experimental"
