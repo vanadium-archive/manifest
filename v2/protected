@@ -26,7 +26,7 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <project name="flutter"
              remote="https://github.com/flutter/flutter"
              remoteBranch="alpha"
-             revision="1cee346ac959bbc75893d56e7c34038d361fdc2e"
+             revision="1b75de1b164a3c5f668933a7603aa9094c181aae"
              path="flutter"/>
   </projects>
 </manifest>

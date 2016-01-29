@@ -11,7 +11,7 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <project name="flutter"
              remote="https://github.com/flutter/flutter"
              remoteBranch="alpha"
-             revision="9487197502b5fcbe14a6b2de91ed51b95f5297d5"
+             revision="1b75de1b164a3c5f668933a7603aa9094c181aae"
              path="flutter"/>
   </projects>
 </manifest>
