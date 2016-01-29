@@ -5,6 +5,11 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
 -->
 <manifest>
   <projects>
+    <project name="manifest"
+             remote="https://vanadium.googlesource.com/manifest"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="manifest"/>
     <project name="docs"
              remote="https://vanadium.googlesource.com/docs"
              gerrithost="https://vanadium-review.googlesource.com"
