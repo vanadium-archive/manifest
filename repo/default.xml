@@ -73,4 +73,6 @@
            path="third_party"/>
   <project name="www"
            path="www"/>
+  <project name="website"
+           path="website"/>
 </manifest>

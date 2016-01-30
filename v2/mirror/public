@@ -112,6 +112,9 @@ TODO(sadovsky): Eliminate redundant configs.
     <project name="third_party"
              remote="git@git-mirror:/home/veyron/vanadium/third_party"
              path="third_party"/>
+    <project name="website"
+             remote="git@git-mirror:/home/veyron/vanadium/website"
+             path="website"/>
   </projects>
   <tools>
     <tool name="jiri"

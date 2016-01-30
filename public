@@ -150,6 +150,11 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="third_party"/>
+    <project name="website"
+             remote="https://vanadium.googlesource.com/website"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="website"/>
   </projects>
   <tools>
     <tool name="jiri"
