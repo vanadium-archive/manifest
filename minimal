@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <projects>
+    <project name="manifest"
+             remote="https://vanadium.googlesource.com/manifest"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="manifest"/>
     <project name="release.go.jiri"
              remote="https://vanadium.googlesource.com/release.go.jiri"
              gerrithost="https://vanadium-review.googlesource.com"
