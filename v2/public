@@ -165,6 +165,9 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
              path="website"/>
   </projects>
   <tools>
+    <tool name="bendroid"
+          package="v.io/x/devtools/bendroid"
+          project="release.go.x.devtools"/>
     <tool name="jiri"
           package="v.io/jiri"
           project="release.go.jiri"
