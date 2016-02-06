@@ -18,11 +18,6 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     </host>
   </hosts>
   <projects>
-    <project name="docs"
-             remote="https://vanadium.googlesource.com/docs"
-             gerrithost="https://vanadium-review.googlesource.com"
-             githooks=".manifest/git-hooks"
-             path="docs"/>
     <project name="release.go.jiri"
              remote="https://vanadium.googlesource.com/release.go.jiri"
              gerrithost="https://vanadium-review.googlesource.com"

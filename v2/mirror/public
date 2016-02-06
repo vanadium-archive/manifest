@@ -28,9 +28,6 @@ TODO(sadovsky): Eliminate redundant configs.
     </host>
   </hosts>
   <projects>
-    <project name="docs"
-             remote="git@git-mirror:/home/veyron/vanadium/docs"
-             path="docs"/>
     <project name="release.go.jiri"
              remote="git@git-mirror:/home/veyron/vanadium/release/go/src/v.io/jiri"
              path="release/go/src/v.io/jiri"/>
