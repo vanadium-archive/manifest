@@ -13,16 +13,6 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="www"/>
-    <project name="release.go.x.swift"
-             remote="https://vanadium.googlesource.com/release.go.x.swift"
-             gerrithost="https://vanadium-review.googlesource.com"
-             githooks="manifest/git-hooks"
-             path="release/go/src/v.io/x/swift"/>
-    <project name="release.swift"
-             remote="https://vanadium.googlesource.com/release.swift"
-             gerrithost="https://vanadium-review.googlesource.com"
-             githooks="manifest/git-hooks"
-             path="release/swift"/>
     <project name="flutter"
              remote="https://github.com/flutter/flutter"
              remoteBranch="alpha"
