@@ -190,6 +190,9 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
     <tool name="jiri-v23-profile"
           package="v.io/x/devtools/jiri-v23-profile"
           project="release.go.x.devtools"/>
+    <tool name="jiri-profile-v23"
+          package="v.io/x/devtools/jiri-profile-v23"
+          project="release.go.x.devtools"/>
     <tool name="jiri-run"
           package="v.io/x/devtools/jiri-run"
           project="release.go.x.devtools"/>
