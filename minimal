@@ -24,7 +24,7 @@
   </projects>
   <tools>
     <tool name="jiri"
-          package="v.io/jiri"
+          package="v.io/jiri/cmd/jiri"
           project="release.go.jiri"
           data="../x/devtools/data"/>
   </tools>
