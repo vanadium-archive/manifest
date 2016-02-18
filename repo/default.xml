@@ -23,6 +23,8 @@
            path="release/go/src/v.io/x/lib"/>
   <project name="release.go.x.ref"
            path="release/go/src/v.io/x/ref"/>
+  <project name="release.go.x.swift"
+           path="release/go/src/v.io/x/swift"/>
   <project name="release.java"
            path="release/java"/>
   <project name="release.js.core"
@@ -63,6 +65,8 @@
            path="release/projects/todos"/>
   <project name="release.projects.travel"
            path="release/projects/travel"/>
+  <project name="release.swift"
+           path="release/swift"/>
   <project name="roadmap.go.nacl"
            path="roadmap/go/src/v.io/nacl"/>
   <project name="roadmap.go.proximity"
