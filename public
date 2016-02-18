@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-IMPORTANT: If you update this manifest, please update the corresponding manifest in mirror.
-See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-BjQ/edit#heading=h.c2f0louel2sf
--->
 <manifest>
   <projects>
     <project name="manifest"
@@ -167,8 +163,7 @@ See https://docs.google.com/document/d/1UtbVVylBniJtwncZjEwNXiHTYff33x3NmM1V7az-
           project="release.go.x.devtools"/>
     <tool name="jiri"
           package="v.io/jiri/cmd/jiri"
-          project="release.go.jiri"
-          data="../x/devtools/data"/>
+          project="release.go.jiri"/>
     <tool name="jiri-api"
           package="v.io/x/devtools/jiri-api"
           project="release.go.x.devtools"/>
