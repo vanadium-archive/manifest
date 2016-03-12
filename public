@@ -182,9 +182,6 @@
     <tool name="jiri-oncall"
           package="v.io/x/devtools/jiri-oncall"
           project="release.go.x.devtools"/>
-    <tool name="jiri-v23-profile"
-          package="v.io/x/devtools/jiri-v23-profile"
-          project="release.go.x.devtools"/>
     <tool name="jiri-profile-v23"
           package="v.io/x/devtools/jiri-profile-v23"
           project="release.go.x.devtools"/>
