@@ -167,6 +167,9 @@
     <tool name="jiri-api"
           package="v.io/x/devtools/jiri-api"
           project="release.go.x.devtools"/>
+    <tool name="jiri-contributors"
+          package="v.io/x/devtools/jiri-contributors"
+          project="release.go.x.devtools"/>
     <tool name="jiri-copyright"
           package="v.io/x/devtools/jiri-copyright"
           project="release.go.x.devtools"/>
