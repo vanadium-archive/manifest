@@ -4,6 +4,9 @@
     <localimport file="minimal"/>
   </imports>
   <tools>
+    <tool name="jiri-contributors"
+          package="v.io/x/devtools/jiri-contributors"
+          project="release.go.x.devtools"/>
     <tool name="jiri-goext"
           package="v.io/x/devtools/jiri-goext"
           project="release.go.x.devtools"/>
