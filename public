@@ -96,6 +96,11 @@
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="release/projects/croupier"/>
+    <project name="release.projects.madb"
+             remote="https://vanadium.googlesource.com/release.projects.madb"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="release/projects/madb" />
     <project name="release.projects.media-sharing"
              remote="https://vanadium.googlesource.com/release.projects.media-sharing"
              gerrithost="https://vanadium-review.googlesource.com"

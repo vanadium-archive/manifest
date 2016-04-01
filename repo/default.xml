@@ -45,6 +45,8 @@
            path="release/projects/chat"/>
   <project name="release.projects.croupier"
            path="release/projects/croupier"/>
+  <project name="release.projects.madb"
+           path="release/projects/madb"/>
   <project name="release.projects.media-sharing"
            path="release/projects/media-sharing"/>
   <project name="release.projects.physical-lock"
