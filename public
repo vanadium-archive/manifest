@@ -100,7 +100,7 @@
              remote="https://vanadium.googlesource.com/release.projects.madb"
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
-             path="release/projects/madb" />
+             path="release/projects/go/src/madb" />
     <project name="release.projects.media-sharing"
              remote="https://vanadium.googlesource.com/release.projects.media-sharing"
              gerrithost="https://vanadium-review.googlesource.com"
