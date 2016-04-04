@@ -196,6 +196,9 @@
     <tool name="jiri-run"
           package="v.io/x/devtools/jiri-run"
           project="release.go.x.devtools"/>
+    <tool name="jiri-swift"
+          package="v.io/x/devtools/jiri-swift"
+          project="release.go.x.devtools"/>
     <tool name="jiri-test"
           package="v.io/x/devtools/jiri-test"
           project="release.go.x.devtools"/>
