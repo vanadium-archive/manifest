@@ -4,11 +4,6 @@
     <localimport file="public"/>
   </imports>
   <projects>
-    <project name="www"
-             remote="https://vanadium.googlesource.com/www"
-             gerrithost="https://vanadium-review.googlesource.com"
-             githooks="manifest/git-hooks"
-             path="www"/>
     <project name="flutter"
              remote="https://github.com/flutter/flutter"
              remoteBranch="master"
