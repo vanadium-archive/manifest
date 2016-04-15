@@ -10,6 +10,9 @@ transitive closure with respect to dependencies. In other words, if a project A
 depends on a project B, then project A should only be included in manifests
 that include project B as well.
 
+For more information on manifests, see the Jiri GoDocs here:
+https://godoc.org/v.io/jiri/cmd/jiri#hdr-Jiri_manifest___Description_of_manifest_files
+
 # Code search
 
 The repo/default.xml file is used to configure code search used internally.
