@@ -111,6 +111,11 @@
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="release/projects/syncslides"/>
+    <project name="release.projects.todos"
+             remote="https://vanadium.googlesource.com/release.projects.todos"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="release/projects/todos"/>
     <project name="release.swift"
              remote="https://vanadium.googlesource.com/release.swift"
              gerrithost="https://vanadium-review.googlesource.com"
