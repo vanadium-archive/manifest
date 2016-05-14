@@ -46,6 +46,11 @@
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="release/java"/>
+    <project name="release.java.syncbase"
+	     remote="https://vanadium.googlesource.com/release.java.syncbase"
+	     gerrithost="https://vanadium-review.googlesource.com"
+	     githooks="manifest/git-hooks"
+	     path="release/java/syncbase"/>
     <project name="release.mojo.discovery"
              remote="https://vanadium.googlesource.com/release.mojo.discovery"
              gerrithost="https://vanadium-review.googlesource.com"
