@@ -25,8 +25,6 @@
            path="release/go/src/v.io/x/swift"/>
   <project name="release.java"
            path="release/java"/>
-  <project name="release.java.syncbase"
-	   path="release/java/syncbase"/>
   <project name="release.js.core"
            path="release/javascript/core"/>
   <project name="release.js.syncbase"
