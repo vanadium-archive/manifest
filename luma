@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="public"/>
+  </imports>
+  <projects>
+    <project name="manifest"
+             remote="https://vanadium.googlesource.com/luma"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="luma"/>
+  </projects>
+</manifest>

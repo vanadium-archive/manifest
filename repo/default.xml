@@ -9,6 +9,8 @@
            path="docs"/>
   <project name="experimental"
            path="experimental"/>
+  <project name="luma"
+           path="luma"/>
   <project name="release.go.jiri"
            path="release/go/src/v.io/jiri"/>
   <project name="release.go.v23"
