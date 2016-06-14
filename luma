@@ -4,10 +4,10 @@
     <localimport file="public"/>
   </imports>
   <projects>
-    <project name="manifest"
-             remote="https://vanadium.googlesource.com/luma"
+    <project name="luma"
+             remote="https://vanadium.googlesource.com/release.projects.luma"
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
-             path="luma"/>
+             path="release/projects/luma"/>
   </projects>
 </manifest>
