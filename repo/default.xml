@@ -47,6 +47,8 @@
            path="release/projects/croupier"/>
   <project name="release.projects.luma"
            path="release/projects/luma"/>
+  <project name="release.projects.luma_third_party"
+          path="release/projects/luma_third_party"/>
   <project name="release.projects.madb"
            path="release/projects/go/src/madb"/>
   <project name="release.projects.media-sharing"
