@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- We can remove this manifest once http://v.io/i/1365 is resolved. -->
+<manifest>
+  <imports>
+    <localimport file="luma"/>
+    <localimport file="tools"/>
+  </imports>
+</manifest>
