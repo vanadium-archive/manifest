@@ -4,12 +4,12 @@
     <localimport file="public"/>
   </imports>
   <projects>
-    <project name="luma"
+    <project name="release.projects.luma"
              remote="https://vanadium.googlesource.com/release.projects.luma"
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="release/projects/luma"/>
-    <project name="luma_third_party"
+    <project name="release.projects.luma_third_party"
             remote="https://vanadium.googlesource.com/release.projects.luma_third_party"
             gerrithost="https://vanadium-review.googlesource.com"
             githooks="manifest/git-hooks"
