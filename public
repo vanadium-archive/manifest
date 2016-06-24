@@ -86,6 +86,11 @@
              gerrithost="https://vanadium-review.googlesource.com"
              githooks="manifest/git-hooks"
              path="release/projects/go/src/madb" />
+    <project name="release.projects.messenger"
+             remote="https://vanadium.googlesource.com/release.projects.messenger"
+             gerrithost="https://vanadium-review.googlesource.com"
+             githooks="manifest/git-hooks"
+             path="release/projects/go/src/messenger" />
     <project name="release.projects.physical-lock"
              remote="https://vanadium.googlesource.com/release.projects.physical-lock"
              gerrithost="https://vanadium-review.googlesource.com"
