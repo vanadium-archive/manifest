@@ -107,7 +107,7 @@
              githooks="manifest/git-hooks"
              path="release/projects/reader"/>
     <project name="release.projects.syncslides"
-             remote="https://github.com/vanadium-archive/syncslides"
+             remote="git@github.com:vanadium-archive/syncslides.git"
              gerrithost=""
              githooks="manifest/git-hooks"
              path="release/projects/syncslides"/>
