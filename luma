@@ -5,13 +5,13 @@
   </imports>
   <projects>
     <project name="release.projects.luma"
-             remote="https://vanadium.googlesource.com/release.projects.luma"
-             gerrithost="https://vanadium-review.googlesource.com"
+             remote="git@github.com:vanadium-archive/luma.git"
+             gerrithost=""
              githooks="manifest/git-hooks"
              path="release/projects/luma"/>
     <project name="release.projects.luma_third_party"
-            remote="https://vanadium.googlesource.com/release.projects.luma_third_party"
-            gerrithost="https://vanadium-review.googlesource.com"
+            remote="git@github.com:vanadium-archive/luma.third_party.git"
+            gerrithost=""
             githooks="manifest/git-hooks"
             path="release/projects/luma_third_party"/>
   </projects>
