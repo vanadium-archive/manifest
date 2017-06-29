@@ -2,23 +2,23 @@
 <manifest>
   <projects>
     <project name="manifest"
-             remote="https://vanadium.googlesource.com/manifest"
-             gerrithost="https://vanadium-review.googlesource.com"
+             remote="git@github.com:vanadium-archive/manifest.git"
+             gerrithost=""
              githooks="manifest/git-hooks"
              path="manifest"/>
     <project name="release.go.jiri"
-             remote="https://vanadium.googlesource.com/release.go.jiri"
-             gerrithost="https://vanadium-review.googlesource.com"
+             remote="git@github.com:vanadium-archive/go.jiri.git"
+             gerrithost=""
              githooks="manifest/git-hooks"
              path="release/go/src/v.io/jiri"/>
     <project name="release.go.x.devtools"
-             remote="https://vanadium.googlesource.com/release.go.x.devtools"
-             gerrithost="https://vanadium-review.googlesource.com"
+             remote="git@github.com:vanadium-archive/go.devtools.git"
+             gerrithost=""
              githooks="manifest/git-hooks"
              path="release/go/src/v.io/x/devtools"/>
     <project name="release.go.x.lib"
-             remote="https://vanadium.googlesource.com/release.go.x.lib"
-             gerrithost="https://vanadium-review.googlesource.com"
+             remote="git@github.com:vanadium/go.lib.git"
+             gerrithost=""
              githooks="manifest/git-hooks"
              path="release/go/src/v.io/x/lib"/>
   </projects>
